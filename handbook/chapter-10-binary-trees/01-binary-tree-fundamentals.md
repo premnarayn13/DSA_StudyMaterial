@@ -1,0 +1,392 @@
+# 01. Binary Tree Fundamentals, Structural Classifications & Mathematical Properties
+
+## 1. Introduction
+A **Binary Tree** is a fundamental non-linear hierarchical data structure in computer science where each node has at most **two children**, referred to as the **left child** and the **right child**. In technical coding interviews and systems architecture, binary trees underpin database search indexes (B/B+ Trees), compilers (Abstract Syntax Trees - AST), expression evaluators, file system directory structures, compression algorithms (Huffman Coding Trees), and priority schedulers (Binary Heaps).
+
+> **Important:** Unlike linear data structures (Arrays, Linked Lists, Stacks, Queues) where elements are arranged sequentially, Binary Trees organize data hierarchically. A Binary Tree with $N$ nodes has exactly **$N - 1$ edges**, because every node except the root has exactly one parent edge pointing to it!
+
+```
+Hierarchical Topology Paradigm:
++-----------------------------------------------------------------------------------+
+| Linear Sequence : Node -> Next Node -> Next Node (Linear Order)                  |
+| Hierarchical Tree: Root -> [Left Subtree] & [Right Subtree] (Recursive Order)     |
++-----------------------------------------------------------------------------------+
+```
+
+---
+
+## 2. Core Terminology & Fundamental Definitions
+
+### 2.1 Structural Definitions
+* **Root Node**: The top-most node of a tree with no parent edge ($N_{\text{root}}$). Serves as the entry point for all traversals.
+* **Leaf Node (External Node)**: A node with zero children ($\text{left} == \text{null}$ and $\text{right} == \text{null}$).
+* **Internal Node**: A node with at least one non-null child.
+* **Parent / Child**: If node $P$ has a reference to node $C$, $P$ is the parent of $C$, and $C$ is a child of $P$.
+* **Siblings**: Nodes that share the exact same parent node.
+* **Ancestors**: All nodes along the unique path from the root node to a target node.
+* **Descendants**: All nodes reachable by moving down from a target node along parent-child edges.
+* **Subtree**: A tree consisting of a node and all of its descendants.
+
+### 2.2 Depth vs Height Definitions
+* **Depth of a Node $X$**: The number of edges along the unique path from the **Root Node** down to node $X$. ($\text{Depth}(\text{Root}) = 0$).
+* **Height of a Node $X$**: The number of edges along the longest path from node $X$ down to a **Leaf Node**. ($\text{Height}(\text{Leaf}) = 0$).
+* **Height of a Tree**: The height of the root node (number of edges on the longest root-to-leaf path).
+* **Level of a Node $X$**: $\text{Depth}(X) + 1$ (1-indexed depth representation).
+
+```
+Depth vs Height Matrix:
++-----------------------+-------------------+-------------------+-------------------+
+| Node Identifier       | Distance Metric   | Reference Base    | Root Value        |
++-----------------------+-------------------+-------------------+-------------------+
+| Depth(X)              | Edges from Root   | Measured Top-Down | Depth(Root) = 0   |
+| Height(X)             | Longest to Leaf   | Measured Bottom-Up| Height(Leaf) = 0  |
+| Level(X)              | Depth(X) + 1      | Measured Top-Down | Level(Root) = 1   |
++-----------------------+-------------------+-------------------+-------------------+
+```
+
+> **Memory Trick:** **"Depth is distance DOWN from Root (Depth(Root)=0)! Height is distance UP from Leaf (Height(Leaf)=0)!"**
+
+---
+
+## 3. Mathematical Properties & Structural Theorems
+
+### 3.1 Theorem 1: Maximum Nodes at Depth $D$
+In any binary tree, the maximum number of nodes possible at depth $D$ (where $\text{Depth}(\text{Root}) = 0$) is:
+
+$$n_{\text{max}}(D) = 2^D$$
+
+* Depth 0 (Root): $2^0 = 1$ node.
+* Depth 1: $2^1 = 2$ nodes.
+* Depth 2: $2^2 = 4$ nodes.
+* Depth $D$: $2^D$ nodes.
+
+### 3.2 Theorem 2: Maximum Total Nodes in a Tree of Height $H$
+The maximum number of total nodes $N_{\text{max}}$ in a binary tree of height $H$ is given by the sum of a geometric progression:
+
+$$N_{\text{max}} = \sum_{D=0}^{H} 2^D = 2^{H+1} - 1$$
+
+Conversely, for a tree of $N$ nodes, the minimum possible height $H_{\text{min}}$ is:
+
+$$H_{\text{min}} = \lceil \log_2(N + 1) \rceil - 1 = \lfloor \log_2 N \rfloor = \mathbf{O(\log N)}$$
+
+### 3.3 Theorem 3: Minimum Total Nodes & Maximum Height (Skewed Tree)
+The minimum number of nodes in a binary tree of height $H$ is $N_{\text{min}} = H + 1$.
+The maximum possible height for a tree of $N$ nodes is $H_{\text{max}} = N - 1 = \mathbf{O(N)}$ (Occurs in a Degenerate / Skewed Tree).
+
+### 3.4 Theorem 4: Handshaking Lemma for Trees & Leaf-Internal Relation
+Let $L$ be the number of leaf nodes, and $I_2$ be the number of internal nodes with **exactly two children**.
+In ANY binary tree:
+
+$$L = I_2 + 1$$
+
+#### Mathematical Proof:
+Let $N$ be total nodes, and $E$ be total edges.
+1. Total nodes $N = L + I_0 + I_1 + I_2$, where $I_k$ is the number of nodes with $k$ children ($L = I_0$).
+2. Total edges $E = N - 1$.
+3. Sum of child edges generated by internal nodes: $E = 0 \cdot L + 1 \cdot I_1 + 2 \cdot I_2$.
+4. Equating edge equations:
+   $$N - 1 = I_1 + 2I_2 \implies (L + I_1 + I_2) - 1 = I_1 + 2I_2$$
+5. Subtracting $I_1 + I_2$ from both sides yields:
+   $$L - 1 = I_2 \implies \mathbf{L = I_2 + 1} \quad \blacksquare$$
+
+```
+Summary of Mathematical Tree Invariants:
++-----------------------------------------------------------------------------------+
+| Max Nodes at Depth D       : n(D) = 2^D                                           |
+| Max Total Nodes (Height H) : N_max = 2^(H+1) - 1                                  |
+| Min Height for N Nodes    : H_min = O(log N)                                     |
+| Max Height for N Nodes    : H_max = N - 1 = O(N) (Skewed Tree)                     |
+| Leaf vs 2-Child Internal   : Leaf Nodes L = I_2 + 1 (Always 1 more Leaf than I_2!)|
++-----------------------------------------------------------------------------------+
+```
+
+---
+
+## 4. Classifications of Binary Trees
+
+### 4.1 Full (Strict) Binary Tree
+A Binary Tree where **every node has either 0 or 2 children**. No node has exactly 1 child!
+* Leaf Nodes $L = I + 1$ (where $I$ is total internal nodes).
+
+### 4.2 Complete Binary Tree
+A Binary Tree where **every level except possibly the last level is completely filled**, and all nodes in the last level are as far **left** as possible.
+* Critical Property: Array-representable without null gaps! (Used in Binary Heap PriorityQueue).
+
+### 4.3 Perfect Binary Tree
+A Binary Tree where **all internal nodes have 2 children**, and **all leaf nodes are at the exact same depth/level**.
+* Total Nodes $N = 2^{H+1} - 1$. Number of leaves $L = 2^H$.
+
+### 4.4 Balanced Binary Tree (AVL / Height-Balanced)
+A Binary Tree where the height difference between the left and right subtrees of ANY node (Balance Factor) is at most 1:
+
+$$\text{BalanceFactor}(X) = |\text{Height}(\text{left}) - \text{Height}(\text{right})| \le 1$$
+
+* Guarantees height $H = O(\log N)$, preventing worst-case $O(N)$ degeneration.
+
+### 4.5 Degenerate (Skewed) Binary Tree
+A Binary Tree where every internal node has only **1 child**. Behaves identically to a Singly Linked List, degrading search complexity to $O(N)$.
+
+```
+Visual Classification Spectrum:
+     Perfect Tree              Complete Tree              Full Tree               Left Skewed
+         (1)                       (1)                       (1)                     (1)
+       /     \                   /     \                   /     \                  /
+     (2)     (3)               (2)     (3)               (2)     (3)              (2)
+    /   \   /   \             /   \   /                 /   \                    /
+  (4)   (5)(6)  (7)         (4)   (5)(6)              (4)   (5)                (3)
+```
+
+---
+
+## 5. Visual Diagram
+Tree Anatomy & Depth/Height Measurement Topography:
+
+```
+                      ( A )   <- Root Node (Depth = 0, Height = 3, Level = 1)
+                     /     \
+                   /         \
+                 ( B )       ( C )   <- Depth = 1, Height = 2, Level = 2
+                /     \          \
+              ( D )   ( E )      ( F )   <- Depth = 2, Height = 1, Level = 3
+             /
+           ( G )   <- Leaf Node (Depth = 3, Height = 0, Level = 4)
+
+Longest Path: A -> B -> D -> G (3 Edges) => Tree Height = 3
+Total Nodes N = 7, Total Edges E = 6 (N - 1)
+```
+
+---
+
+## 6. Operations & Complete Java Implementation
+Production-grade Java suite implementing the standard `TreeNode` data structure, Tree Builder, Tree Printer, and Structural Classification Validators:
+
+```java
+import java.util.*;
+
+public class BinaryTreeFundamentalsMaster {
+
+    // Standard Interview TreeNode Definition
+    public static class TreeNode {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int val) {
+            this.val = val;
+            this.left = null;
+            this.right = null;
+        }
+
+        public TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+    // 1. Compute Tree Height O(N) Time, O(H) Auxiliary Space
+    public static int getHeight(TreeNode root) {
+        if (root == null) return -1; // Edge-based height (-1 for null, 0 for single leaf)
+        return 1 + Math.max(getHeight(root.left), getHeight(root.right));
+    }
+
+    // 2. Compute Total Node Count O(N) Time, O(H) Space
+    public static int getNodeCount(TreeNode root) {
+        if (root == null) return 0;
+        return 1 + getNodeCount(root.left) + getNodeCount(root.right);
+    }
+
+    // 3. Count Leaf Nodes O(N) Time, O(H) Space
+    public static int countLeaves(TreeNode root) {
+        if (root == null) return 0;
+        if (root.left == null && root.right == null) return 1;
+        return countLeaves(root.left) + countLeaves(root.right);
+    }
+
+    // 4. Check if Tree is Height-Balanced (LeetCode 110) O(N) Time, O(H) Space
+    public static boolean isBalanced(TreeNode root) {
+        return checkHeight(root) != -1;
+    }
+
+    private static int checkHeight(TreeNode node) {
+        if (node == null) return 0;
+
+        int leftH = checkHeight(node.left);
+        if (leftH == -1) return -1;
+
+        int rightH = checkHeight(node.right);
+        if (rightH == -1) return -1;
+
+        if (Math.abs(leftH - rightH) > 1) return -1; // Unbalanced!
+
+        return 1 + Math.max(leftH, rightH);
+    }
+
+    // 5. Check if Tree is a Full Binary Tree O(N) Time, O(H) Space
+    public static boolean isFullTree(TreeNode root) {
+        if (root == null) return true;
+        if (root.left == null && root.right == null) return true;
+        if (root.left != null && root.right != null) {
+            return isFullTree(root.left) && isFullTree(root.right);
+        }
+        return false; // One child is null, other is non-null -> NOT Full!
+    }
+
+    // 6. Level-Order Array to Binary Tree Construction Helper (LeetCode Format)
+    public static TreeNode buildTreeFromLevelOrder(Integer[] nodes) {
+        if (nodes == null || nodes.length == 0 || nodes[0] == null) return null;
+
+        TreeNode root = new TreeNode(nodes[0]);
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+
+        int i = 1;
+        while (!queue.isEmpty() && i < nodes.length) {
+            TreeNode curr = queue.poll();
+
+            // Left Child
+            if (i < nodes.length && nodes[i] != null) {
+                curr.left = new TreeNode(nodes[i]);
+                queue.offer(curr.left);
+            }
+            i++;
+
+            // Right Child
+            if (i < nodes.length && nodes[i] != null) {
+                curr.right = new TreeNode(nodes[i]);
+                queue.offer(curr.right);
+            }
+            i++;
+        }
+
+        return root;
+    }
+}
+```
+
+> **Quick Syntax:**
+```java
+// Standard Height-Balanced Check Callback Pattern
+if (Math.abs(leftH - rightH) > 1) return -1; // -1 signals unbalanced subtree!
+```
+
+---
+
+## 7. Concrete Problem Examples
+* **LeetCode 104 - Maximum Depth of Binary Tree**: Computing root-to-leaf maximum depth.
+* **LeetCode 110 - Balanced Binary Tree**: Validating height balance condition.
+* **LeetCode 222 - Count Complete Tree Nodes**: Computing node count of a Complete Binary Tree in $O((\log N)^2)$ time using binary search.
+
+---
+
+## 8. Java Code Demonstration & Dry Run
+Demonstration constructing a binary tree from level-order array, inspecting depth/height, leaf count, and testing balance checks:
+
+```java
+public class BinaryTreeFundamentalsDemo {
+
+    public static void main(String[] args) {
+        System.out.println("=== 1. Building Tree from Level Order Array ===");
+        // Level Order: [3, 9, 20, null, null, 15, 7]
+        Integer[] levelOrder = {3, 9, 20, null, null, 15, 7};
+        BinaryTreeFundamentalsMaster.TreeNode root = 
+            BinaryTreeFundamentalsMaster.buildTreeFromLevelOrder(levelOrder);
+
+        System.out.println("Root Value: " + root.val);
+        System.out.println("Total Nodes: " + BinaryTreeFundamentalsMaster.getNodeCount(root));
+        System.out.println("Tree Height: "  + BinaryTreeFundamentalsMaster.getHeight(root));
+        System.out.println("Leaf Nodes:  "  + BinaryTreeFundamentalsMaster.countLeaves(root));
+
+        System.out.println("\n=== 2. Structural Classification Checks ===");
+        System.out.println("Is Height Balanced? " + BinaryTreeFundamentalsMaster.isBalanced(root)); // true
+        System.out.println("Is Full Tree?       " + BinaryTreeFundamentalsMaster.isFullTree(root)); // true
+    }
+}
+```
+
+---
+
+## 9. Complexity Analysis
+
+| Operation / Query | Best Case Complexity | Worst Case Complexity | Space Complexity |
+| :--- | :--- | :--- | :--- |
+| **Get Height (`getHeight`)** | $O(N)$ Linear | $O(N)$ Linear | $O(H)$ Call Stack |
+| **Node Count (`getNodeCount`)**| $O(N)$ Linear | $O(N)$ Linear | $O(H)$ Call Stack |
+| **Is Balanced Check (110)** | **$O(N)$ Linear ⚡** | $O(N)$ Linear | $O(H)$ Call Stack |
+| **Complete Node Count (222)**| **$O((\log N)^2)$ ⚡** | $O((\log N)^2)$ | $O(\log N)$ Stack |
+
+---
+
+## 10. Edge Cases & Boundary Handling
+* **Null Root Tree (`root == null`)**: Height is `-1` (edge-based) or `0` (node-based). Count is `0`.
+* **Single Node Tree (`root.left == null && root.right == null`)**: Height is `0`. Leaf count is `1`. Balanced is `true`.
+* **Skewed Linked List Tree**: Height $H = N - 1$. Recursive call stack consumes $O(N)$ stack memory, risking `StackOverflowError` if $N > 10,000$.
+
+---
+
+## 11. Common Mistakes & Anti-Patterns
+* **Confusing Depth and Height**:
+  - `Depth`: Distance **down from Root** ($\text{Depth}(\text{Root}) = 0$).
+  - `Height`: Distance **up from Leaf** ($\text{Height}(\text{Leaf}) = 0$).
+* **Naive $O(N^2)$ Balanced Check**: Calling `getHeight(left)` and `getHeight(right)` at EVERY node independently in a top-down manner takes $O(N^2)$ time! Always use **Bottom-Up Height Checking** returning `-1` on balance failure to achieve $O(N)$ time.
+
+---
+
+## 12. Important Notes & Architectural Rules
+
+> **Interview Reminder:** Top-Down $O(N^2)$ vs Bottom-Up $O(N)$ Balanced Tree Check:
+> * **Top-Down (Bad)**: Computes `getHeight()` at every node repeatedly $\implies O(N^2)$ time.
+> * **Bottom-Up (Optimal)**: Computes height bottom-up. If left or right subtree is unbalanced, returns `-1` immediately to short-circuit calculation $\implies \mathbf{O(N)\text{ Linear Time}}$.
+
+> **Memory Trick:** **"Height balanced: Bottom-up post-order check returning -1 on failure avoids O(N²) top-down recalculation!"**
+
+---
+
+## 13. System & Implementation Comparisons
+
+| Feature | Full Binary Tree | Complete Binary Tree | Perfect Binary Tree |
+| :--- | :--- | :--- | :--- |
+| **Child Count Rule** | Every node has 0 or 2 | Level $0 \dots H-1$ full, last left-aligned | Every internal has 2 |
+| **Leaf Depth Rule** | Leaves can be at any depth | Leaves at depth $H-1$ or $H$ | **All leaves at exact depth $H$** |
+| **Total Nodes Formula** | $N = 2I + 1$ | $2^H \le N \le 2^{H+1} - 1$ | **$N = 2^{H+1} - 1$** |
+
+---
+
+## 14. How to Recognize This in Questions
+* **"Check if binary tree is height balanced in O(N) time"** $\rightarrow$ LeetCode 110 (Bottom-up DFS returning `-1`).
+* **"Find maximum depth of binary tree"** $\rightarrow$ LeetCode 104 (`1 + max(depth(left), depth(right))`).
+
+---
+
+## 15. Frequently Asked Interview Questions
+* **Q: Prove why a Full Binary Tree with $I$ internal nodes has $I + 1$ leaf nodes.**  
+  *A:* Every internal node in a full binary tree has 2 children, generating $2I$ child edges. Total nodes $N = 2I + 1$ (including root). Since $N = I + L$, we have $I + L = 2I + 1 \implies \mathbf{L = I + 1}$.
+* **Q: Why does a Complete Binary Tree allow array representation without null pointer storage?**  
+  *A:* Because all levels are completely filled except the last, which is left-aligned. Storing nodes in level-order array maps node $i$'s left child to $2i + 1$ and right child to $2i + 2$ with zero gaps!
+
+---
+
+## 16. Quick Revision Box
+```
++-----------------------------------------------------------------------+
+| QUICK REVISION: BINARY TREE FUNDAMENTALS & MATHEMATICAL PROPERTIES   |
++-----------------------------------------------------------------------+
+| • Edges Formula: A tree with N nodes has exactly E = N - 1 edges      |
+| • Max Nodes at Depth D: 2^D | Max Total Nodes Height H: N = 2^(H+1)-1  |
+| • Handshaking Theorem: Leaf Nodes L = I_2 + 1 (for 2-child internal I2)|
+| • Full Tree: 0 or 2 children | Complete Tree: Filled left-aligned     |
+| • Perfect Tree: All leaves at same depth | Balanced: |leftH - rightH| <= 1|
+| • Height-Balanced Check: Bottom-up DFS returning -1 on failure O(N) ⚡ |
+| • Node Memory: 3-pointer object overhead (val, left, right)           |
++-----------------------------------------------------------------------+
+```
+
+---
+
+## 17. Practice Checklist
+- [ ] I can prove why total edges $E = N - 1$.
+- [ ] I can prove the Leaf-Internal relation $L = I_2 + 1$.
+- [ ] I know the difference between Full, Complete, Perfect, and Balanced trees.
+- [ ] I can write the $O(N)$ bottom-up `isBalanced` check returning `-1`.
+- [ ] I can build a binary tree from a level-order `Integer[]` array.
+- [ ] I can state the max nodes formula $N_{\text{max}} = 2^{H+1} - 1$.
