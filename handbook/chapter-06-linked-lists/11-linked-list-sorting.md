@@ -1,173 +1,210 @@
-# 11. Linked List Sorting Algorithms (Merge Sort & Insertion Sort)
+# 11. Linked List Sorting Algorithms: Merge Sort, Insertion Sort & Quick Sort
 
 ## 1. Introduction
-Sorting a linked list in **$O(N \log N)$ time and $O(1)$ auxiliary space** (LeetCode 148 - Sort List) is a classic technical coding interview requirement. Unlike arrays where QuickSort or HeapSort are preferred due to cache locality and random index access, **Merge Sort** is the undisputed optimal sorting algorithm for Linked Lists because it requires **zero extra memory allocations** and accesses nodes sequentially via pointer relinking.
+Sorting a linked list efficiently is a fundamental requirement in data structures and algorithmic design. While array sorting algorithms like Quicksort rely heavily on $O(1)$ random indexing, **Merge Sort** is the optimal, canonical sorting algorithm for **Linked Lists (LeetCode 148)**. Merge Sort executes in **$O(N \log N)$ time** without requiring random array access, making optimal use of sequential pointer traversal and $O(1)$ node re-linking.
 
-> **Important:** Merge Sort on linked lists achieves **$O(N \log N)$ time and $O(\log N)$ stack space (or $O(1)$ space with bottom-up iterative merge sort)** because merging two sorted linked lists takes $O(1)$ auxiliary space (relinking pointers in-place)!
-
-## 2. Core Concepts
-* **Linked List Merge Sort Pipeline**:
-  1. **Find Middle Node**: Divide list into two equal halves using Fast & Slow Pointers (`fast.next != null && fast.next.next != null`).
-  2. **Sever Link**: Split list into `left` and `right` chains by setting `mid.next = null`.
-  3. **Recurse**: Recursively call `sortList(left)` and `sortList(right)`.
-  4. **Merge**: Combine sorted sub-lists using `mergeTwoLists(l1, l2)` via Dummy Head.
-* **Insertion Sort on Linked List (LeetCode 147)**: Building a sorted list one node at a time by finding the insertion spot from `dummy` head ($O(N^2)$ time, $O(1)$ space).
-
-> **Memory Trick for List Merge Sort:** **"1. Find Mid (fast.next & fast.next.next) -> 2. Sever mid.next = null -> 3. Recurse left/right -> 4. Merge Two Lists!"**
-
-## 3. Characteristics / Properties
-* **Why Merge Sort Beats QuickSort for Linked Lists**:
-  * QuickSort requires $O(1)$ random index access for partition swaps (expensive in lists!).
-  * Merge Sort operates sequentially, merging sub-lists in-place without array shifting or buffer allocations.
+> **Important:** Why is Merge Sort preferred for Linked Lists while Quicksort is preferred for Arrays?
+> 1. Linked lists allow **$O(1)$ constant-time merging** of two sorted halves without allocating auxiliary memory arrays!
+> 2. Middle finding is performed in $O(N)$ time using Fast & Slow pointers (`findFirstMiddle`).
+> 3. Unlike arrays where Merge Sort requires $O(N)$ auxiliary array space, Linked List Merge Sort operates strictly by re-wiring pointers!
 
 ```
-Linked List Sorting Complexity Matrix:
+Linked List Sorting Algorithms Spectrum:
 +-----------------------+-------------------+-------------------+-------------------+
-| Sorting Algorithm     | Time Complexity   | Space Complexity  | Best Use Case     |
+| Sorting Algorithm     | Time Complexity   | Space Complexity  | Stability & Notes |
 +-----------------------+-------------------+-------------------+-------------------+
-| Merge Sort (Top-Down) | O(N log N)        | O(log N) Call Stack| OPTIMAL STANDARD ⚡|
-| Merge Sort (Bottom-Up)| O(N log N)        | O(1) Constant ⚡  | OPTIMAL IN-PLACE  |
-| Insertion Sort        | O(N²)             | O(1) Constant     | Small / Nearly Sorted|
-| QuickSort             | O(N log N) avg    | O(log N) Stack    | Poor for lists 🐢 |
+| Top-Down Merge Sort   | **$O(N \log N)$⚡**| $O(\log N)$ Stack | Stable (Best Choice)|
+| Bottom-Up Merge Sort  | **$O(N \log N)$⚡**| **$O(1)$ Constant⚡**| Stable (Optimal)  |
+| Insertion Sort List   | $O(N^2)$          | **$O(1)$ Constant⚡**| Stable (Small N)  |
+| Quick Sort            | $O(N \log N)$ Avg | $O(\log N)$ Stack | Unstable          |
 +-----------------------+-------------------+-------------------+-------------------+
 ```
 
-## 4. Internal Working
-Tracing Top-Down Merge Sort on `4 -> 2 -> 1 -> 3 -> null`:
+---
+
+## 2. Core Concepts & Top-Down Merge Sort Architecture
+
+### 2.1 Top-Down Recursive Merge Sort (LeetCode 148)
+1. **Base Case**: If `head == null || head.next == null`, return `head` (List of size 0 or 1 is already sorted!).
+2. **Split List**: Use Fast & Slow pointers (`findFirstMiddle`) to find the mid-point node `mid`.
+   - Disconnect list: `rightHead = mid.next; mid.next = null;`.
+3. **Recursive Divide**:
+   - `leftSorted = sortList(head);`
+   - `rightSorted = sortList(rightHead);`
+4. **Merge Conquer**:
+   - Return **`mergeTwoLists(leftSorted, rightSorted)`**!
 
 ```
-Divide Phase:
-[ 4, 2, 1, 3 ] -> Mid node 2 -> Split into [ 4, 2 ] and [ 1, 3 ]
-[ 4, 2 ] -> Split into [ 4 ] and [ 2 ]
-[ 1, 3 ] -> Split into [ 1 ] and [ 3 ]
-
-Conquer & Merge Phase:
-Merge [ 4 ] & [ 2 ] -> [ 2, 4 ]
-Merge [ 1 ] & [ 3 ] -> [ 1, 3 ]
-Merge [ 2, 4 ] & [ 1, 3 ] -> [ 1, 2, 3, 4 ] ✅ (Sorted in O(N log N) time!)
+Top-Down Merge Sort Divide & Conquer Tree:
+                     [ 4, 2, 1, 3 ]
+                      /          \
+                [ 4, 2 ]        [ 1, 3 ]   (Split at first middle)
+                /      \        /      \
+             [ 4 ]    [ 2 ]  [ 1 ]    [ 3 ]
+                \      /        \      /
+                [ 2, 4 ]        [ 1, 3 ]   (Merge Two Sorted Lists)
+                      \          /
+                     [ 1, 2, 3, 4 ]        (Final Merged Sorted List!)
 ```
+
+### 2.2 Bottom-Up Iterative Merge Sort ($O(N \log N)$ Time, $O(1)$ Auxiliary Space)
+To eliminate the $O(\log N)$ recursion stack space:
+* Iteratively merge sub-lists of size $step = 1, 2, 4, 8 \dots < N$.
+* In each pass, split the list into chunks of size $step$, merge adjacent pairs using dummy head sentinel node, and re-link output.
+
+> **Memory Trick:** **"Linked List Merge Sort: Split at first middle (mid.next = null), recursively sort left and right, then mergeTwoLists!"**
+
+---
+
+## 3. Characteristics & Insertion Sort List (LeetCode 147)
+
+### 3.1 Insertion Sort List ($O(N^2)$ Time, $O(1)$ Space)
+For small linked lists ($N < 50$) or nearly sorted lists, Insertion Sort provides a simple in-place algorithm:
+1. Maintain a **Dummy Sentinel Node** `dummy` representing the sorted sub-list head.
+2. Maintain pointer `curr = head`.
+3. For each node `curr`:
+   - Find insertion position in sorted sub-list starting from `dummy`: advance `prev` while `prev.next != null && prev.next.val < curr.val`.
+   - Insert `curr` between `prev` and `prev.next`.
+   - Advance `curr = nextTemp`.
+
+```
+Insertion Sort Sub-List Insertion Layout:
+dummy -> [ 1 (Sorted) ] -> [ 3 (Sorted) ] ------> [ 4 (Unsorted curr) ]
+           ^                 ^
+         prev             prev.next (3 < 4 < infinity -> Insert after 3!)
+```
+
+---
+
+## 4. Internal Working Mechanics
+Tracing Top-Down Merge Sort on `[4, 2, 1, 3]`:
+
+```
+Step 1: Split [4, 2, 1, 3] at first middle node (2).
+        Left:  [4, 2]
+        Right: [1, 3]
+
+Step 2: Split Left [4, 2]:
+        Left: [4], Right: [2] -> Merge -> [2, 4]
+
+Step 3: Split Right [1, 3]:
+        Left: [1], Right: [3] -> Merge -> [1, 3]
+
+Step 4: Merge [2, 4] and [1, 3]:
+        Compare 2 vs 1 -> Take 1
+        Compare 2 vs 3 -> Take 2
+        Compare 4 vs 3 -> Take 3
+        Append 4 -> Take 4
+
+Result: [1, 2, 3, 4] ✅ (O(N log N) Time!)
+```
+
+---
 
 ## 5. Visual Diagram
-Linked List Merge Sort Splitting & Merging Mechanics:
+Linked List Merge Sort Recursive Partitioning Topography:
 
 ```
-                  [ 4 -> 2 -> 1 -> 3 ]
-                     /            \
-             [ 4 -> 2 ]          [ 1 -> 3 ]  (Set mid.next = null!)
-              /      \            /      \
-            [ 4 ]    [ 2 ]      [ 1 ]    [ 3 ]  (Base cases)
-              \      /            \      /
-             [ 2 -> 4 ]          [ 1 -> 3 ]  (Merge Two Sorted Lists)
-                     \            /
-                  [ 1 -> 2 -> 3 -> 4 ]
+               [ 4 -> 2 -> 1 -> 3 ]
+                   /          \
+        [ 4 -> 2 ]              [ 1 -> 3 ]
+         /      \                /      \
+      [ 4 ]    [ 2 ]          [ 1 ]    [ 3 ]
+         \      /                \      /
+        [ 2 -> 4 ]              [ 1 -> 3 ]
+           \                       /
+         [ 1 -> 2 -> 3 -> 4 -> null ]
 ```
 
-## 6. Operations / Algorithms
-LeetCode 148 Master Implementation:
+---
+
+## 6. Operations & Complete Java Implementation
+Production-grade Java suite implementing Top-Down Merge Sort (LeetCode 148), Insertion Sort List (LeetCode 147), and Bottom-Up $O(1)$ Space Merge Sort:
 
 ```java
-public ListNode sortList(ListNode head) {
-    // Base case: empty or single node list is already sorted
-    if (head == null || head.next == null) {
-        return head;
-    }
+import java.util.*;
 
-    // Step 1: Find 1st middle node to split list into equal halves
-    ListNode mid = getMid(head);
-    ListNode rightHead = mid.next;
-    mid.next = null; // Step 2: Sever link to cut list into two halves
-
-    // Step 3: Recursively sort left and right halves
-    ListNode left = sortList(head);
-    ListNode right = sortList(rightHead);
-
-    // Step 4: Merge sorted halves in-place
-    return merge(left, right);
-}
-
-// Helper: Get 1st Middle Node (fast.next != null && fast.next.next != null)
-private ListNode getMid(ListNode head) {
-    ListNode slow = head, fast = head;
-    while (fast.next != null && fast.next.next != null) {
-        slow = slow.next;
-        fast = fast.next.next;
-    }
-    return slow;
-}
-
-// Helper: Merge Two Sorted Lists
-private ListNode merge(ListNode l1, ListNode l2) {
-    ListNode dummy = new ListNode(-1);
-    ListNode curr = dummy;
-
-    while (l1 != null && l2 != null) {
-        if (l1.val <= l2.val) {
-            curr.next = l1;
-            l1 = l1.next;
-        } else {
-            curr.next = l2;
-            l2 = l2.next;
-        }
-        curr = curr.next;
-    }
-
-    curr.next = (l1 != null) ? l1 : l2;
-    return dummy.next;
-}
-```
-
-> **Quick Syntax:**
-```java
-// Middle Node Condition for Splitting
-while (fast.next != null && fast.next.next != null) {
-    slow = slow.next;
-    fast = fast.next.next;
-}
-```
-
-## 7. Examples
-* **LeetCode 148 - Sort List**: $O(N \log N)$ Merge Sort implementation.
-* **LeetCode 147 - Insertion Sort List**: $O(N^2)$ Insertion Sort implementation.
-* **Sort a Doubly Linked List**: Merge Sort adapted for bidirectional `prev` and `next` pointers.
-
-## 8. Java Code
-Complete interview-ready Java suite implementing Top-Down Merge Sort and Insertion Sort on Linked Lists:
-
-```java
 public class LinkedListSortingMaster {
 
     public static class ListNode {
         public int val;
         public ListNode next;
-        public ListNode(int val) { this.val = val; }
+
+        public ListNode(int val) {
+            this.val = val;
+            this.next = null;
+        }
+
+        public ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 
-    // 1. Merge Sort List (LeetCode 148) O(N log N) Time, O(log N) Call Stack Space
+    // 1. Top-Down Recursive Merge Sort (LeetCode 148) O(N log N) Time, O(log N) Stack Space
     public static ListNode sortList(ListNode head) {
-        if (head == null || head.next == null) return head;
+        if (head == null || head.next == null) {
+            return head; // Base case: 0 or 1 element is already sorted
+        }
 
-        ListNode mid = getMid(head);
+        // Step 1: Find first middle node to split list
+        ListNode mid = getFirstMiddle(head);
         ListNode rightHead = mid.next;
-        mid.next = null; // Sever link
+        mid.next = null; // Break list into two halves
 
-        ListNode left = sortList(head);
-        ListNode right = sortList(rightHead);
+        // Step 2: Recursively sort both halves
+        ListNode leftSorted = sortList(head);
+        ListNode rightSorted = sortList(rightHead);
 
-        return merge(left, right);
+        // Step 3: Merge sorted halves
+        return mergeTwoLists(leftSorted, rightSorted);
+    }
+
+    // Helper: Find First Middle Node
+    private static ListNode getFirstMiddle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
+
+    // Helper: Merge Two Sorted Lists
+    private static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                curr.next = l1;
+                l1 = l1.next;
+            } else {
+                curr.next = l2;
+                l2 = l2.next;
+            }
+            curr = curr.next;
+        }
+
+        curr.next = (l1 != null) ? l1 : l2;
+        return dummy.next;
     }
 
     // 2. Insertion Sort List (LeetCode 147) O(N^2) Time, O(1) Space
     public static ListNode insertionSortList(ListNode head) {
         if (head == null || head.next == null) return head;
 
-        ListNode dummy = new ListNode(-1);
+        ListNode dummy = new ListNode(0);
         ListNode curr = head;
 
         while (curr != null) {
-            ListNode nextTemp = curr.next; // Save next node
+            ListNode nextTemp = curr.next;
             ListNode prev = dummy;
 
-            // Find insertion position in sorted chain starting from dummy
+            // Find insertion position in sorted list
             while (prev.next != null && prev.next.val < curr.val) {
                 prev = prev.next;
             }
@@ -176,128 +213,195 @@ public class LinkedListSortingMaster {
             curr.next = prev.next;
             prev.next = curr;
 
-            curr = nextTemp; // Move to next node in original list
+            curr = nextTemp;
         }
 
         return dummy.next;
     }
 
-    // Helper: 1st Middle Node
-    private static ListNode getMid(ListNode head) {
-        ListNode slow = head, fast = head;
-        while (fast.next != null && fast.next.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-        return slow;
-    }
+    // 3. Bottom-Up Iterative Merge Sort (LeetCode 148) O(N log N) Time, O(1) Auxiliary Space
+    public static ListNode sortListBottomUp(ListNode head) {
+        if (head == null || head.next == null) return head;
 
-    // Helper: Merge Two Lists
-    private static ListNode merge(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(-1), curr = dummy;
-        while (l1 != null && l2 != null) {
-            if (l1.val <= l2.val) {
-                curr.next = l1; l1 = l1.next;
-            } else {
-                curr.next = l2; l2 = l2.next;
+        int length = getLength(head);
+        ListNode dummy = new ListNode(0, head);
+
+        for (int step = 1; step < length; step *= 2) {
+            ListNode prev = dummy;
+            ListNode curr = dummy.next;
+
+            while (curr != null) {
+                ListNode left = curr;
+                ListNode right = split(left, step);
+                curr = split(right, step);
+
+                prev.next = mergeTwoLists(left, right);
+                while (prev.next != null) {
+                    prev = prev.next;
+                }
             }
-            curr = curr.next;
         }
-        curr.next = (l1 != null) ? l1 : l2;
+
         return dummy.next;
     }
 
-    // Helper: Print List
-    public static void printList(ListNode head) {
-        ListNode curr = head;
-        StringBuilder sb = new StringBuilder();
-        while (curr != null) {
-            sb.append(curr.val).append(" -> ");
-            curr = curr.next;
+    private static int getLength(ListNode head) {
+        int len = 0;
+        while (head != null) {
+            len++;
+            head = head.next;
         }
-        sb.append("null");
-        System.out.println(sb.toString());
+        return len;
     }
 
-    // Dry Run Demonstration
-    public static void main(String[] args) {
-        // Construct: 4 -> 2 -> 1 -> 3 -> null
-        ListNode head = new ListNode(4);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(1);
-        head.next.next.next = new ListNode(3);
-
-        System.out.print("Unsorted List: ");
-        printList(head);
-
-        head = sortList(head);
-        System.out.print("Sorted List (Merge Sort): ");
-        printList(head); // Output: 1 -> 2 -> 3 -> 4 -> null
+    // Splits list by size step, returns head of second half
+    private static ListNode split(ListNode head, int step) {
+        if (head == null) return null;
+        for (int i = 1; i < step && head.next != null; i++) {
+            head = head.next;
+        }
+        ListNode secondHalf = head.next;
+        head.next = null; // Disconnect first half
+        return secondHalf;
     }
 }
 ```
 
+> **Quick Syntax:**
+```java
+// Linked List Merge Sort Split Loop Syntax
+ListNode mid = getFirstMiddle(head);
+ListNode rightHead = mid.next;
+mid.next = null; // Mandatory list split!
+```
+
+---
+
+## 7. Concrete Problem Examples
+* **LeetCode 148 - Sort List**: $O(N \log N)$ time linked list sorting.
+* **LeetCode 147 - Insertion Sort List**: $O(N^2)$ in-place insertion sorting.
+
+---
+
+## 8. Java Code Demonstration & Dry Run
+Demonstration executing Top-Down Merge Sort and Insertion Sort List:
+
+```java
+public class LinkedListSortingDemo {
+
+    public static void main(String[] args) {
+        System.out.println("=== 1. Top-Down Merge Sort (LeetCode 148) ===");
+        LinkedListSortingMaster.ListNode head1 = new LinkedListSortingMaster.ListNode(4);
+        head1.next = new LinkedListSortingMaster.ListNode(2);
+        head1.next.next = new LinkedListSortingMaster.ListNode(1);
+        head1.next.next.next = new LinkedListSortingMaster.ListNode(3);
+
+        LinkedListSortingMaster.ListNode sorted1 = LinkedListSortingMaster.sortList(head1);
+        System.out.print("Sorted List: ");
+        while (sorted1 != null) {
+            System.out.print(sorted1.val + " -> ");
+            sorted1 = sorted1.next;
+        }
+        System.out.println("null"); // Output: 1 -> 2 -> 3 -> 4 -> null
+
+        System.out.println("\n=== 2. Insertion Sort List (LeetCode 147) ===");
+        LinkedListSortingMaster.ListNode head2 = new LinkedListSortingMaster.ListNode(-1);
+        head2.next = new LinkedListSortingMaster.ListNode(5);
+        head2.next.next = new LinkedListSortingMaster.ListNode(3);
+        head2.next.next.next = new LinkedListSortingMaster.ListNode(4);
+        head2.next.next.next.next = new LinkedListSortingMaster.ListNode(0);
+
+        LinkedListSortingMaster.ListNode sorted2 = LinkedListSortingMaster.insertionSortList(head2);
+        System.out.print("Insertion Sorted: ");
+        while (sorted2 != null) {
+            System.out.print(sorted2.val + " -> ");
+            sorted2 = sorted2.next;
+        }
+        System.out.println("null"); // Output: -1 -> 0 -> 3 -> 4 -> 5 -> null
+    }
+}
+```
+
+---
+
 ## 9. Complexity Analysis
-| Sorting Algorithm | Time Complexity (Best) | Time Complexity (Worst) | Auxiliary Space |
-| :--- | :--- | :--- | :--- |
-| **Top-Down Merge Sort** | **$O(N \log N)$** | **$O(N \log N)$** | $O(\log N)$ Call Stack |
-| **Bottom-Up Merge Sort**| **$O(N \log N)$** | **$O(N \log N)$** | **$O(1)$ Constant ⚡** |
-| **Insertion Sort List** | $\Omega(N)$ | $O(N^2)$ | **$O(1)$ Constant** |
 
-## 10. Edge Cases
-* **2-Element List (`4 -> 2 -> null`)**: Must split into `[4]` and `[2]`. Using `getMid` with `fast.next != null && fast.next.next != null` correctly returns node `4` as mid, enabling clean split into `4.next = null`.
-* **Already Sorted List**: Merge Sort still executes in $O(N \log N)$ time, whereas Insertion Sort completes in linear $O(N)$ time.
-* **Empty List or Single Element List**: Base case returns `head` immediately.
+| Sorting Algorithm | Best Case Time | Average Case Time | Worst Case Time | Auxiliary Space |
+| :--- | :--- | :--- | :--- | :--- |
+| **Top-Down Merge Sort (148)**| **$O(N \log N)$ ⚡** | **$O(N \log N)$ ⚡** | **$O(N \log N)$ ⚡** | $O(\log N)$ Call Stack |
+| **Bottom-Up Merge Sort (148)**| **$O(N \log N)$ ⚡** | **$O(N \log N)$ ⚡** | **$O(N \log N)$ ⚡** | **$O(1)$ Strict In-Place ⚡**|
+| **Insertion Sort List (147)** | $O(N)$ Best | $O(N^2)$ Quadratic | $O(N^2)$ Quadratic | **$O(1)$ Strict In-Place ⚡**|
 
-## 11. Common Mistakes
-* Using `while (fast != null && fast.next != null)` for `getMid` in Merge Sort (returns 2nd middle node `2` for `[4, 2]`, leading to `mid.next = null` leaving `head` as `[4, 2]` $\implies$ **Infinite Recursion Call Stack Overflow!**). You MUST use **`while (fast.next != null && fast.next.next != null)`**!
-* Forgetting to sever the link `mid.next = null` before recursing.
-* Creating new `ListNode` instances during Merge instead of relinking existing pointers.
+---
 
-## 12. Important Notes & Tricks (Mandatory)
+## 10. Edge Cases & Boundary Handling
+* **Empty or Single Node List (`head == null || head.next == null`)**: Returns `head` immediately.
+* **Two Element List (`4 -> 2`)**: `mid` lands on 4, splits into `[4]` and `[2]`, merges to `[2 -> 4]`.
 
-> **Interview Reminder:** Why MUST you use `while (fast.next != null && fast.next.next != null)` for `getMid` in Merge Sort?
-> For a 2-element list `[4, 2]`:
-> * Standard `fast != null && fast.next != null` sets `mid = node 2`. `mid.next = null` leaves left half as `[4, 2]` (Unchanged!). Recursing on `[4, 2]` causes **Infinite Recursion Stack Overflow!**
-> * 1st middle condition `fast.next != null && fast.next.next != null` sets `mid = node 4`. `mid.next = null` splits list into `[4]` and `[2]`, terminating recursion cleanly!
+---
 
-> **Memory Trick:** **"Merge Sort Mid Condition: Check fast.next AND fast.next.next!"**
+## 11. Common Mistakes & Anti-Patterns
+* **Using 2nd Middle Node Split (`while (fast != null && fast.next != null)`)**:
+  - For a 2-node list `[4, 2]`, 2nd middle lands on node `2` (`mid = 2`).
+  - Disconnecting `mid.next = null` sets `2.next = null`, leaving left list as `[4, 2]` and right list as `[]` $\implies$ Infinite Recursion Stack Overflow!
+  - **Always use First Middle Node Split (`fast.next != null && fast.next.next != null`)**.
+* **Forgetting `mid.next = null` Disconnection**: Failing to sever the link between the two halves causes infinite loops during merge.
 
-## 13. Comparisons
-| Feature | Array Merge Sort | Linked List Merge Sort |
+---
+
+## 12. Important Notes & Architectural Rules
+
+> **Interview Reminder:** First Middle Node Split Rule in Linked List Merge Sort:
+> When splitting a list of even length (e.g. `[4, 2]`), you MUST pick the **First Middle Node** (`node 4`).
+> If you pick the second middle node (`node 2`), `mid.next = null` fails to shorten the left sub-list, causing infinite recursive calls and `StackOverflowError`!
+
+> **Memory Trick:** **"Merge Sort Split MUST use fast.next != null && fast.next.next != null to pick 1st middle!"**
+
+---
+
+## 13. System & Implementation Comparisons
+
+| Feature | Linked List Merge Sort | Array Quick Sort |
 | :--- | :--- | :--- |
-| **Time Complexity** | $O(N \log N)$ | $O(N \log N)$ |
-| **Auxiliary Space** | $O(N)$ (Temporary copy array required) | **$O(1)$ Auxiliary (In-Place Pointer Relinking)** |
-| **Random Access** | $O(1)$ | $O(N)$ |
-| **Sorting Efficiency**| High for Arrays | **HIGHEST FOR LINKED LISTS ⚡** |
+| **Random Access Dependency**| Zero (Sequential Traversal) | Required $O(1)$ Array Access |
+| **Merge Space** | **$O(1)$ Pointer Re-linking ⚡**| $O(N)$ Auxiliary Array Space |
+| **Worst-Case Time** | **Guaranteed $O(N \log N)$ ⚡**| $O(N^2)$ (Unbalanced Pivot) |
+
+---
 
 ## 14. How to Recognize This in Questions
-* **"Sort a linked list in O(N log N) time and O(1) / O(log N) space"** $\rightarrow$ Linked List Merge Sort (LeetCode 148).
-* **"Sort a linked list in-place using insertion sort"** $\rightarrow$ Insertion Sort List (LeetCode 147).
+* **"Sort a linked list in O(n log n) time and O(1) space"** $\rightarrow$ LeetCode 148 (Linked List Merge Sort).
+* **"Sort a linked list using insertion sort"** $\rightarrow$ LeetCode 147 (Insertion Sort List).
+
+---
 
 ## 15. Frequently Asked Interview Questions
-* **Q: Why is Merge Sort preferred over QuickSort for Linked Lists?**  
-  *A:* QuickSort requires random element access for pivot partitioning and swaps, which takes $O(N)$ per element in linked lists. Merge Sort operates sequentially, finding middle and merging sub-lists in-place with zero element swaps or auxiliary array allocations.
-* **Q: How does Bottom-Up Iterative Merge Sort achieve $O(1)$ space for Linked Lists?**  
-  *A:* By merging sub-lists of size $1, 2, 4, 8 \dots$ iteratively using loops rather than recursion, eliminating the $O(\log N)$ JVM call stack space.
+* **Q: Why is Merge Sort $O(1)$ space for linked lists but $O(N)$ space for arrays?**  
+  *A:* Array merging requires copying elements into a secondary temporary array of size $N$ to prevent overwriting unmerged elements. Linked lists merge by re-wiring existing `.next` pointer references in-place without creating new objects.
+* **Q: Why does 2nd middle node selection cause infinite recursion in 2-element lists?**  
+  *A:* On `[4, 2]`, 2nd middle is `2`. Setting `mid.next = null` disconnects nothing after `2`, so left sub-list remains `[4, 2]` (length 2), making zero progress and overflowing the call stack.
+
+---
 
 ## 16. Quick Revision Box
 ```
 +-----------------------------------------------------------------------+
-| QUICK REVISION: LINKED LIST SORTING (MERGE SORT)                      |
+| QUICK REVISION: LINKED LIST SORTING ALGORITHMS                        |
 +-----------------------------------------------------------------------+
-| • Mid Condition Rule: while (fast.next != null && fast.next.next != null)|
-| • Prevents infinite recursion on 2-element lists [4, 2]!              |
-| • Sever Link Step: rightHead = mid.next; mid.next = null;             |
-| • Recurse & Merge: sortList(head) & sortList(rightHead) -> Merge      |
-| • Merge Helper: Uses Dummy Head + 2-pointer relinking in O(1) space   |
-| • Time Complexity: O(N log N) | Space: O(log N) Call Stack / O(1) Iter|
+| • Merge Sort Invariant: Guaranteed O(N log N) time & stable sorting ⚡ |
+| • First Middle Rule: while (fast.next != null && fast.next.next != null)|
+| • Mandatory Disconnect: mid.next = null before recursive calls!       |
+| • Merge Step: Use mergeTwoLists(left, right) with dummy node          |
+| • Bottom-Up Merge Sort: Iterative step size 1, 2, 4.. for O(1) Space ⚡ |
+| • Insertion Sort (147): O(N^2) in-place insertion using dummy head    |
 +-----------------------------------------------------------------------+
 ```
 
+---
+
 ## 17. Practice Checklist
-- [ ] I know why `fast.next != null && fast.next.next != null` is mandatory for list splitting.
-- [ ] I can write the 4-step Merge Sort algorithm for Linked Lists.
-- [ ] I can sever `mid.next = null` correctly to avoid infinite recursion.
-- [ ] I can merge two sorted lists in-place using a Dummy Head Node.
-- [ ] I can explain why Merge Sort is preferred over QuickSort for Linked Lists.
+- [ ] I can write Linked List Merge Sort (LeetCode 148) in under 5 minutes.
+- [ ] I know why First Middle Node split MUST be used to avoid stack overflow.
+- [ ] I can write `mergeTwoLists` and `getFirstMiddle` helper routines.
+- [ ] I can solve Insertion Sort List (LeetCode 147).
+- [ ] I know why Merge Sort is preferred for linked lists over Quicksort.
