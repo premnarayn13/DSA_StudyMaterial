@@ -1,0 +1,291 @@
+  1. [GFG 450 - Array] Find the maximum and minimum element in an array --> https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/
+  2. [GFG 450 - Array] Minimum no. of Jumps to reach end of an array --> https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+  3. [GFG 450 - Array] find duplicate in an array of N+1 Integers --> https://leetcode.com/problems/find-the-duplicate-number/
+  4. [GFG 450 - Array] find common elements In 3 sorted arrays --> https://practice.geeksforgeeks.org/problems/common-elements1132/1
+  5. [GFG 450 - Array] Rearrange the array in alternating positive and negative items with O(1) extra space --> https://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/
+  6. [GFG 450 - Array] Given an array of size n and a number k, fin all elements that appear more than " n/k " times. --> https://www.geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
+  7. [GFG 450 - Array] Find whether an array is a subset of another array --> https://practice.geeksforgeeks.org/problems/array-subset-of-another-array/0
+  8. [GFG 450 - Array] Chocolate Distribution problem --> https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0
+  9. [GFG 450 - Array] Smallest Subarray with sum greater than a given value --> https://practice.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x/0
+ 10. [GFG 450 - Array] Minimum swaps required bring elements less equal K together --> https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/0
+ 11. [GFG 450 - Array] Minimum no. of operations required to make an array palindrome --> https://practice.geeksforgeeks.org/problems/palindromic-array/0
+ 12. [GFG 450 - Matrix] Spiral traversal on a Matrix --> https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0
+ 13. [GFG 450 - Matrix] Find a specific pair in matrix --> https://www.geeksforgeeks.org/find-a-specific-pair-in-matrix/
+ 14. [GFG 450 - Matrix] Kth smallest element in a row-cpumn wise sorted matrix --> https://practice.geeksforgeeks.org/problems/kth-element-in-matrix/1
+ 15. [GFG 450 - Matrix] Common elements in all rows of a given matrix --> https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/
+ 16. [GFG 450 - String] Why strings are immutable in Java? --> https://www.geeksforgeeks.org/
+ 17. [GFG 450 - String] Write a Program to check whether a string is a valid shuffle of two strings or not --> https://www.programiz.com/java-programming/examples/check-valid-shuffle-of-strings
+ 18. [GFG 450 - String] Write a program to find the longest Palindrome in a string. --> https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0
+ 19. [GFG 450 - String] Find Longest Recurring Subsequence in String --> https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0
+ 20. [GFG 450 - String] Print all Subsequences of a string. --> https://www.geeksforgeeks.org/print-subsequences-string/
+ 21. [GFG 450 - String] Print all the permutations of the given string --> https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0
+ 22. [GFG 450 - String] Split the Binary string into two substring with equal 0’s and 1’s --> https://www.geeksforgeeks.org/split-the-binary-string-into-substrings-with-equal-number-of-0s-and-1s/
+ 23. [GFG 450 - String] Word Wrap Problem . --> https://practice.geeksforgeeks.org/problems/word-wrap/0
+ 24. [GFG 450 - String] Word break Problem --> https://practice.geeksforgeeks.org/problems/word-break/0
+ 25. [GFG 450 - String] Rabin Karp Algo --> https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/
+ 26. [GFG 450 - String] KMP Algo --> https://practice.geeksforgeeks.org/problems/longest-prefix-suffix2527/1
+ 27. [GFG 450 - String] Convert a Sentence into its equivalent mobile numeric keypad sequence. --> https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/
+ 28. [GFG 450 - String] Minimum number of bracket reversals needed to make an expression balanced. --> https://practice.geeksforgeeks.org/problems/count-the-reversals/0
+ 29. [GFG 450 - String] Count All Palindromic Subsequence in a given String. --> https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1
+ 30. [GFG 450 - String] Count of number of given string in 2D character array --> https://www.geeksforgeeks.org/find-count-number-given-string-present-2d-character-array/
+ 31. [GFG 450 - String] Search a Word in a 2D Grid of characters. --> https://practice.geeksforgeeks.org/problems/find-the-string-in-grid/0
+ 32. [GFG 450 - String] Boyer Moore Algorithm for Pattern Searching. --> https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/
+ 33. [GFG 450 - String] Converting Roman Numerals to Decimal --> https://practice.geeksforgeeks.org/problems/roman-number-to-integer/0
+ 34. [GFG 450 - String] Number of flips to make binary string alternate --> https://practice.geeksforgeeks.org/problems/min-number-of-flips/0
+ 35. [GFG 450 - String] Find the first repeated word in string. --> https://practice.geeksforgeeks.org/problems/second-most-repeated-string-in-a-sequence/0
+ 36. [GFG 450 - String] Minimum number of swaps for bracket balancing. --> https://practice.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing/0
+ 37. [GFG 450 - String] Program to generate all possible valid IP addresses from given  string. --> https://www.geeksforgeeks.org/program-generate-possible-valid-ip-addresses-given-string/
+ 38. [GFG 450 - String] Write a program tofind the smallest window that contains all characters of string itself. --> https://practice.geeksforgeeks.org/problems/smallest-distant-window/0
+ 39. [GFG 450 - String] Rearrange characters in a string such that no two adjacent are same --> https://practice.geeksforgeeks.org/problems/rearrange-characters/0
+ 40. [GFG 450 - String] Minimum characters to be added at front to make string palindrome --> https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/
+ 41. [GFG 450 - String] Given a sequence of words, print all anagrams together --> https://practice.geeksforgeeks.org/problems/k-anagrams-1/0
+ 42. [GFG 450 - String] Find the smallest window in a string containing all characters of another string --> https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0
+ 43. [GFG 450 - String] Recursively remove all adjacent duplicates --> https://practice.geeksforgeeks.org/problems/consecutive-elements/0
+ 44. [GFG 450 - String] String matching where one string contains wildcard characters --> https://practice.geeksforgeeks.org/problems/wildcard-string-matching/0
+ 45. [GFG 450 - String] Function to find Number of customers who could not get a computer --> https://www.geeksforgeeks.org/function-to-find-number-of-customers-who-could-not-get-a-computer/
+ 46. [GFG 450 - String] Transform One String to Another using Minimum Number of Given Operation --> https://www.geeksforgeeks.org/transform-one-string-to-another-using-minimum-number-of-given-operation/
+ 47. [GFG 450 - String] Recursively print all sentences that can be formed from list of word lists --> https://www.geeksforgeeks.org/recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists/
+ 48. [GFG 450 - Searching & Sorting] Find first and last positions of an element in a sorted array --> https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x/0
+ 49. [GFG 450 - Searching & Sorting] Find a Fixed Point (Value equal to index) in a given array --> https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1
+ 50. [GFG 450 - Searching & Sorting] Maximum and minimum of an array using minimum number of comparisons --> https://practice.geeksforgeeks.org/problems/middle-of-three2926/1
+ 51. [GFG 450 - Searching & Sorting] Product array Puzzle --> https://practice.geeksforgeeks.org/problems/product-array-puzzle/0
+ 52. [GFG 450 - Searching & Sorting] minimum no. of swaps required to sort the array --> https://practice.geeksforgeeks.org/problems/minimum-swaps/1
+ 53. [GFG 450 - Searching & Sorting] Bishu and Soldiers --> https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/bishu-and-soldiers/
+ 54. [GFG 450 - Searching & Sorting] Rasta and Kheshtak --> https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/rasta-and-kheshtak/
+ 55. [GFG 450 - Searching & Sorting] Kth smallest number again --> https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/kth-smallest-number-again-2/
+ 56. [GFG 450 - Searching & Sorting] Find pivot element in a sorted array --> http://theoryofprogramming.com/2017/12/16/find-pivot-element-sorted-rotated-array/
+ 57. [GFG 450 - Searching & Sorting] EKOSPOJ: --> https://www.spoj.com/problems/EKO/
+ 58. [GFG 450 - Searching & Sorting] Job Scheduling Algo --> https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/
+ 59. [GFG 450 - Searching & Sorting] Missing Number in AP --> https://practice.geeksforgeeks.org/problems/arithmetic-number/0
+ 60. [GFG 450 - Searching & Sorting] Smallest number with atleastn trailing zeroes infactorial --> https://practice.geeksforgeeks.org/problems/smallest-factorial-number5929/1
+ 61. [GFG 450 - Searching & Sorting] Implement Merge-sort in-place --> https://www.geeksforgeeks.org/in-place-merge-sort/
+ 62. [GFG 450 - Searching & Sorting] Partitioning and Sorting Arrays with Many Repeated Entries --> https://www.baeldung.com/java-sorting-arrays-with-repeated-entries
+ 63. [GFG 450 - LinkedList] Write a Program to reverse the Linked List. (Both Iterative and recursive) --> https://www.geeksforgeeks.org/reverse-a-linked-list/
+ 64. [GFG 450 - LinkedList] Reverse a Linked List in group of Given Size. --> https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1
+ 65. [GFG 450 - LinkedList] Remove Duplicates in a sorted Linked List. --> https://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1
+ 66. [GFG 450 - LinkedList] Remove Duplicates in a Un-sorted Linked List. --> https://practice.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1
+ 67. [GFG 450 - LinkedList] Write a Program to Move the last element to Front in a Linked List. --> https://www.geeksforgeeks.org/move-last-element-to-front-of-a-given-linked-list/
+ 68. [GFG 450 - LinkedList] Add “1” to a number represented as a Linked List. --> https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
+ 69. [GFG 450 - LinkedList] Add two numbers represented by linked lists. --> https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
+ 70. [GFG 450 - LinkedList] Intersection of two Sorted Linked List. --> https://practice.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1
+ 71. [GFG 450 - LinkedList] Intersection Point of two Linked Lists. --> https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1
+ 72. [GFG 450 - LinkedList] Merge Sort For Linked lists. --> https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1
+ 73. [GFG 450 - LinkedList] Quicksort for Linked Lists. --> https://practice.geeksforgeeks.org/problems/quick-sort-on-linked-list/1
+ 74. [GFG 450 - LinkedList] Check if a linked list is a circular linked list. --> https://practice.geeksforgeeks.org/problems/circular-linked-list/1
+ 75. [GFG 450 - LinkedList] Split a Circular linked list into two halves. --> https://practice.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1
+ 76. [GFG 450 - LinkedList] Write a Program to check whether the Singly Linked list is a palindrome or not. --> https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1
+ 77. [GFG 450 - LinkedList] Deletion from a Circular Linked List. --> https://www.geeksforgeeks.org/deletion-circular-linked-list/
+ 78. [GFG 450 - LinkedList] Reverse a Doubly Linked list. --> https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1
+ 79. [GFG 450 - LinkedList] Count triplets in a sorted DLL whose sum is equal to given value “X”. --> https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/
+ 80. [GFG 450 - LinkedList] Sort a “k”sorted Doubly Linked list. --> https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/
+ 81. [GFG 450 - LinkedList] Rotate DoublyLinked list by N nodes. --> https://www.geeksforgeeks.org/rotate-doubly-linked-list-n-nodes/
+ 82. [GFG 450 - LinkedList] Rotate a Doubly Linked list in group of Given Size. --> https://www.geeksforgeeks.org/reverse-doubly-linked-list-groups-given-size/
+ 83. [GFG 450 - LinkedList] Can we reverse a linked list in less than O(n) ? --> https://www.geeksforgeeks.org/
+ 84. [GFG 450 - LinkedList] Why Quicksort is preferred for. Arrays and Merge Sort for LinkedLists ? --> https://www.geeksforgeeks.org/
+ 85. [GFG 450 - LinkedList] Clone a linked list with next and random pointer --> https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1
+ 86. [GFG 450 - LinkedList] Merge K sorted Linked list --> https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1
+ 87. [GFG 450 - LinkedList] Multiply 2 no. represented by LL --> https://practice.geeksforgeeks.org/problems/multiply-two-linked-lists/1
+ 88. [GFG 450 - LinkedList] Segregate even and odd nodes in a Linked List --> https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list/0
+ 89. [GFG 450 - LinkedList] Program for n’th node from the end of a Linked List --> https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1
+ 90. [GFG 450 - LinkedList] Find the first non-repeating character from a stream of characters --> https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0
+ 91. [GFG 450 - Binary Trees] Reverse Level Order traversal --> https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1
+ 92. [GFG 450 - Binary Trees] Height of a tree --> https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1
+ 93. [GFG 450 - Binary Trees] Mirror of a tree --> https://www.geeksforgeeks.org/create-a-mirror-tree-from-the-given-binary-tree/
+ 94. [GFG 450 - Binary Trees] Left View of a tree --> https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+ 95. [GFG 450 - Binary Trees] Right View of Tree --> https://practice.geeksforgeeks.org/problems/right-view-of-binary-tree/1
+ 96. [GFG 450 - Binary Trees] Zig-Zag traversal of a binary tree --> https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1
+ 97. [GFG 450 - Binary Trees] Diagnol Traversal of a Binary tree --> https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
+ 98. [GFG 450 - Binary Trees] Boundary traversal of a Binary tree --> https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
+ 99. [GFG 450 - Binary Trees] Construct Binary Tree from String with Bracket Representation --> https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/
+100. [GFG 450 - Binary Trees] Convert Binary tree into Doubly Linked List --> https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1
+101. [GFG 450 - Binary Trees] Convert Binary tree into Sum tree --> https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1
+102. [GFG 450 - Binary Trees] Construct Binary tree from Inorder and preorder traversal --> https://practice.geeksforgeeks.org/problems/construct-tree-1/1
+103. [GFG 450 - Binary Trees] Find minimum swaps required to convert a Binary tree into BST --> https://www.geeksforgeeks.org/minimum-swap-required-convert-binary-tree-binary-search-tree/
+104. [GFG 450 - Binary Trees] Check if Binary tree is Sum tree or not --> https://practice.geeksforgeeks.org/problems/sum-tree/1
+105. [GFG 450 - Binary Trees] Check if all leaf nodes are at same level or not --> https://practice.geeksforgeeks.org/problems/leaf-at-same-level/1
+106. [GFG 450 - Binary Trees] Check if a Binary Tree contains duplicate subtrees of size 2 or more --> https://practice.geeksforgeeks.org/problems/duplicate-subtree-in-binary-tree/1
+107. [GFG 450 - Binary Trees] Check if 2 trees are mirror or not --> https://practice.geeksforgeeks.org/problems/check-mirror-in-n-ary-tree/0
+108. [GFG 450 - Binary Trees] Sum of Nodes on the Longest path from root to leaf node --> https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1
+109. [GFG 450 - Binary Trees] Check if given graph is tree or not. --> https://www.geeksforgeeks.org/check-given-graph-tree/
+110. [GFG 450 - Binary Trees] Find Largest subtree sum in a tree --> https://www.geeksforgeeks.org/find-largest-subtree-sum-tree/
+111. [GFG 450 - Binary Trees] Maximum Sum of nodes in Binary tree such that no two are adjacent --> https://www.geeksforgeeks.org/maximum-sum-nodes-binary-tree-no-two-adjacent/
+112. [GFG 450 - Binary Trees] Print all "K" Sum paths in a Binary tree --> https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
+113. [GFG 450 - Binary Trees] Find LCA in a Binary tree --> https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
+114. [GFG 450 - Binary Trees] Find distance between 2 nodes in a Binary tree --> https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1
+115. [GFG 450 - Binary Trees] Kth Ancestor of node in a Binary tree --> https://www.geeksforgeeks.org/kth-ancestor-node-binary-tree-set-2/
+116. [GFG 450 - Binary Trees] Find all Duplicate subtrees in a Binary tree --> https://practice.geeksforgeeks.org/problems/duplicate-subtrees/1
+117. [GFG 450 - Binary Trees] Tree Isomorphism Problem --> https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1
+118. [GFG 450 - Binary Search Trees] Fina a value in a BST --> https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+119. [GFG 450 - Binary Search Trees] Find min and max value in a BST --> https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1
+120. [GFG 450 - Binary Search Trees] Find inorder successor and inorder predecessor in a BST --> https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1
+121. [GFG 450 - Binary Search Trees] Populate Inorder successor of all nodes --> https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1
+122. [GFG 450 - Binary Search Trees] Find LCA  of 2 nodes in a BST --> https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1
+123. [GFG 450 - Binary Search Trees] Construct BST from preorder traversal --> https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/
+124. [GFG 450 - Binary Search Trees] Convert Binary tree into BST --> https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1
+125. [GFG 450 - Binary Search Trees] Convert a normal BST into a Balanced BST --> https://www.geeksforgeeks.org/convert-normal-bst-balanced-bst/
+126. [GFG 450 - Binary Search Trees] Merge two BST --> https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/
+127. [GFG 450 - Binary Search Trees] Find Kth largest element in a BST --> https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1
+128. [GFG 450 - Binary Search Trees] Find Kth smallest element in a BST --> https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1
+129. [GFG 450 - Binary Search Trees] Count pairs from 2 BST whose sum is equal to given value "X" --> https://practice.geeksforgeeks.org/problems/brothers-from-different-root/1
+130. [GFG 450 - Binary Search Trees] Find the median of BST in O(n) time and O(1) space --> https://www.geeksforgeeks.org/find-median-bst-time-o1-space/
+131. [GFG 450 - Binary Search Trees] Count BST ndoes that lie in a given range --> https://practice.geeksforgeeks.org/problems/count-bst-nodes-that-lie-in-a-given-range/1
+132. [GFG 450 - Binary Search Trees] Replace every element with the least greater element on its right --> https://www.geeksforgeeks.org/replace-every-element-with-the-least-greater-element-on-its-right/
+133. [GFG 450 - Binary Search Trees] Given "n" appointments, find the conflicting appointments --> https://www.geeksforgeeks.org/given-n-appointments-find-conflicting-appointments/
+134. [GFG 450 - Binary Search Trees] Check preorder is valid or not --> https://practice.geeksforgeeks.org/problems/preorder-to-postorder/0
+135. [GFG 450 - Binary Search Trees] Check whether BST contains Dead end --> https://practice.geeksforgeeks.org/problems/check-whether-bst-contains-dead-end/1
+136. [GFG 450 - Binary Search Trees] Largest BST in a Binary Tree --> https://practice.geeksforgeeks.org/problems/largest-bst/1
+137. [GFG 450 - Binary Search Trees] Flatten BST to sorted list --> https://www.geeksforgeeks.org/flatten-bst-to-sorted-list-increasing-order/
+138. [GFG 450 - Greedy] Huffman Coding --> https://practice.geeksforgeeks.org/problems/huffman-encoding/0
+139. [GFG 450 - Greedy] Water Connection Problem --> https://practice.geeksforgeeks.org/problems/water-connection-problem/0
+140. [GFG 450 - Greedy] Greedy Algorithm to find Minimum number of Coins --> https://practice.geeksforgeeks.org/problems/coin-piles/0
+141. [GFG 450 - Greedy] Maximum trains for which stoppage can be provided --> https://www.geeksforgeeks.org/maximum-trains-stoppage-can-provided/
+142. [GFG 450 - Greedy] Minimize Cash Flow among a given set of friends who have borrowed money from each other --> https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
+143. [GFG 450 - Greedy] Minimum Cost to cut a board into squares --> https://www.geeksforgeeks.org/minimum-cost-cut-board-squares/
+144. [GFG 450 - Greedy] Check if it is possible to survive on Island --> https://www.geeksforgeeks.org/survival/
+145. [GFG 450 - Greedy] Find maximum meetings in one room --> https://www.geeksforgeeks.org/find-maximum-meetings-in-one-room/
+146. [GFG 450 - Greedy] Maximum product subset of an array --> https://www.geeksforgeeks.org/maximum-product-subset-array/
+147. [GFG 450 - Greedy] Maximize array sum after K negations --> https://practice.geeksforgeeks.org/problems/maximize-sum-after-k-negations/0
+148. [GFG 450 - Greedy] Maximize the sum of arr*i --> https://practice.geeksforgeeks.org/problems/maximize-arrii-of-an-array/0
+149. [GFG 450 - Greedy] Maximum sum of absolute difference of an array --> https://www.geeksforgeeks.org/maximum-sum-absolute-difference-array/
+150. [GFG 450 - Greedy] Maximize sum of consecutive differences in a circular array --> https://practice.geeksforgeeks.org/problems/swap-and-maximize/0
+151. [GFG 450 - Greedy] Minimum sum of absolute difference of pairs of two arrays --> https://www.geeksforgeeks.org/minimum-sum-absolute-difference-pairs-two-arrays/
+152. [GFG 450 - Greedy] Program for Shortest Job First (or SJF) CPU Scheduling --> https://www.geeksforgeeks.org/program-for-shortest-job-first-or-sjf-cpu-scheduling-set-1-non-preemptive/
+153. [GFG 450 - Greedy] Program for Least Recently Used (LRU) Page Replacement algorithm --> https://practice.geeksforgeeks.org/problems/page-faults-in-lru/0
+154. [GFG 450 - Greedy] Smallest subset with sum greater than all other elements --> https://www.geeksforgeeks.org/smallest-subset-sum-greater-elements/
+155. [GFG 450 - Greedy] Chocolate Distribution Problem --> https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0
+156. [GFG 450 - Greedy] DEFKIN -Defense of a Kingdom --> https://www.spoj.com/problems/DEFKIN/
+157. [GFG 450 - Greedy] DIEHARD -DIE HARD --> https://www.spoj.com/problems/DIEHARD/
+158. [GFG 450 - Greedy] GERGOVIA -Wine trading in Gergovia --> https://www.spoj.com/problems/GERGOVIA/
+159. [GFG 450 - Greedy] Picking Up Chicks --> https://www.spoj.com/problems/GCJ101BB/
+160. [GFG 450 - Greedy] CHOCOLA –Chocolate --> https://www.spoj.com/problems/CHOCOLA/
+161. [GFG 450 - Greedy] ARRANGE -Arranging Amplifiers --> https://www.spoj.com/problems/ARRANGE/
+162. [GFG 450 - Greedy] K Centers Problem --> https://www.geeksforgeeks.org/k-centers-problem-set-1-greedy-approximate-algorithm/
+163. [GFG 450 - Greedy] Minimum Cost of ropes --> https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0
+164. [GFG 450 - Greedy] Find smallest number with given number of digits and sum of digits --> https://practice.geeksforgeeks.org/problems/smallest-number5829/1
+165. [GFG 450 - Greedy] Rearrange characters in a string such that no two adjacent are same --> https://practice.geeksforgeeks.org/problems/rearrange-characters/0
+166. [GFG 450 - Greedy] Find maximum sum possible equal sum of three stacks --> https://www.geeksforgeeks.org/find-maximum-sum-possible-equal-sum-three-stacks/
+167. [GFG 450 - BackTracking] Printing all solutions in N-Queen Problem --> https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/
+168. [GFG 450 - BackTracking] Word Break Problem using Backtracking --> https://practice.geeksforgeeks.org/problems/word-break-part-2/0
+169. [GFG 450 - BackTracking] Remove Invalid Parentheses --> https://leetcode.com/problems/remove-invalid-parentheses/
+170. [GFG 450 - BackTracking] Print all palindromic partitions of a string --> https://www.geeksforgeeks.org/given-a-string-print-all-possible-palindromic-partition/
+171. [GFG 450 - BackTracking] The Knight’s tour problem --> https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
+172. [GFG 450 - BackTracking] Tug of War --> https://www.geeksforgeeks.org/tug-of-war/
+173. [GFG 450 - BackTracking] Find shortest safe route in a path with landmines --> https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/
+174. [GFG 450 - BackTracking] Find Maximum number possible by doing at-most K swaps --> https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps/0
+175. [GFG 450 - BackTracking] Print all permutations of a string --> https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0
+176. [GFG 450 - BackTracking] Longest Possible Route in a Matrix with Hurdles --> https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/
+177. [GFG 450 - BackTracking] Print all possible paths from top left to bottom right of a mXn matrix --> https://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/
+178. [GFG 450 - BackTracking] Partition of a set intoK subsets with equal sum --> https://practice.geeksforgeeks.org/problems/partition-array-to-k-subsets/1
+179. [GFG 450 - BackTracking] Find the K-th Permutation Sequence of first N natural numbers --> https://www.geeksforgeeks.org/find-the-k-th-permutation-sequence-of-first-n-natural-numbers/
+180. [GFG 450 - Stacks & Queues] Implement "N" stacks in an Array --> https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
+181. [GFG 450 - Stacks & Queues] Design a Stack that supports getMin() in O(1) time and O(1) extra space. --> https://practice.geeksforgeeks.org/problems/special-stack/1
+182. [GFG 450 - Stacks & Queues] The celebrity Problem --> https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1
+183. [GFG 450 - Stacks & Queues] Arithmetic Expression evaluation --> https://www.geeksforgeeks.org/arithmetic-expression-evalution/
+184. [GFG 450 - Stacks & Queues] Evaluation of Postfix expression --> https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0
+185. [GFG 450 - Stacks & Queues] Implement a method to insert an element at its bottom without using any other data structure. --> https://stackoverflow.com/questions/45130465/inserting-at-the-end-of-stack
+186. [GFG 450 - Stacks & Queues] Reverse a stack using recursion --> https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/
+187. [GFG 450 - Stacks & Queues] Sort a Stack using recursion --> https://practice.geeksforgeeks.org/problems/sort-a-stack/1
+188. [GFG 450 - Stacks & Queues] Merge Overlapping Intervals --> https://practice.geeksforgeeks.org/problems/overlapping-intervals/0
+189. [GFG 450 - Stacks & Queues] Length of the Longest Valid Substring --> https://practice.geeksforgeeks.org/problems/valid-substring0624/1
+190. [GFG 450 - Stacks & Queues] Expression contains redundant bracket or not --> https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/
+191. [GFG 450 - Stacks & Queues] Implement Stack using Deque --> https://www.geeksforgeeks.org/implement-stack-queue-using-deque/
+192. [GFG 450 - Stacks & Queues] Stack Permutations (Check if an array is stack permutation of other) --> https://www.geeksforgeeks.org/stack-permutations-check-if-an-array-is-stack-permutation-of-other/
+193. [GFG 450 - Stacks & Queues] Implement "n" queue in an array --> https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/
+194. [GFG 450 - Stacks & Queues] Implement a Circular queue --> https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/
+195. [GFG 450 - Stacks & Queues] Reverse a Queue using recursion --> https://practice.geeksforgeeks.org/problems/queue-reversal/1
+196. [GFG 450 - Stacks & Queues] Reverse the first “K” elements of a queue --> https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1
+197. [GFG 450 - Stacks & Queues] Interleave the first half of the queue with second half --> https://www.geeksforgeeks.org/interleave-first-half-queue-second-half/
+198. [GFG 450 - Stacks & Queues] Find the first circular tour that visits all Petrol Pumps --> https://practice.geeksforgeeks.org/problems/circular-tour/1
+199. [GFG 450 - Stacks & Queues] Minimum time required to rot all oranges --> https://practice.geeksforgeeks.org/problems/rotten-oranges/0
+200. [GFG 450 - Stacks & Queues] Distance of nearest cell having 1 in a binary matrix --> https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1/0
+201. [GFG 450 - Stacks & Queues] Check if all levels of two trees are anagrams or not. --> https://www.geeksforgeeks.org/check-if-all-levels-of-two-trees-are-anagrams-or-not/
+202. [GFG 450 - Stacks & Queues] Sum of minimum and maximum elements of all subarrays of size “k”. --> https://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/
+203. [GFG 450 - Stacks & Queues] Minimum sum of squares of character counts in a given string after removing “k” characters. --> https://practice.geeksforgeeks.org/problems/game-with-string/0
+204. [GFG 450 - Stacks & Queues] Queue based approach or first non-repeating character in a stream. --> https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0
+205. [GFG 450 - Stacks & Queues] Next Smaller Element --> https://www.geeksforgeeks.org/next-smaller-element/
+206. [GFG 450 - Heap] Implement a Maxheap/MinHeap using arrays and recursion. --> https://www.geeksforgeeks.org/building-heap-from-array/
+207. [GFG 450 - Heap] “k” largest element in an array --> https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1
+208. [GFG 450 - Heap] Kth smallest and largest element in an unsorted array --> https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+209. [GFG 450 - Heap] Merge “K” sorted arrays. --> https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
+210. [GFG 450 - Heap] Merge 2 Binary Max Heaps --> https://practice.geeksforgeeks.org/problems/merge-two-binary-max-heap/0
+211. [GFG 450 - Heap] Kth largest sum continuous subarrays --> https://www.geeksforgeeks.org/k-th-largest-sum-contiguous-subarray/
+212. [GFG 450 - Heap] Leetcode- reorganize strings --> https://leetcode.com/problems/reorganize-string/
+213. [GFG 450 - Heap] Merge “K” Sorted Linked Lists --> https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1
+214. [GFG 450 - Heap] Smallest range in “K” Lists --> https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1
+215. [GFG 450 - Heap] Median in a stream of Integers --> https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0
+216. [GFG 450 - Heap] Check if a Binary Tree is Heap --> https://practice.geeksforgeeks.org/problems/is-binary-tree-heap/1
+217. [GFG 450 - Heap] Connect “n” ropes with minimum cost --> https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0
+218. [GFG 450 - Heap] Convert BST to Min Heap --> https://www.geeksforgeeks.org/convert-bst-min-heap/
+219. [GFG 450 - Heap] Rearrange characters in a string such that no two adjacent are same. --> https://practice.geeksforgeeks.org/problems/rearrange-characters/0
+220. [GFG 450 - Heap] Minimum sum of two numbers formed from digits of an array --> https://practice.geeksforgeeks.org/problems/minimum-sum4058/1
+221. [GFG 450 - Graph] Implement BFS algorithm --> https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+222. [GFG 450 - Graph] Implement DFS Algo --> https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+223. [GFG 450 - Graph] Detect Cycle in Directed Graph using BFS/DFS Algo --> https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+224. [GFG 450 - Graph] Detect Cycle in UnDirected Graph using BFS/DFS Algo --> https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+225. [GFG 450 - Graph] Minimum Step by Knight --> https://practice.geeksforgeeks.org/problems/steps-by-knight/0
+226. [GFG 450 - Graph] Clone a graph --> https://leetcode.com/problems/clone-graph/
+227. [GFG 450 - Graph] Minimum time taken by each job to be completed given by a Directed Acyclic Graph --> https://www.geeksforgeeks.org/minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph/
+228. [GFG 450 - Graph] Find whether it is possible to finish all tasks or not from given dependencies --> https://www.geeksforgeeks.org/find-whether-it-is-possible-to-finish-all-tasks-or-not-from-given-dependencies/
+229. [GFG 450 - Graph] Implement Kruksal’sAlgorithm --> https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+230. [GFG 450 - Graph] Implement Prim’s Algorithm --> https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
+231. [GFG 450 - Graph] Total no. of Spanning tree in a graph --> https://www.geeksforgeeks.org/total-number-spanning-trees-graph/
+232. [GFG 450 - Graph] Implement Bellman Ford Algorithm --> https://practice.geeksforgeeks.org/problems/negative-weight-cycle/0
+233. [GFG 450 - Graph] Travelling Salesman Problem --> https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/
+234. [GFG 450 - Graph] Snake and Ladders Problem --> https://leetcode.com/problems/snakes-and-ladders/
+235. [GFG 450 - Graph] Find bridge in a graph --> https://www.geeksforgeeks.org/bridge-in-a-graph/
+236. [GFG 450 - Graph] Check whether a graph is Bipartite or Not --> https://www.geeksforgeeks.org/bipartite-graph/
+237. [GFG 450 - Graph] Detect Negative cycle in a graph --> https://www.geeksforgeeks.org/detect-negative-cycle-graph-bellman-ford/
+238. [GFG 450 - Graph] Longest path in a Directed Acyclic Graph --> https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/
+239. [GFG 450 - Graph] Journey to the Moon --> https://www.hackerrank.com/challenges/journey-to-the-moon/problem
+240. [GFG 450 - Graph] Oliver and the Game --> https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/practice-problems/algorithm/oliver-and-the-game-3/
+241. [GFG 450 - Graph] Water Jug problem using BFS --> https://www.geeksforgeeks.org/water-jug-problem-using-bfs/
+242. [GFG 450 - Graph] Water Jug problem using BFS --> https://www.geeksforgeeks.org/water-jug-problem-using-bfs/
+243. [GFG 450 - Graph] Find if there is a path of more thank length from a source --> https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/
+244. [GFG 450 - Graph] Minimum edges to reverse o make path from source to destination --> https://www.geeksforgeeks.org/minimum-edges-reverse-make-path-source-destination/
+245. [GFG 450 - Graph] Paths to travel each nodes using each edge(Seven Bridges) --> https://www.geeksforgeeks.org/paths-travel-nodes-using-edgeseven-bridges-konigsberg/
+246. [GFG 450 - Graph] Vertex Cover Problem --> https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm-2/
+247. [GFG 450 - Graph] Chinese Postman or Route Inspection --> https://www.geeksforgeeks.org/chinese-postman-route-inspection-set-1-introduction/
+248. [GFG 450 - Graph] Number of Triangles in a Directed and Undirected Graph --> https://www.geeksforgeeks.org/number-of-triangles-in-directed-and-undirected-graphs/
+249. [GFG 450 - Graph] Minimise the cashflow among a given set of friends who have borrowed money from each other --> https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
+250. [GFG 450 - Graph] Two Clique Problem --> https://www.geeksforgeeks.org/two-clique-problem-check-graph-can-divided-two-cliques/
+251. [GFG 450 - Trie] Construct a trie from scratch --> https://www.geeksforgeeks.org/trie-insert-and-search/
+252. [GFG 450 - Trie] Find shortest unique prefix for every word in a given list --> https://www.geeksforgeeks.org/find-all-shortest-unique-prefixes-to-represent-each-word-in-a-given-list/
+253. [GFG 450 - Trie] Word Break Problem | (Trie solution) --> https://www.geeksforgeeks.org/word-break-problem-trie-solution/
+254. [GFG 450 - Trie] Given a sequence of words, print all anagrams together --> https://practice.geeksforgeeks.org/problems/k-anagrams-1/0
+255. [GFG 450 - Trie] Implement a Phone Directory --> https://practice.geeksforgeeks.org/problems/phone-directory/0
+256. [GFG 450 - Trie] Print unique rows in a given boolean matrix --> https://practice.geeksforgeeks.org/problems/unique-rows-in-boolean-matrix/1
+257. [GFG 450 - Dynamic Programming] Permutation CoefficientProblem --> https://www.geeksforgeeks.org/permutation-coefficient/
+258. [GFG 450 - Dynamic Programming] Program for nth Catalan Number --> https://www.geeksforgeeks.org/program-nth-catalan-number/
+259. [GFG 450 - Dynamic Programming] Gold Mine Problem --> https://www.geeksforgeeks.org/gold-mine-problem/
+260. [GFG 450 - Dynamic Programming] Longest Repeated Subsequence --> https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0
+261. [GFG 450 - Dynamic Programming] Egg Dropping Problem --> https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0
+262. [GFG 450 - Dynamic Programming] Maximum size square sub-matrix with all 1s --> https://practice.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix/0
+263. [GFG 450 - Dynamic Programming] Min Cost PathProblem --> https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1
+264. [GFG 450 - Dynamic Programming] Maximum difference of zeros and ones in binary string --> https://practice.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/1
+265. [GFG 450 - Dynamic Programming] Minimum number of jumps to reach end --> https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+266. [GFG 450 - Dynamic Programming] Minimum cost to fill given weight in a bag --> https://practice.geeksforgeeks.org/problems/minimum-cost-to-fill-given-weight-in-a-bag1956/1
+267. [GFG 450 - Dynamic Programming] Minimum removals from array to make max –min <= K --> https://www.geeksforgeeks.org/minimum-removals-array-make-max-min-k/
+268. [GFG 450 - Dynamic Programming] Count number of ways to reacha given score in a game --> https://practice.geeksforgeeks.org/problems/reach-a-given-score/0
+269. [GFG 450 - Dynamic Programming] Count Balanced Binary Trees of Height h --> https://practice.geeksforgeeks.org/problems/bbt-counter/0
+270. [GFG 450 - Dynamic Programming] Smallest sum contiguous subarray --> https://www.geeksforgeeks.org/smallest-sum-contiguous-subarray/
+271. [GFG 450 - Dynamic Programming] Word Break Problem --> https://practice.geeksforgeeks.org/problems/word-break/0
+272. [GFG 450 - Dynamic Programming] Largest Independent Set Problem --> https://www.geeksforgeeks.org/largest-independent-set-problem-dp-26/
+273. [GFG 450 - Dynamic Programming] Coin game winner where every player has three choices --> https://www.geeksforgeeks.org/coin-game-winner-every-player-three-choices/
+274. [GFG 450 - Dynamic Programming] Count Derangements (Permutation such that no element appears in its original position) --> https://www.geeksforgeeks.org/count-derangements-permutation-such-that-no-element-appears-in-its-original-position/
+275. [GFG 450 - Dynamic Programming] Maximum profit by buying and selling a share at most twice --> https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/
+276. [GFG 450 - Dynamic Programming] Optimal Strategy for a Game --> https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game/0
+277. [GFG 450 - Dynamic Programming] Optimal Binary Search Tree --> https://www.geeksforgeeks.org/optimal-binary-search-tree-dp-24/
+278. [GFG 450 - Dynamic Programming] Palindrome PartitioningProblem --> https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1
+279. [GFG 450 - Dynamic Programming] Word Wrap Problem --> https://practice.geeksforgeeks.org/problems/word-wrap/0
+280. [GFG 450 - Dynamic Programming] Mobile Numeric Keypad Problem --> https://practice.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1
+281. [GFG 450 - Dynamic Programming] Boolean Parenthesization Problem --> https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0
+282. [GFG 450 - Dynamic Programming] Largest rectangular sub-matrix whose sum is 0 --> https://www.geeksforgeeks.org/largest-rectangular-sub-matrix-whose-sum-0/
+283. [GFG 450 - Dynamic Programming] Largest area rectangular sub-matrix with equal number of 1’s and 0’s --> https://www.geeksforgeeks.org/largest-area-rectangular-sub-matrix-equal-number-1s-0s/
+284. [GFG 450 - Dynamic Programming] Maximum sum rectangle in a 2D matrix --> https://practice.geeksforgeeks.org/problems/maximum-sum-rectangle/0
+285. [GFG 450 - Bit Manipulation] Count set bits in an integer --> https://practice.geeksforgeeks.org/problems/set-bits0143/1
+286. [GFG 450 - Bit Manipulation] Find the two non-repeating elements in an array of repeating elements --> https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1
+287. [GFG 450 - Bit Manipulation] Count total set bits in all numbers from 1 to n --> https://practice.geeksforgeeks.org/problems/count-total-set-bits/0
+288. [GFG 450 - Bit Manipulation] Program to find whether a no is power of two --> https://practice.geeksforgeeks.org/problems/power-of-2/0
+289. [GFG 450 - Bit Manipulation] Find position of the only set bit --> https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1
+290. [GFG 450 - Bit Manipulation] Copy set bits in a range --> https://www.geeksforgeeks.org/copy-set-bits-in-a-range/
+291. [GFG 450 - Bit Manipulation] Divide two integers without using multiplication, division and mod operator --> https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-mod-operator/
