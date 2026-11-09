@@ -32,14 +32,14 @@ Progress lives in your browser's `localStorage`. No account, no backend, no trac
 <!-- stats:start -->
 | metric | value |
 | --- | --- |
-| problems | 525 |
-| modules | 19 |
-| leetcode_links | 232 |
+| problems | 539 |
+| modules | 20 |
+| leetcode_links | 246 |
 | gfg_links | 211 |
 | takeuforward_links | 82 |
 | gfg_alt_links | 134 |
 | leetcode_alt_links | 0 |
-| with_difficulty | 448 |
+| with_difficulty | 462 |
 | paid_leetcodes | 8 |
 | with_video | 326 |
 | with_article | 265 |
