@@ -2,10 +2,10 @@
 
 [![Deploy site to GitHub Pages](https://github.com/premnarayn13/DSA_StudyMaterial/actions/workflows/deploy.yml/badge.svg)](https://github.com/premnarayn13/DSA_StudyMaterial/actions/workflows/deploy.yml)
 [![Live Tracker](https://img.shields.io/badge/Live%20Tracker-GitHub%20Pages-brightgreen?style=flat&logo=github)](https://premnarayn13.github.io/DSA_StudyMaterial/)
-[![Total Problems](https://img.shields.io/badge/Problems-539%20Curated-blue)](https://premnarayn13.github.io/DSA_StudyMaterial/)
+[![Total Problems](https://img.shields.io/badge/Problems-468%20Curated-blue)](https://premnarayn13.github.io/DSA_StudyMaterial/)
 [![Handbook Chapters](https://img.shields.io/badge/Handbook-30%20Chapters-orange)](./handbook/)
 
-A complete, production-grade repository for mastering Data Structures & Algorithms. Includes an interactive problem progress tracker, 30 deep-dive handbook chapters, and a curated list of 539 problems combining **Striver's A2Z DSA Sheet** and the **GFG 450** problem set.
+A complete, production-grade repository for mastering Data Structures & Algorithms. Includes an interactive problem progress tracker, 30 deep-dive handbook chapters, and a curated list of 468 problems combining **Striver's A2Z DSA Sheet** and the **GFG 450** problem set.
 
 🌐 **Live Web Application:** [https://premnarayn13.github.io/DSA_StudyMaterial/](https://premnarayn13.github.io/DSA_StudyMaterial/)
 
@@ -14,7 +14,7 @@ A complete, production-grade repository for mastering Data Structures & Algorith
 ## 🌟 Repository Features
 
 ### 1. 🎯 Interactive Problem Tracker (Web App)
-- **539 Curated DSA Problems** across 20 structured modules.
+- **468 Curated DSA Problems** across 20 structured modules.
 - **Direct Practice Links:** Instant access to LeetCode, GeeksforGeeks, and TakeUForward problems.
 - **Offline & Persistent Progress:** Marked problems and stars are stored locally in your browser (`localStorage`).
 - **Instant Search & Multi-Filters:** Filter by topic, difficulty (Easy, Medium, Hard), platform, and completion status.
