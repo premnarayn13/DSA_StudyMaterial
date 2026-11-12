@@ -32,18 +32,18 @@ Progress lives in your browser's `localStorage`. No account, no backend, no trac
 <!-- stats:start -->
 | metric | value |
 | --- | --- |
-| problems | 460 |
+| problems | 486 |
 | modules | 20 |
-| leetcode_links | 240 |
-| gfg_links | 187 |
+| leetcode_links | 255 |
+| gfg_links | 198 |
 | takeuforward_links | 33 |
-| gfg_alt_links | 126 |
-| leetcode_alt_links | 0 |
-| with_difficulty | 436 |
-| paid_leetcodes | 8 |
+| gfg_alt_links | 139 |
+| leetcode_alt_links | 1 |
+| with_difficulty | 462 |
+| paid_leetcodes | 10 |
 | with_video | 287 |
-| with_article | 245 |
-| with_alt_link | 309 |
+| with_article | 271 |
+| with_alt_link | 323 |
 <!-- stats:end -->
 
 `scripts/check_readme.py` re-derives every number above from `site/data.json` and fails if any of
