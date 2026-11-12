@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Master's A2Z DSA Sheet",
-    "problemCount": 468,
+    "problemCount": 437,
     "stepCount": 20,
     "generated": "2026-09-20",
     "source": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
@@ -9,7 +9,7 @@
       {
         "n": 1,
         "title": "Beginner Problems",
-        "count": 18
+        "count": 16
       },
       {
         "n": 2,
@@ -19,7 +19,7 @@
       {
         "n": 3,
         "title": "Arrays",
-        "count": 42
+        "count": 39
       },
       {
         "n": 4,
@@ -34,7 +34,7 @@
       {
         "n": 6,
         "title": "Binary Search",
-        "count": 44
+        "count": 39
       },
       {
         "n": 7,
@@ -44,7 +44,7 @@
       {
         "n": 8,
         "title": "Linked-List",
-        "count": 30
+        "count": 27
       },
       {
         "n": 9,
@@ -64,12 +64,12 @@
       {
         "n": 12,
         "title": "Stack / Queues",
-        "count": 29
+        "count": 26
       },
       {
         "n": 13,
         "title": "Binary Trees",
-        "count": 41
+        "count": 40
       },
       {
         "n": 14,
@@ -84,12 +84,12 @@
       {
         "n": 16,
         "title": "Graphs",
-        "count": 51
+        "count": 49
       },
       {
         "n": 17,
         "title": "Dynamic Programming",
-        "count": 54
+        "count": 53
       },
       {
         "n": 18,
@@ -99,7 +99,7 @@
       {
         "n": 19,
         "title": "Strings (Advanced Algo)",
-        "count": 36
+        "count": 25
       },
       {
         "n": 20,
@@ -108,11 +108,11 @@
       }
     ],
     "platforms": {
-      "takeuforward": 36,
-      "gfg": 192,
-      "leetcode": 240
+      "takeuforward": 30,
+      "gfg": 168,
+      "leetcode": 239
     },
-    "withDifficulty": 442,
+    "withDifficulty": 416,
     "sources": {
       "order,titles,links": "takeuforward.org sheet payload",
       "difficulty": "leetcode.com GraphQL, geeksforgeeks.org pages, codolio.com",
@@ -221,28 +221,8 @@
       "lcSlug": ""
     },
     {
-      "id": "a2z-369",
-      "order": 5,
-      "title": "Count of Prime Numbers till N",
-      "step": 1,
-      "stepTitle": "Beginner Problems",
-      "topic": "Basic Maths",
-      "tier": "basic",
-      "difficulty": "",
-      "difficultySource": "",
-      "platform": "takeuforward",
-      "url": "https://takeuforward.org/practice/dsa/count-of-prime-numbers-till-n?category=basic-maths&source=strivers-a2z-dsa-sheet",
-      "altUrls": [],
-      "article": null,
-      "video": null,
-      "premium": false,
-      "duration": "3 min",
-      "slug": "count-of-prime-numbers-till-n",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-372",
-      "order": 6,
+      "order": 5,
       "title": "GCD of Two Numbers",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -266,33 +246,8 @@
       "lcSlug": ""
     },
     {
-      "id": "a2z-373",
-      "order": 7,
-      "title": "LCM of two numbers",
-      "step": 1,
-      "stepTitle": "Beginner Problems",
-      "topic": "Basic Maths",
-      "tier": "basic",
-      "difficulty": "Easy",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/problems/lcm-of-two-numbers/1",
-      "altUrls": [
-        {
-          "platform": "takeuforward",
-          "url": "https://takeuforward.org/practice/dsa/lcm-of-two-numbers?category=basic-maths&source=strivers-a2z-dsa-sheet"
-        }
-      ],
-      "article": null,
-      "video": null,
-      "premium": false,
-      "duration": "5 min",
-      "slug": "lcm-of-two-numbers",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-370",
-      "order": 8,
+      "order": 6,
       "title": "Divisors of a Number",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -317,7 +272,7 @@
     },
     {
       "id": "a2z-343",
-      "order": 9,
+      "order": 7,
       "title": "Sum of Array Elements",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -342,7 +297,7 @@
     },
     {
       "id": "a2z-340",
-      "order": 10,
+      "order": 8,
       "title": "Check if the Array is Sorted I",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -367,7 +322,7 @@
     },
     {
       "id": "a2z-344",
-      "order": 11,
+      "order": 9,
       "title": "Highest Occurring Element in an Array",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -392,7 +347,7 @@
     },
     {
       "id": "a2z-394",
-      "order": 12,
+      "order": 10,
       "title": "Largest Odd Number in a String",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -417,7 +372,7 @@
     },
     {
       "id": "a2z-395",
-      "order": 13,
+      "order": 11,
       "title": "Longest Common Prefix",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -442,7 +397,7 @@
     },
     {
       "id": "a2z-393",
-      "order": 14,
+      "order": 12,
       "title": "Isomorphic Strings",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -471,7 +426,7 @@
     },
     {
       "id": "a2z-398",
-      "order": 15,
+      "order": 13,
       "title": "Rotate String",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -500,7 +455,7 @@
     },
     {
       "id": "a2z-400",
-      "order": 16,
+      "order": 14,
       "title": "Valid Anagram",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -525,7 +480,7 @@
     },
     {
       "id": "a2z-399",
-      "order": 17,
+      "order": 15,
       "title": "Sort Characters by Frequency",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -554,7 +509,7 @@
     },
     {
       "id": "a2z-381",
-      "order": 18,
+      "order": 16,
       "title": "Fibonacci Number",
       "step": 1,
       "stepTitle": "Beginner Problems",
@@ -579,7 +534,7 @@
     },
     {
       "id": "a2z-947",
-      "order": 19,
+      "order": 17,
       "title": "Selection Sort",
       "step": 2,
       "stepTitle": "Sorting",
@@ -604,7 +559,7 @@
     },
     {
       "id": "a2z-943",
-      "order": 20,
+      "order": 18,
       "title": "Bubble Sort",
       "step": 2,
       "stepTitle": "Sorting",
@@ -629,7 +584,7 @@
     },
     {
       "id": "a2z-944",
-      "order": 21,
+      "order": 19,
       "title": "Insertion Sorting",
       "step": 2,
       "stepTitle": "Sorting",
@@ -654,7 +609,7 @@
     },
     {
       "id": "a2z-945",
-      "order": 22,
+      "order": 20,
       "title": "Merge Sorting",
       "step": 2,
       "stepTitle": "Sorting",
@@ -679,7 +634,7 @@
     },
     {
       "id": "a2z-946",
-      "order": 23,
+      "order": 21,
       "title": "Quick Sorting",
       "step": 2,
       "stepTitle": "Sorting",
@@ -704,7 +659,7 @@
     },
     {
       "id": "a2z-42",
-      "order": 24,
+      "order": 22,
       "title": "Maximum Consecutive Ones",
       "step": 3,
       "stepTitle": "Arrays",
@@ -729,7 +684,7 @@
     },
     {
       "id": "a2z-39",
-      "order": 25,
+      "order": 23,
       "title": "Left Rotate Array by K Places",
       "step": 3,
       "stepTitle": "Arrays",
@@ -754,7 +709,7 @@
     },
     {
       "id": "a2z-46",
-      "order": 26,
+      "order": 24,
       "title": "Move Zeros to End",
       "step": 3,
       "stepTitle": "Arrays",
@@ -783,7 +738,7 @@
     },
     {
       "id": "a2z-47",
-      "order": 27,
+      "order": 25,
       "title": "Remove duplicates from sorted array",
       "step": 3,
       "stepTitle": "Arrays",
@@ -808,7 +763,7 @@
     },
     {
       "id": "a2z-44",
-      "order": 28,
+      "order": 26,
       "title": "Find missing number",
       "step": 3,
       "stepTitle": "Arrays",
@@ -828,7 +783,7 @@
     },
     {
       "id": "a2z-48",
-      "order": 29,
+      "order": 27,
       "title": "Union of two sorted arrays",
       "step": 3,
       "stepTitle": "Arrays",
@@ -857,7 +812,7 @@
     },
     {
       "id": "a2z-45",
-      "order": 30,
+      "order": 28,
       "title": "Intersection of two sorted arrays",
       "step": 3,
       "stepTitle": "Arrays",
@@ -882,7 +837,7 @@
     },
     {
       "id": "a2z-22",
-      "order": 31,
+      "order": 29,
       "title": "Majority Element-I",
       "step": 3,
       "stepTitle": "Arrays",
@@ -911,7 +866,7 @@
     },
     {
       "id": "a2z-30",
-      "order": 32,
+      "order": 30,
       "title": "Leaders in an Array",
       "step": 3,
       "stepTitle": "Arrays",
@@ -936,7 +891,7 @@
     },
     {
       "id": "a2z-34",
-      "order": 33,
+      "order": 31,
       "title": "Rearrange array elements by sign",
       "step": 3,
       "stepTitle": "Arrays",
@@ -961,7 +916,7 @@
     },
     {
       "id": "a2z-33",
-      "order": 34,
+      "order": 32,
       "title": "Print the matrix in spiral manner",
       "step": 3,
       "stepTitle": "Arrays",
@@ -985,33 +940,8 @@
       "lcSlug": "spiral-matrix"
     },
     {
-      "id": "a2z-813",
-      "order": 35,
-      "title": "Pascal's Triangle I",
-      "step": 3,
-      "stepTitle": "Arrays",
-      "topic": "FAQs(Medium)",
-      "tier": "core",
-      "difficulty": "Easy",
-      "difficultySource": "leetcode",
-      "platform": "leetcode",
-      "url": "https://leetcode.com/problems/pascals-triangle/",
-      "altUrls": [
-        {
-          "platform": "takeuforward",
-          "url": "https://takeuforward.org/practice/dsa/pascals-triangle-i?category=faqs-medium&source=strivers-a2z-dsa-sheet"
-        }
-      ],
-      "article": "https://takeuforward.org/blogs/data-structure-and-algorithm/pascals-triangle-first-n-rows",
-      "video": "https://youtu.be/bR7mQgwQ_o8",
-      "premium": false,
-      "duration": "10 min",
-      "slug": "pascals-triangle-i",
-      "lcSlug": "pascals-triangle"
-    },
-    {
       "id": "a2z-812",
-      "order": 36,
+      "order": 33,
       "title": "Pascal's Triangle II",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1040,7 +970,7 @@
     },
     {
       "id": "a2z-32",
-      "order": 37,
+      "order": 34,
       "title": "Pascal's Triangle III",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1060,7 +990,7 @@
     },
     {
       "id": "a2z-35",
-      "order": 38,
+      "order": 35,
       "title": "Rotate matrix by 90 degrees",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1089,7 +1019,7 @@
     },
     {
       "id": "a2z-911",
-      "order": 39,
+      "order": 36,
       "title": "Set Matrix Zeroes",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1114,7 +1044,7 @@
     },
     {
       "id": "a2z-37",
-      "order": 40,
+      "order": 37,
       "title": "Two Sum",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1147,7 +1077,7 @@
     },
     {
       "id": "a2z-27",
-      "order": 41,
+      "order": 38,
       "title": "3 Sum",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1180,7 +1110,7 @@
     },
     {
       "id": "a2z-28",
-      "order": 42,
+      "order": 39,
       "title": "4 Sum",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1209,7 +1139,7 @@
     },
     {
       "id": "a2z-36",
-      "order": 43,
+      "order": 40,
       "title": "Sort an array of 0's 1's and 2's",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1242,7 +1172,7 @@
     },
     {
       "id": "a2z-29",
-      "order": 44,
+      "order": 41,
       "title": "Kadane's Algorithm",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1271,7 +1201,7 @@
     },
     {
       "id": "a2z-31",
-      "order": 45,
+      "order": 42,
       "title": "Next Permutation",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1300,7 +1230,7 @@
     },
     {
       "id": "a2z-23",
-      "order": 46,
+      "order": 43,
       "title": "Majority Element-II",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1325,7 +1255,7 @@
     },
     {
       "id": "a2z-21",
-      "order": 47,
+      "order": 44,
       "title": "Find the repeating and missing number",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1354,7 +1284,7 @@
     },
     {
       "id": "a2z-20",
-      "order": 48,
+      "order": 45,
       "title": "Count Inversions",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1383,7 +1313,7 @@
     },
     {
       "id": "a2z-26",
-      "order": 49,
+      "order": 46,
       "title": "Reverse Pairs",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1408,7 +1338,7 @@
     },
     {
       "id": "a2z-24",
-      "order": 50,
+      "order": 47,
       "title": "Maximum Product Subarray in an Array",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1437,7 +1367,7 @@
     },
     {
       "id": "a2z-25",
-      "order": 51,
+      "order": 48,
       "title": "Merge two sorted arrays without extra space",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1470,7 +1400,7 @@
     },
     {
       "id": "gfg-450-0002",
-      "order": 52,
+      "order": 49,
       "title": "Minimum no. of Jumps to reach end of an array",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1490,7 +1420,7 @@
     },
     {
       "id": "gfg-450-0004",
-      "order": 53,
+      "order": 50,
       "title": "find common elements In 3 sorted arrays",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1510,7 +1440,7 @@
     },
     {
       "id": "gfg-450-0005",
-      "order": 54,
+      "order": 51,
       "title": "Rearrange the array in alternating positive and negative items with O(1) extra space",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1530,7 +1460,7 @@
     },
     {
       "id": "gfg-450-0006",
-      "order": 55,
+      "order": 52,
       "title": "Given an array of size n and a number k, fin all elements that appear more than \" n/k \" times.",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1549,28 +1479,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0008",
-      "order": 56,
-      "title": "Chocolate Distribution problem",
-      "step": 3,
-      "stepTitle": "Arrays",
-      "topic": "GFG 450 - Array",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "chocolate-distribution-problem",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0009",
-      "order": 57,
+      "order": 53,
       "title": "Smallest Subarray with sum greater than a given value",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1590,7 +1500,7 @@
     },
     {
       "id": "gfg-450-0010",
-      "order": 58,
+      "order": 54,
       "title": "Minimum swaps required bring elements less equal K together",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1610,7 +1520,7 @@
     },
     {
       "id": "gfg-450-0014",
-      "order": 59,
+      "order": 55,
       "title": "Kth smallest element in a row-cpumn wise sorted matrix",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1630,7 +1540,7 @@
     },
     {
       "id": "gfg-450-0003",
-      "order": 60,
+      "order": 56,
       "title": "find duplicate in an array of N+1 Integers",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1650,7 +1560,7 @@
     },
     {
       "id": "gfg-450-0007",
-      "order": 61,
+      "order": 57,
       "title": "Find whether an array is a subset of another array",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1670,7 +1580,7 @@
     },
     {
       "id": "gfg-450-0011",
-      "order": 62,
+      "order": 58,
       "title": "Minimum no. of operations required to make an array palindrome",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1689,28 +1599,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0012",
-      "order": 63,
-      "title": "Spiral traversal on a Matrix",
-      "step": 3,
-      "stepTitle": "Arrays",
-      "topic": "GFG 450 - Matrix",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "spiral-traversal-on-a-matrix",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0013",
-      "order": 64,
+      "order": 59,
       "title": "Find a specific pair in matrix",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1730,7 +1620,7 @@
     },
     {
       "id": "gfg-450-0015",
-      "order": 65,
+      "order": 60,
       "title": "Common elements in all rows of a given matrix",
       "step": 3,
       "stepTitle": "Arrays",
@@ -1766,7 +1656,7 @@
       "lcSlug": "string-to-integer-atoi",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 66
+      "order": 61
     },
     {
       "id": "str-std-002",
@@ -1786,7 +1676,7 @@
       "lcSlug": "group-anagrams",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 67
+      "order": 62
     },
     {
       "id": "str-std-003",
@@ -1806,7 +1696,7 @@
       "lcSlug": "integer-to-roman",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 68
+      "order": 63
     },
     {
       "id": "str-std-004",
@@ -1826,7 +1716,7 @@
       "lcSlug": "valid-palindrome-ii",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 69
+      "order": 64
     },
     {
       "id": "str-std-005",
@@ -1846,7 +1736,7 @@
       "lcSlug": "multiply-strings",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 70
+      "order": 65
     },
     {
       "id": "str-std-006",
@@ -1866,7 +1756,7 @@
       "lcSlug": "compare-version-numbers",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 71
+      "order": 66
     },
     {
       "id": "str-std-007",
@@ -1886,7 +1776,7 @@
       "lcSlug": "zigzag-conversion",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 72
+      "order": 67
     },
     {
       "id": "str-std-008",
@@ -1906,7 +1796,7 @@
       "lcSlug": "custom-sort-string",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 73
+      "order": 68
     },
     {
       "id": "str-std-009",
@@ -1926,7 +1816,7 @@
       "lcSlug": "decode-string",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 74
+      "order": 69
     },
     {
       "id": "str-std-010",
@@ -1946,7 +1836,7 @@
       "lcSlug": "determine-if-two-strings-are-close",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 75
+      "order": 70
     },
     {
       "id": "str-std-011",
@@ -1966,7 +1856,7 @@
       "lcSlug": "longest-palindrome-by-concatenating-two-letter-words",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 76
+      "order": 71
     },
     {
       "id": "str-std-012",
@@ -1986,7 +1876,7 @@
       "lcSlug": "minimum-remove-to-make-valid-parentheses",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 77
+      "order": 72
     },
     {
       "id": "str-std-013",
@@ -2006,7 +1896,7 @@
       "lcSlug": "palindromic-substrings",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 78
+      "order": 73
     },
     {
       "id": "str-std-014",
@@ -2026,11 +1916,11 @@
       "lcSlug": "simplify-path",
       "step": 4,
       "stepTitle": "Strings",
-      "order": 79
+      "order": 74
     },
     {
       "id": "a2z-563",
-      "order": 80,
+      "order": 75,
       "title": "Longest Consecutive Sequence in an Array",
       "step": 5,
       "stepTitle": "Hashing",
@@ -2059,7 +1949,7 @@
     },
     {
       "id": "a2z-564",
-      "order": 81,
+      "order": 76,
       "title": "Longest subarray with sum K",
       "step": 5,
       "stepTitle": "Hashing",
@@ -2084,7 +1974,7 @@
     },
     {
       "id": "a2z-605",
-      "order": 82,
+      "order": 77,
       "title": "Largest Subarray with Sum 0",
       "step": 5,
       "stepTitle": "Hashing",
@@ -2117,7 +2007,7 @@
     },
     {
       "id": "a2z-561",
-      "order": 83,
+      "order": 78,
       "title": "Count subarrays with given sum",
       "step": 5,
       "stepTitle": "Hashing",
@@ -2142,7 +2032,7 @@
     },
     {
       "id": "a2z-562",
-      "order": 84,
+      "order": 79,
       "title": "Count subarrays with given xor K",
       "step": 5,
       "stepTitle": "Hashing",
@@ -2166,58 +2056,8 @@
       "lcSlug": ""
     },
     {
-      "id": "a2z-80",
-      "order": 85,
-      "title": "Lower Bound",
-      "step": 6,
-      "stepTitle": "Binary Search",
-      "topic": "Fundamentals",
-      "tier": "basic",
-      "difficulty": "Easy",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/problems/implement-lower-bound/1",
-      "altUrls": [
-        {
-          "platform": "takeuforward",
-          "url": "https://takeuforward.org/practice/dsa/lower-bound-?category=fundamentals&source=strivers-a2z-dsa-sheet"
-        }
-      ],
-      "article": "https://takeuforward.org/blogs/data-structure-and-algorithm/lower-bound-in-sorted-array",
-      "video": "https://youtu.be/6zhGS79oQ4k",
-      "premium": false,
-      "duration": "16 min",
-      "slug": "lower-bound-",
-      "lcSlug": ""
-    },
-    {
-      "id": "a2z-82",
-      "order": 86,
-      "title": "Upper Bound",
-      "step": 6,
-      "stepTitle": "Binary Search",
-      "topic": "Fundamentals",
-      "tier": "basic",
-      "difficulty": "Easy",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/problems/implement-upper-bound/1",
-      "altUrls": [
-        {
-          "platform": "takeuforward",
-          "url": "https://takeuforward.org/practice/dsa/upper-bound?category=fundamentals&source=strivers-a2z-dsa-sheet"
-        }
-      ],
-      "article": "https://takeuforward.org/blogs/data-structure-and-algorithm/upper-bound-in-sorted-array",
-      "video": "https://youtu.be/6zhGS79oQ4k",
-      "premium": false,
-      "duration": "4 min",
-      "slug": "upper-bound",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-89",
-      "order": 87,
+      "order": 80,
       "title": "Search insert position",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2242,7 +2082,7 @@
     },
     {
       "id": "a2z-86",
-      "order": 88,
+      "order": 81,
       "title": "Floor and Ceil in Sorted Array",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2262,7 +2102,7 @@
     },
     {
       "id": "a2z-85",
-      "order": 89,
+      "order": 82,
       "title": "First and last occurrence",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2287,7 +2127,7 @@
     },
     {
       "id": "a2z-87",
-      "order": 90,
+      "order": 83,
       "title": "Search in rotated sorted array-I",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2312,7 +2152,7 @@
     },
     {
       "id": "a2z-88",
-      "order": 91,
+      "order": 84,
       "title": "Search in rotated sorted array-II",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2337,7 +2177,7 @@
     },
     {
       "id": "a2z-83",
-      "order": 92,
+      "order": 85,
       "title": "Find minimum in Rotated Sorted Array",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2361,28 +2201,8 @@
       "lcSlug": "find-minimum-in-rotated-sorted-array"
     },
     {
-      "id": "a2z-84",
-      "order": 93,
-      "title": "Find out how many times the array is rotated",
-      "step": 6,
-      "stepTitle": "Binary Search",
-      "topic": "Logic Building",
-      "tier": "basic",
-      "difficulty": "",
-      "difficultySource": "",
-      "platform": "takeuforward",
-      "url": "https://takeuforward.org/practice/dsa/find-out-how-many-times-the-array-is-rotated?category=logic-building&source=strivers-a2z-dsa-sheet",
-      "altUrls": [],
-      "article": "https://takeuforward.org/blogs/data-structure-and-algorithm/rotation-count-sorted-array",
-      "video": "https://youtu.be/jtSiWTPLwd0",
-      "premium": false,
-      "duration": "4 min",
-      "slug": "find-out-how-many-times-the-array-is-rotated",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-90",
-      "order": 94,
+      "order": 86,
       "title": "Single element in sorted array",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2407,7 +2227,7 @@
     },
     {
       "id": "a2z-92",
-      "order": 95,
+      "order": 87,
       "title": "Find square root of a number",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2440,7 +2260,7 @@
     },
     {
       "id": "a2z-91",
-      "order": 96,
+      "order": 88,
       "title": "Find Nth root of a number",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2465,7 +2285,7 @@
     },
     {
       "id": "a2z-93",
-      "order": 97,
+      "order": 89,
       "title": "Find the smallest divisor",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2490,7 +2310,7 @@
     },
     {
       "id": "a2z-94",
-      "order": 98,
+      "order": 90,
       "title": "Koko eating bananas",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2515,7 +2335,7 @@
     },
     {
       "id": "a2z-95",
-      "order": 99,
+      "order": 91,
       "title": "Minimum days to make M bouquets",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2540,7 +2360,7 @@
     },
     {
       "id": "a2z-161",
-      "order": 100,
+      "order": 92,
       "title": "Capacity to Ship Packages Within D Days",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2565,7 +2385,7 @@
     },
     {
       "id": "a2z-600",
-      "order": 101,
+      "order": 93,
       "title": "Kth Missing Positive Number",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2590,7 +2410,7 @@
     },
     {
       "id": "a2z-805",
-      "order": 102,
+      "order": 94,
       "title": "Painter's Partition",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2619,7 +2439,7 @@
     },
     {
       "id": "a2z-73",
-      "order": 103,
+      "order": 95,
       "title": "Aggressive Cows",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2652,7 +2472,7 @@
     },
     {
       "id": "a2z-74",
-      "order": 104,
+      "order": 96,
       "title": "Book Allocation Problem",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2677,7 +2497,7 @@
     },
     {
       "id": "a2z-75",
-      "order": 105,
+      "order": 97,
       "title": "Find peak element",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2702,7 +2522,7 @@
     },
     {
       "id": "a2z-77",
-      "order": 106,
+      "order": 98,
       "title": "Median of 2 sorted arrays",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2735,7 +2555,7 @@
     },
     {
       "id": "a2z-76",
-      "order": 107,
+      "order": 99,
       "title": "Kth element of 2 sorted arrays",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2760,7 +2580,7 @@
     },
     {
       "id": "a2z-78",
-      "order": 108,
+      "order": 100,
       "title": "Minimize Max Distance to Gas Station",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2793,7 +2613,7 @@
     },
     {
       "id": "a2z-79",
-      "order": 109,
+      "order": 101,
       "title": "Split array - largest sum",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2818,7 +2638,7 @@
     },
     {
       "id": "a2z-66",
-      "order": 110,
+      "order": 102,
       "title": "Find row with maximum 1's",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2843,7 +2663,7 @@
     },
     {
       "id": "a2z-69",
-      "order": 111,
+      "order": 103,
       "title": "Search in a 2D Matrix",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2868,7 +2688,7 @@
     },
     {
       "id": "a2z-68",
-      "order": 112,
+      "order": 104,
       "title": "Search in 2D matrix - II",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2893,7 +2713,7 @@
     },
     {
       "id": "a2z-65",
-      "order": 113,
+      "order": 105,
       "title": "Find Peak Element - II",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2918,7 +2738,7 @@
     },
     {
       "id": "a2z-67",
-      "order": 114,
+      "order": 106,
       "title": "Matrix Median",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -2951,7 +2771,7 @@
     },
     {
       "id": "a2z-877",
-      "order": 115,
+      "order": 107,
       "title": "Pow(x,n)",
       "step": 7,
       "stepTitle": "Recursion",
@@ -2976,7 +2796,7 @@
     },
     {
       "id": "a2z-876",
-      "order": 116,
+      "order": 108,
       "title": "Generate Parentheses",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3001,7 +2821,7 @@
     },
     {
       "id": "a2z-878",
-      "order": 117,
+      "order": 109,
       "title": "Power Set",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3026,7 +2846,7 @@
     },
     {
       "id": "a2z-879",
-      "order": 118,
+      "order": 110,
       "title": "Check if there exists a subsequence with sum K",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3046,7 +2866,7 @@
     },
     {
       "id": "a2z-880",
-      "order": 119,
+      "order": 111,
       "title": "Count all subsequences with sum K",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3066,7 +2886,7 @@
     },
     {
       "id": "a2z-864",
-      "order": 120,
+      "order": 112,
       "title": "Combination Sum",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3095,7 +2915,7 @@
     },
     {
       "id": "a2z-865",
-      "order": 121,
+      "order": 113,
       "title": "Combination Sum II",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3120,7 +2940,7 @@
     },
     {
       "id": "a2z-867",
-      "order": 122,
+      "order": 114,
       "title": "Subsets I",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3149,7 +2969,7 @@
     },
     {
       "id": "a2z-868",
-      "order": 123,
+      "order": 115,
       "title": "Subsets II",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3174,7 +2994,7 @@
     },
     {
       "id": "a2z-866",
-      "order": 124,
+      "order": 116,
       "title": "Combination Sum III",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3199,7 +3019,7 @@
     },
     {
       "id": "a2z-875",
-      "order": 125,
+      "order": 117,
       "title": "Letter Combinations of a Phone Number",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3224,7 +3044,7 @@
     },
     {
       "id": "a2z-871",
-      "order": 126,
+      "order": 118,
       "title": "Palindrome partitioning",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3249,7 +3069,7 @@
     },
     {
       "id": "a2z-874",
-      "order": 127,
+      "order": 119,
       "title": "Word Search",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3274,7 +3094,7 @@
     },
     {
       "id": "a2z-870",
-      "order": 128,
+      "order": 120,
       "title": "N Queen",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3299,7 +3119,7 @@
     },
     {
       "id": "a2z-872",
-      "order": 129,
+      "order": 121,
       "title": "Rat in a Maze",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3332,7 +3152,7 @@
     },
     {
       "id": "a2z-869",
-      "order": 130,
+      "order": 122,
       "title": "M Coloring Problem",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3365,7 +3185,7 @@
     },
     {
       "id": "a2z-873",
-      "order": 131,
+      "order": 123,
       "title": "Sudoku Solver",
       "step": 7,
       "stepTitle": "Recursion",
@@ -3393,33 +3213,8 @@
       "lcSlug": "sudoku-solver"
     },
     {
-      "id": "a2z-347",
-      "order": 132,
-      "title": "Convert Array to Doubly Linked List",
-      "step": 8,
-      "stepTitle": "Linked-List",
-      "topic": "Fundamentals (Doubly LL)",
-      "tier": "core",
-      "difficulty": "Easy",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/problems/create-a-doubly-linked-list-from-a-given-array/1",
-      "altUrls": [
-        {
-          "platform": "takeuforward",
-          "url": "https://takeuforward.org/practice/dsa/convert-array-to-dll?category=fundamentals-doubly-ll&source=strivers-a2z-dsa-sheet"
-        }
-      ],
-      "article": null,
-      "video": null,
-      "premium": false,
-      "duration": "10 min",
-      "slug": "convert-array-to-dll",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-625",
-      "order": 133,
+      "order": 124,
       "title": "Add two numbers in Linked List",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3444,7 +3239,7 @@
     },
     {
       "id": "a2z-628",
-      "order": 134,
+      "order": 125,
       "title": "Segregate odd and even nodes in Linked List",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3469,7 +3264,7 @@
     },
     {
       "id": "a2z-629",
-      "order": 135,
+      "order": 126,
       "title": "Sort a Linked List of 0's 1's and 2's",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3498,7 +3293,7 @@
     },
     {
       "id": "a2z-626",
-      "order": 136,
+      "order": 127,
       "title": "Remove Nth node from the back of the LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3523,7 +3318,7 @@
     },
     {
       "id": "a2z-627",
-      "order": 137,
+      "order": 128,
       "title": "Reverse a LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3548,7 +3343,7 @@
     },
     {
       "id": "a2z-617",
-      "order": 138,
+      "order": 129,
       "title": "Add one to a number represented by LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3568,7 +3363,7 @@
     },
     {
       "id": "a2z-448",
-      "order": 139,
+      "order": 130,
       "title": "Find Middle of Linked List",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3593,7 +3388,7 @@
     },
     {
       "id": "a2z-619",
-      "order": 140,
+      "order": 131,
       "title": "Delete the middle node in LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3618,7 +3413,7 @@
     },
     {
       "id": "a2z-618",
-      "order": 141,
+      "order": 132,
       "title": "Check if LL is palindrome or not",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3643,7 +3438,7 @@
     },
     {
       "id": "a2z-621",
-      "order": 142,
+      "order": 133,
       "title": "Find the intersection point of Y LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3668,7 +3463,7 @@
     },
     {
       "id": "a2z-620",
-      "order": 143,
+      "order": 134,
       "title": "Detect a loop in LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3697,7 +3492,7 @@
     },
     {
       "id": "a2z-622",
-      "order": 144,
+      "order": 135,
       "title": "Find the starting point in LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3730,7 +3525,7 @@
     },
     {
       "id": "a2z-623",
-      "order": 145,
+      "order": 136,
       "title": "Length of loop in LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3750,7 +3545,7 @@
     },
     {
       "id": "a2z-614",
-      "order": 146,
+      "order": 137,
       "title": "Reverse LL in group of given size K",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3775,7 +3570,7 @@
     },
     {
       "id": "a2z-615",
-      "order": 147,
+      "order": 138,
       "title": "Rotate a LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3800,7 +3595,7 @@
     },
     {
       "id": "a2z-613",
-      "order": 148,
+      "order": 139,
       "title": "Merge two Sorted Lists",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3825,7 +3620,7 @@
     },
     {
       "id": "a2z-612",
-      "order": 149,
+      "order": 140,
       "title": "Flattening of LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3854,7 +3649,7 @@
     },
     {
       "id": "a2z-616",
-      "order": 150,
+      "order": 141,
       "title": "Sort LL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3879,7 +3674,7 @@
     },
     {
       "id": "a2z-611",
-      "order": 151,
+      "order": 142,
       "title": "Clone a LL with random and next pointer",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3904,7 +3699,7 @@
     },
     {
       "id": "a2z-609",
-      "order": 152,
+      "order": 143,
       "title": "Delete all occurrences of a key in DLL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3933,7 +3728,7 @@
     },
     {
       "id": "a2z-610",
-      "order": 153,
+      "order": 144,
       "title": "Remove duplicates from sorted DLL",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3958,7 +3753,7 @@
     },
     {
       "id": "a2z-452",
-      "order": 154,
+      "order": 145,
       "title": "Find Pairs with Given Sum in Doubly Linked List",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -3987,7 +3782,7 @@
     },
     {
       "id": "a2z-141",
-      "order": 155,
+      "order": 146,
       "title": "Minimum Bit Flips to Convert Number",
       "step": 9,
       "stepTitle": "Bit Manipulation",
@@ -4016,7 +3811,7 @@
     },
     {
       "id": "a2z-143",
-      "order": 156,
+      "order": 147,
       "title": "Single Number - I",
       "step": 9,
       "stepTitle": "Bit Manipulation",
@@ -4041,7 +3836,7 @@
     },
     {
       "id": "a2z-144",
-      "order": 157,
+      "order": 148,
       "title": "Single Number - II",
       "step": 9,
       "stepTitle": "Bit Manipulation",
@@ -4061,7 +3856,7 @@
     },
     {
       "id": "a2z-145",
-      "order": 158,
+      "order": 149,
       "title": "Single Number - III",
       "step": 9,
       "stepTitle": "Bit Manipulation",
@@ -4081,7 +3876,7 @@
     },
     {
       "id": "a2z-140",
-      "order": 159,
+      "order": 150,
       "title": "Divide two numbers without multiplication and division",
       "step": 9,
       "stepTitle": "Bit Manipulation",
@@ -4106,7 +3901,7 @@
     },
     {
       "id": "a2z-142",
-      "order": 160,
+      "order": 151,
       "title": "Power Set Bit Manipulation",
       "step": 9,
       "stepTitle": "Bit Manipulation",
@@ -4131,7 +3926,7 @@
     },
     {
       "id": "a2z-146",
-      "order": 161,
+      "order": 152,
       "title": "XOR of numbers in a given range",
       "step": 9,
       "stepTitle": "Bit Manipulation",
@@ -4156,7 +3951,7 @@
     },
     {
       "id": "a2z-541",
-      "order": 162,
+      "order": 153,
       "title": "Assign Cookies",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4185,7 +3980,7 @@
     },
     {
       "id": "a2z-543",
-      "order": 163,
+      "order": 154,
       "title": "Lemonade Change",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4210,7 +4005,7 @@
     },
     {
       "id": "a2z-489",
-      "order": 164,
+      "order": 155,
       "title": "Fractional Knapsack",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4239,7 +4034,7 @@
     },
     {
       "id": "a2z-542",
-      "order": 165,
+      "order": 156,
       "title": "Jump Game - I",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4264,7 +4059,7 @@
     },
     {
       "id": "a2z-551",
-      "order": 166,
+      "order": 157,
       "title": "Shortest Job First",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4289,7 +4084,7 @@
     },
     {
       "id": "a2z-547",
-      "order": 167,
+      "order": 158,
       "title": "Job sequencing Problem",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4322,7 +4117,7 @@
     },
     {
       "id": "a2z-549",
-      "order": 168,
+      "order": 159,
       "title": "N meetings in one room",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4351,7 +4146,7 @@
     },
     {
       "id": "a2z-550",
-      "order": 169,
+      "order": 160,
       "title": "Non-overlapping Intervals",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4376,7 +4171,7 @@
     },
     {
       "id": "a2z-546",
-      "order": 170,
+      "order": 161,
       "title": "Insert Interval",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4401,7 +4196,7 @@
     },
     {
       "id": "a2z-712",
-      "order": 171,
+      "order": 162,
       "title": "Merge Intervals",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4426,7 +4221,7 @@
     },
     {
       "id": "a2z-548",
-      "order": 172,
+      "order": 163,
       "title": "Minimum number of platforms required for a railway",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4451,7 +4246,7 @@
     },
     {
       "id": "a2z-545",
-      "order": 173,
+      "order": 164,
       "title": "Valid Paranthesis Checker",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4476,7 +4271,7 @@
     },
     {
       "id": "a2z-544",
-      "order": 174,
+      "order": 165,
       "title": "Candy",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4501,7 +4296,7 @@
     },
     {
       "id": "a2z-595",
-      "order": 175,
+      "order": 166,
       "title": "Jump Game II",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -4526,7 +4321,7 @@
     },
     {
       "id": "a2z-922",
-      "order": 176,
+      "order": 167,
       "title": "Maximum Points You Can Obtain from Cards",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4551,7 +4346,7 @@
     },
     {
       "id": "a2z-929",
-      "order": 177,
+      "order": 168,
       "title": "Longest Substring Without Repeating Characters",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4576,7 +4371,7 @@
     },
     {
       "id": "a2z-930",
-      "order": 178,
+      "order": 169,
       "title": "Max Consecutive Ones III",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4601,7 +4396,7 @@
     },
     {
       "id": "a2z-926",
-      "order": 179,
+      "order": 170,
       "title": "Fruit Into Baskets",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4626,7 +4421,7 @@
     },
     {
       "id": "a2z-928",
-      "order": 180,
+      "order": 171,
       "title": "Longest Substring With At Most K Distinct Characters",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4651,7 +4446,7 @@
     },
     {
       "id": "a2z-927",
-      "order": 181,
+      "order": 172,
       "title": "Longest Repeating Character Replacement",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4676,7 +4471,7 @@
     },
     {
       "id": "a2z-931",
-      "order": 182,
+      "order": 173,
       "title": "Minimum Window Substring",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4701,7 +4496,7 @@
     },
     {
       "id": "a2z-925",
-      "order": 183,
+      "order": 174,
       "title": "Number of Substrings Containing All Three Characters",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4726,7 +4521,7 @@
     },
     {
       "id": "a2z-923",
-      "order": 184,
+      "order": 175,
       "title": "Binary Subarrays With Sum",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4751,7 +4546,7 @@
     },
     {
       "id": "a2z-924",
-      "order": 185,
+      "order": 176,
       "title": "Count number of Nice subarrays",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4776,7 +4571,7 @@
     },
     {
       "id": "a2z-988",
-      "order": 186,
+      "order": 177,
       "title": "Subarrays with K Different Integers",
       "step": 11,
       "stepTitle": "Sliding Window / 2 Pointer",
@@ -4801,7 +4596,7 @@
     },
     {
       "id": "a2z-390",
-      "order": 187,
+      "order": 178,
       "title": "Implement Stack using Arrays",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -4838,7 +4633,7 @@
     },
     {
       "id": "a2z-387",
-      "order": 188,
+      "order": 179,
       "title": "Implement Queue using Arrays",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -4867,7 +4662,7 @@
     },
     {
       "id": "a2z-392",
-      "order": 189,
+      "order": 180,
       "title": "Implement Stack using Queue",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -4896,7 +4691,7 @@
     },
     {
       "id": "a2z-389",
-      "order": 190,
+      "order": 181,
       "title": "Implement Queue using Stack",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -4924,48 +4719,8 @@
       "lcSlug": "implement-queue-using-stacks"
     },
     {
-      "id": "a2z-391",
-      "order": 191,
-      "title": "Implement stack using Linkedlist",
-      "step": 12,
-      "stepTitle": "Stack / Queues",
-      "topic": "Implementation",
-      "tier": "core",
-      "difficulty": "Easy",
-      "difficultySource": "codolio",
-      "platform": "takeuforward",
-      "url": "https://takeuforward.org/practice/dsa/implement-stack-using-linkedlist?category=implementation&source=strivers-a2z-dsa-sheet",
-      "altUrls": [],
-      "article": "https://takeuforward.org/blogs/data-structure-and-algorithm/implement-a-stack-using-a-linked-list",
-      "video": "https://youtu.be/tqQ5fTamIN4?si=ofLt8Zt1ZvhikZ6w",
-      "premium": false,
-      "duration": "7 min",
-      "slug": "implement-stack-using-linkedlist",
-      "lcSlug": ""
-    },
-    {
-      "id": "a2z-388",
-      "order": 192,
-      "title": "Implement queue using Linkedlist",
-      "step": 12,
-      "stepTitle": "Stack / Queues",
-      "topic": "Implementation",
-      "tier": "core",
-      "difficulty": "",
-      "difficultySource": "",
-      "platform": "takeuforward",
-      "url": "https://takeuforward.org/practice/dsa/implement-queue-using-linkedlist?category=implementation&source=strivers-a2z-dsa-sheet",
-      "altUrls": [],
-      "article": null,
-      "video": "https://youtu.be/tqQ5fTamIN4?si=ofLt8Zt1ZvhikZ6w",
-      "premium": false,
-      "duration": "7 min",
-      "slug": "implement-queue-using-linkedlist",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-966",
-      "order": 193,
+      "order": 182,
       "title": "Balanced Paranthesis",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -4994,7 +4749,7 @@
     },
     {
       "id": "a2z-968",
-      "order": 194,
+      "order": 183,
       "title": "Next Greater Element",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5023,7 +4778,7 @@
     },
     {
       "id": "a2z-969",
-      "order": 195,
+      "order": 184,
       "title": "Next Greater Element - 2",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5048,7 +4803,7 @@
     },
     {
       "id": "a2z-967",
-      "order": 196,
+      "order": 185,
       "title": "Asteroid Collision",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5073,7 +4828,7 @@
     },
     {
       "id": "a2z-971",
-      "order": 197,
+      "order": 186,
       "title": "Sum of Subarray Minimums",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5098,7 +4853,7 @@
     },
     {
       "id": "a2z-972",
-      "order": 198,
+      "order": 187,
       "title": "Sum of Subarray Ranges",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5123,7 +4878,7 @@
     },
     {
       "id": "a2z-970",
-      "order": 199,
+      "order": 188,
       "title": "Remove K Digits",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5148,7 +4903,7 @@
     },
     {
       "id": "a2z-958",
-      "order": 200,
+      "order": 189,
       "title": "Implement Min Stack",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5173,7 +4928,7 @@
     },
     {
       "id": "a2z-963",
-      "order": 201,
+      "order": 190,
       "title": "Sliding Window Maximum",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5206,7 +4961,7 @@
     },
     {
       "id": "a2z-965",
-      "order": 202,
+      "order": 191,
       "title": "Trapping Rainwater",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5235,7 +4990,7 @@
     },
     {
       "id": "a2z-959",
-      "order": 203,
+      "order": 192,
       "title": "Largest rectangle in a histogram",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5264,7 +5019,7 @@
     },
     {
       "id": "a2z-962",
-      "order": 204,
+      "order": 193,
       "title": "Maximum Rectangles",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5293,7 +5048,7 @@
     },
     {
       "id": "a2z-964",
-      "order": 205,
+      "order": 194,
       "title": "Stock span problem",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5318,7 +5073,7 @@
     },
     {
       "id": "a2z-957",
-      "order": 206,
+      "order": 195,
       "title": "Celebrity Problem",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5343,7 +5098,7 @@
     },
     {
       "id": "a2z-961",
-      "order": 207,
+      "order": 196,
       "title": "LRU Cache",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5372,7 +5127,7 @@
     },
     {
       "id": "a2z-960",
-      "order": 208,
+      "order": 197,
       "title": "LFU Cache",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -5397,7 +5152,7 @@
     },
     {
       "id": "a2z-133",
-      "order": 209,
+      "order": 198,
       "title": "Inorder Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5426,7 +5181,7 @@
     },
     {
       "id": "a2z-137",
-      "order": 210,
+      "order": 199,
       "title": "Preorder Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5455,7 +5210,7 @@
     },
     {
       "id": "a2z-135",
-      "order": 211,
+      "order": 200,
       "title": "Postorder Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5484,7 +5239,7 @@
     },
     {
       "id": "a2z-134",
-      "order": 212,
+      "order": 201,
       "title": "Level Order Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5513,7 +5268,7 @@
     },
     {
       "id": "a2z-136",
-      "order": 213,
+      "order": 202,
       "title": "Pre, Post, Inorder in one traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5533,7 +5288,7 @@
     },
     {
       "id": "a2z-131",
-      "order": 214,
+      "order": 203,
       "title": "Maximum Depth in BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5558,7 +5313,7 @@
     },
     {
       "id": "a2z-129",
-      "order": 215,
+      "order": 204,
       "title": "Check if two trees are identical or not",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5583,7 +5338,7 @@
     },
     {
       "id": "a2z-127",
-      "order": 216,
+      "order": 205,
       "title": "Check for balanced binary tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5612,7 +5367,7 @@
     },
     {
       "id": "a2z-130",
-      "order": 217,
+      "order": 206,
       "title": "Diameter of Binary Tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5641,7 +5396,7 @@
     },
     {
       "id": "a2z-132",
-      "order": 218,
+      "order": 207,
       "title": "Maximum path sum",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5666,7 +5421,7 @@
     },
     {
       "id": "a2z-128",
-      "order": 219,
+      "order": 208,
       "title": "Check for symmetrical BTs",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5691,7 +5446,7 @@
     },
     {
       "id": "a2z-185",
-      "order": 220,
+      "order": 209,
       "title": "Children Sum Property in Binary Tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5716,7 +5471,7 @@
     },
     {
       "id": "a2z-126",
-      "order": 221,
+      "order": 210,
       "title": "Zig Zag or Spiral Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5741,7 +5496,7 @@
     },
     {
       "id": "a2z-116",
-      "order": 222,
+      "order": 211,
       "title": "Boundary Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5766,7 +5521,7 @@
     },
     {
       "id": "a2z-125",
-      "order": 223,
+      "order": 212,
       "title": "Vertical Order Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5791,7 +5546,7 @@
     },
     {
       "id": "a2z-124",
-      "order": 224,
+      "order": 213,
       "title": "Top View of BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5820,7 +5575,7 @@
     },
     {
       "id": "a2z-115",
-      "order": 225,
+      "order": 214,
       "title": "Bottom view of BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5849,7 +5604,7 @@
     },
     {
       "id": "a2z-123",
-      "order": 226,
+      "order": 215,
       "title": "Right/Left View of BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5874,7 +5629,7 @@
     },
     {
       "id": "a2z-122",
-      "order": 227,
+      "order": 216,
       "title": "Print root to leaf path in BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5899,7 +5654,7 @@
     },
     {
       "id": "a2z-118",
-      "order": 228,
+      "order": 217,
       "title": "LCA in BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5924,7 +5679,7 @@
     },
     {
       "id": "a2z-119",
-      "order": 229,
+      "order": 218,
       "title": "Maximum Width of BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5949,7 +5704,7 @@
     },
     {
       "id": "a2z-121",
-      "order": 230,
+      "order": 219,
       "title": "Print all nodes at a distance of K in BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5974,7 +5729,7 @@
     },
     {
       "id": "a2z-120",
-      "order": 231,
+      "order": 220,
       "title": "Minimum time taken to burn the BT from a given Node",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -5994,7 +5749,7 @@
     },
     {
       "id": "a2z-117",
-      "order": 232,
+      "order": 221,
       "title": "Count total nodes in a complete BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -6019,7 +5774,7 @@
     },
     {
       "id": "a2z-486",
-      "order": 233,
+      "order": 222,
       "title": "Flatten Binary Tree to Linked List",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -6043,28 +5798,8 @@
       "lcSlug": "flatten-binary-tree-to-linked-list"
     },
     {
-      "id": "a2z-111",
-      "order": 234,
-      "title": "Requirements needed to construct a unique BT",
-      "step": 13,
-      "stepTitle": "Binary Trees",
-      "topic": "Construction Problems",
-      "tier": "core",
-      "difficulty": "",
-      "difficultySource": "",
-      "platform": "takeuforward",
-      "url": "https://takeuforward.org/practice/dsa/requirements-needed-to-construct-a-unique-bt?category=construction-problems&source=strivers-a2z-dsa-sheet",
-      "altUrls": [],
-      "article": null,
-      "video": "https://youtu.be/9GMECGQgWrQ",
-      "premium": false,
-      "duration": "7 min",
-      "slug": "requirements-needed-to-construct-a-unique-bt",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-110",
-      "order": 235,
+      "order": 223,
       "title": "Construct a BT from Preorder and Inorder",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -6089,7 +5824,7 @@
     },
     {
       "id": "a2z-109",
-      "order": 236,
+      "order": 224,
       "title": "Construct a BT from Postorder and Inorder",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -6114,7 +5849,7 @@
     },
     {
       "id": "a2z-112",
-      "order": 237,
+      "order": 225,
       "title": "Serialize and De-serialize BT",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -6139,7 +5874,7 @@
     },
     {
       "id": "a2z-139",
-      "order": 238,
+      "order": 226,
       "title": "Morris Inorder Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -6164,7 +5899,7 @@
     },
     {
       "id": "a2z-138",
-      "order": 239,
+      "order": 227,
       "title": "Morris Preorder Traversal",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -6189,7 +5924,7 @@
     },
     {
       "id": "a2z-108",
-      "order": 240,
+      "order": 228,
       "title": "Search in BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6214,7 +5949,7 @@
     },
     {
       "id": "a2z-107",
-      "order": 241,
+      "order": 229,
       "title": "Floor and Ceil in a BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6234,7 +5969,7 @@
     },
     {
       "id": "a2z-104",
-      "order": 242,
+      "order": 230,
       "title": "Insert a given node in BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6259,7 +5994,7 @@
     },
     {
       "id": "a2z-102",
-      "order": 243,
+      "order": 231,
       "title": "Delete a node in BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6284,7 +6019,7 @@
     },
     {
       "id": "a2z-105",
-      "order": 244,
+      "order": 232,
       "title": "Kth Smallest and Largest element in BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6309,7 +6044,7 @@
     },
     {
       "id": "a2z-100",
-      "order": 245,
+      "order": 233,
       "title": "Check if a tree is a BST or not",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6338,7 +6073,7 @@
     },
     {
       "id": "a2z-106",
-      "order": 246,
+      "order": 234,
       "title": "LCA in BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6363,7 +6098,7 @@
     },
     {
       "id": "a2z-101",
-      "order": 247,
+      "order": 235,
       "title": "Construct a BST from a preorder traversal",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6388,7 +6123,7 @@
     },
     {
       "id": "a2z-103",
-      "order": 248,
+      "order": 236,
       "title": "Inorder successor and predecessor in BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6413,7 +6148,7 @@
     },
     {
       "id": "a2z-96",
-      "order": 249,
+      "order": 237,
       "title": "BST iterator",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6438,7 +6173,7 @@
     },
     {
       "id": "a2z-99",
-      "order": 250,
+      "order": 238,
       "title": "Two sum in BST",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6463,7 +6198,7 @@
     },
     {
       "id": "a2z-97",
-      "order": 251,
+      "order": 239,
       "title": "Correct BST with two nodes swapped",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6488,7 +6223,7 @@
     },
     {
       "id": "a2z-98",
-      "order": 252,
+      "order": 240,
       "title": "Largest BST in Binary Tree",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -6513,7 +6248,7 @@
     },
     {
       "id": "a2z-573",
-      "order": 253,
+      "order": 241,
       "title": "Heapify Algorithm",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6533,7 +6268,7 @@
     },
     {
       "id": "a2z-570",
-      "order": 254,
+      "order": 242,
       "title": "Build heap from a given Array",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6558,7 +6293,7 @@
     },
     {
       "id": "a2z-576",
-      "order": 255,
+      "order": 243,
       "title": "Implement Min Heap",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6583,7 +6318,7 @@
     },
     {
       "id": "a2z-575",
-      "order": 256,
+      "order": 244,
       "title": "Implement Max Heap",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6608,7 +6343,7 @@
     },
     {
       "id": "a2z-571",
-      "order": 257,
+      "order": 245,
       "title": "Check if an array represents a min heap",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6628,7 +6363,7 @@
     },
     {
       "id": "a2z-572",
-      "order": 258,
+      "order": 246,
       "title": "Convert Min Heap to Max Heap",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6653,7 +6388,7 @@
     },
     {
       "id": "a2z-574",
-      "order": 259,
+      "order": 247,
       "title": "Heap Sort",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6682,7 +6417,7 @@
     },
     {
       "id": "a2z-578",
-      "order": 260,
+      "order": 248,
       "title": "K-th Largest element in an array",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6707,7 +6442,7 @@
     },
     {
       "id": "a2z-567",
-      "order": 261,
+      "order": 249,
       "title": "Kth largest element in a stream of running integers",
       "step": 15,
       "stepTitle": "Heaps",
@@ -6731,28 +6466,8 @@
       "lcSlug": "kth-largest-element-in-a-stream"
     },
     {
-      "id": "a2z-529",
-      "order": 262,
-      "title": "Traversal Techniques",
-      "step": 16,
-      "stepTitle": "Graphs",
-      "topic": "Theory and traversals",
-      "tier": "core",
-      "difficulty": "",
-      "difficultySource": "",
-      "platform": "takeuforward",
-      "url": "https://takeuforward.org/practice/dsa/traversal-techniques?category=theory-and-traversals&source=strivers-a2z-dsa-sheet",
-      "altUrls": [],
-      "article": null,
-      "video": "https://youtu.be/Qzf1a--rhp8",
-      "premium": false,
-      "duration": "39 min",
-      "slug": "traversal-techniques",
-      "lcSlug": ""
-    },
-    {
       "id": "a2z-528",
-      "order": 263,
+      "order": 250,
       "title": "Connected Components",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6781,7 +6496,7 @@
     },
     {
       "id": "a2z-535",
-      "order": 264,
+      "order": 251,
       "title": "Number of provinces",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6806,7 +6521,7 @@
     },
     {
       "id": "a2z-534",
-      "order": 265,
+      "order": 252,
       "title": "Number of islands",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6835,7 +6550,7 @@
     },
     {
       "id": "a2z-531",
-      "order": 266,
+      "order": 253,
       "title": "Flood fill algorithm",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6860,7 +6575,7 @@
     },
     {
       "id": "a2z-533",
-      "order": 267,
+      "order": 254,
       "title": "Number of enclaves",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6885,7 +6600,7 @@
     },
     {
       "id": "a2z-536",
-      "order": 268,
+      "order": 255,
       "title": "Rotten Oranges",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6910,7 +6625,7 @@
     },
     {
       "id": "a2z-530",
-      "order": 269,
+      "order": 256,
       "title": "Distance of nearest cell having one",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6935,7 +6650,7 @@
     },
     {
       "id": "a2z-537",
-      "order": 270,
+      "order": 257,
       "title": "Surrounded Regions",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6960,7 +6675,7 @@
     },
     {
       "id": "a2z-532",
-      "order": 271,
+      "order": 258,
       "title": "Number of distinct islands",
       "step": 16,
       "stepTitle": "Graphs",
@@ -6985,7 +6700,7 @@
     },
     {
       "id": "a2z-501",
-      "order": 272,
+      "order": 259,
       "title": "Detect a cycle in an undirected graph",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7010,7 +6725,7 @@
     },
     {
       "id": "a2z-499",
-      "order": 273,
+      "order": 260,
       "title": "Bipartite graph",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7035,7 +6750,7 @@
     },
     {
       "id": "a2z-502",
-      "order": 274,
+      "order": 261,
       "title": "Topological sort or Kahn's algorithm",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7064,7 +6779,7 @@
     },
     {
       "id": "a2z-500",
-      "order": 275,
+      "order": 262,
       "title": "Detect a cycle in a directed graph",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7089,7 +6804,7 @@
     },
     {
       "id": "a2z-506",
-      "order": 276,
+      "order": 263,
       "title": "Find eventual safe states",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7114,7 +6829,7 @@
     },
     {
       "id": "a2z-504",
-      "order": 277,
+      "order": 264,
       "title": "Course Schedule I",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7139,7 +6854,7 @@
     },
     {
       "id": "a2z-505",
-      "order": 278,
+      "order": 265,
       "title": "Course Schedule II",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7164,7 +6879,7 @@
     },
     {
       "id": "a2z-503",
-      "order": 279,
+      "order": 266,
       "title": "Alien Dictionary",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7193,7 +6908,7 @@
     },
     {
       "id": "a2z-507",
-      "order": 280,
+      "order": 267,
       "title": "Shortest path in DAG",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7218,7 +6933,7 @@
     },
     {
       "id": "a2z-508",
-      "order": 281,
+      "order": 268,
       "title": "Shortest path in undirected graph with unit weights",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7238,7 +6953,7 @@
     },
     {
       "id": "a2z-509",
-      "order": 282,
+      "order": 269,
       "title": "Word ladder I",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7263,7 +6978,7 @@
     },
     {
       "id": "a2z-510",
-      "order": 283,
+      "order": 270,
       "title": "Word ladder II",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7288,7 +7003,7 @@
     },
     {
       "id": "a2z-520",
-      "order": 284,
+      "order": 271,
       "title": "Dijkstra's algorithm",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7317,7 +7032,7 @@
     },
     {
       "id": "a2z-526",
-      "order": 285,
+      "order": 272,
       "title": "Print Shortest Path",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7342,7 +7057,7 @@
     },
     {
       "id": "a2z-527",
-      "order": 286,
+      "order": 273,
       "title": "Shortest Distance in a Binary Maze",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7367,7 +7082,7 @@
     },
     {
       "id": "a2z-525",
-      "order": 287,
+      "order": 274,
       "title": "Path with minimum effort",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7392,7 +7107,7 @@
     },
     {
       "id": "a2z-519",
-      "order": 288,
+      "order": 275,
       "title": "Cheapest flight within K stops",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7421,7 +7136,7 @@
     },
     {
       "id": "a2z-523",
-      "order": 289,
+      "order": 276,
       "title": "Minimum multiplications to reach end",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7446,7 +7161,7 @@
     },
     {
       "id": "a2z-524",
-      "order": 290,
+      "order": 277,
       "title": "Number of ways to arrive at destination",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7471,7 +7186,7 @@
     },
     {
       "id": "a2z-518",
-      "order": 291,
+      "order": 278,
       "title": "Bellman ford algorithm",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7496,7 +7211,7 @@
     },
     {
       "id": "a2z-522",
-      "order": 292,
+      "order": 279,
       "title": "Floyd warshall algorithm",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7525,7 +7240,7 @@
     },
     {
       "id": "a2z-521",
-      "order": 293,
+      "order": 280,
       "title": "Find the city with the smallest number of neighbors",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7550,7 +7265,7 @@
     },
     {
       "id": "a2z-516",
-      "order": 294,
+      "order": 281,
       "title": "Disjoint Set",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7575,7 +7290,7 @@
     },
     {
       "id": "a2z-517",
-      "order": 295,
+      "order": 282,
       "title": "Find the MST weight",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7595,7 +7310,7 @@
     },
     {
       "id": "a2z-515",
-      "order": 296,
+      "order": 283,
       "title": "Number of operations to make network connected",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7620,7 +7335,7 @@
     },
     {
       "id": "a2z-511",
-      "order": 297,
+      "order": 284,
       "title": "Accounts merge",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7645,7 +7360,7 @@
     },
     {
       "id": "a2z-514",
-      "order": 298,
+      "order": 285,
       "title": "Number of islands II",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7670,7 +7385,7 @@
     },
     {
       "id": "a2z-512",
-      "order": 299,
+      "order": 286,
       "title": "Making a large island",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7695,7 +7410,7 @@
     },
     {
       "id": "a2z-513",
-      "order": 300,
+      "order": 287,
       "title": "Most stones removed with same row or column",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7720,7 +7435,7 @@
     },
     {
       "id": "a2z-498",
-      "order": 301,
+      "order": 288,
       "title": "Kosaraju's algorithm",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7749,7 +7464,7 @@
     },
     {
       "id": "a2z-497",
-      "order": 302,
+      "order": 289,
       "title": "Bridges in graph",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7774,7 +7489,7 @@
     },
     {
       "id": "a2z-496",
-      "order": 303,
+      "order": 290,
       "title": "Articulation point in graph",
       "step": 16,
       "stepTitle": "Graphs",
@@ -7799,7 +7514,7 @@
     },
     {
       "id": "a2z-287",
-      "order": 304,
+      "order": 291,
       "title": "Climbing stairs",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -7824,7 +7539,7 @@
     },
     {
       "id": "a2z-288",
-      "order": 305,
+      "order": 292,
       "title": "Frog Jump",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -7849,7 +7564,7 @@
     },
     {
       "id": "a2z-289",
-      "order": 306,
+      "order": 293,
       "title": "Frog jump with K distances",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -7869,7 +7584,7 @@
     },
     {
       "id": "a2z-291",
-      "order": 307,
+      "order": 294,
       "title": "Maximum sum of non adjacent elements",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -7898,7 +7613,7 @@
     },
     {
       "id": "a2z-290",
-      "order": 308,
+      "order": 295,
       "title": "House robber",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -7927,7 +7642,7 @@
     },
     {
       "id": "a2z-292",
-      "order": 309,
+      "order": 296,
       "title": "Ninja's training",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -7960,7 +7675,7 @@
     },
     {
       "id": "a2z-297",
-      "order": 310,
+      "order": 297,
       "title": "Grid unique paths",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -7985,7 +7700,7 @@
     },
     {
       "id": "a2z-300",
-      "order": 311,
+      "order": 298,
       "title": "Unique paths II",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8010,7 +7725,7 @@
     },
     {
       "id": "a2z-298",
-      "order": 312,
+      "order": 299,
       "title": "Minimum Falling Path Sum",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8035,7 +7750,7 @@
     },
     {
       "id": "a2z-299",
-      "order": 313,
+      "order": 300,
       "title": "Triangle",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8060,7 +7775,7 @@
     },
     {
       "id": "a2z-296",
-      "order": 314,
+      "order": 301,
       "title": "Cherry pickup II",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8085,7 +7800,7 @@
     },
     {
       "id": "a2z-301",
-      "order": 315,
+      "order": 302,
       "title": "Best time to buy and sell stock",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8114,7 +7829,7 @@
     },
     {
       "id": "a2z-302",
-      "order": 316,
+      "order": 303,
       "title": "Best time to buy and sell stock II",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8139,7 +7854,7 @@
     },
     {
       "id": "a2z-303",
-      "order": 317,
+      "order": 304,
       "title": "Best time to buy and sell stock III",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8168,7 +7883,7 @@
     },
     {
       "id": "a2z-304",
-      "order": 318,
+      "order": 305,
       "title": "Best time to buy and sell stock IV",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8197,7 +7912,7 @@
     },
     {
       "id": "a2z-305",
-      "order": 319,
+      "order": 306,
       "title": "Best time to buy and sell stock with transaction fees",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8222,7 +7937,7 @@
     },
     {
       "id": "a2z-323",
-      "order": 320,
+      "order": 307,
       "title": "Subset sum equals to target",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8251,7 +7966,7 @@
     },
     {
       "id": "a2z-321",
-      "order": 321,
+      "order": 308,
       "title": "Partition equal subset sum",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8280,7 +7995,7 @@
     },
     {
       "id": "a2z-320",
-      "order": 322,
+      "order": 309,
       "title": "Partition a set into two subsets with minimum absolute sum difference",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8305,7 +8020,7 @@
     },
     {
       "id": "a2z-318",
-      "order": 323,
+      "order": 310,
       "title": "Count subsets with sum K",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8338,7 +8053,7 @@
     },
     {
       "id": "a2z-317",
-      "order": 324,
+      "order": 311,
       "title": "Count partitions with given difference",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8363,7 +8078,7 @@
     },
     {
       "id": "a2z-315",
-      "order": 325,
+      "order": 312,
       "title": "0 and 1 Knapsack",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8392,7 +8107,7 @@
     },
     {
       "id": "a2z-319",
-      "order": 326,
+      "order": 313,
       "title": "Minimum coins",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8421,7 +8136,7 @@
     },
     {
       "id": "a2z-324",
-      "order": 327,
+      "order": 314,
       "title": "Target sum",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8446,7 +8161,7 @@
     },
     {
       "id": "a2z-316",
-      "order": 328,
+      "order": 315,
       "title": "Coin change II",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8471,7 +8186,7 @@
     },
     {
       "id": "a2z-325",
-      "order": 329,
+      "order": 316,
       "title": "Unbounded knapsack",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8496,7 +8211,7 @@
     },
     {
       "id": "a2z-322",
-      "order": 330,
+      "order": 317,
       "title": "Rod cutting problem",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8525,7 +8240,7 @@
     },
     {
       "id": "a2z-636",
-      "order": 331,
+      "order": 318,
       "title": "Longest Increasing Subsequence",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8570,7 +8285,7 @@
     },
     {
       "id": "a2z-851",
-      "order": 332,
+      "order": 319,
       "title": "Print Longest Increasing Subsequence",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8590,7 +8305,7 @@
     },
     {
       "id": "a2z-603",
-      "order": 333,
+      "order": 320,
       "title": "Largest Divisible Subset",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8615,7 +8330,7 @@
     },
     {
       "id": "a2z-640",
-      "order": 334,
+      "order": 321,
       "title": "Longest String Chain",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8640,7 +8355,7 @@
     },
     {
       "id": "a2z-633",
-      "order": 335,
+      "order": 322,
       "title": "Longest Bitonic Subsequence",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8669,7 +8384,7 @@
     },
     {
       "id": "a2z-780",
-      "order": 336,
+      "order": 323,
       "title": "Number of Longest Increasing Subsequences",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8694,7 +8409,7 @@
     },
     {
       "id": "a2z-308",
-      "order": 337,
+      "order": 324,
       "title": "Longest common subsequence",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8731,7 +8446,7 @@
     },
     {
       "id": "a2z-309",
-      "order": 338,
+      "order": 325,
       "title": "Longest common substring",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8760,7 +8475,7 @@
     },
     {
       "id": "a2z-310",
-      "order": 339,
+      "order": 326,
       "title": "Longest palindromic subsequence",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8797,7 +8512,7 @@
     },
     {
       "id": "a2z-312",
-      "order": 340,
+      "order": 327,
       "title": "Minimum insertions to make string palindrome",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8822,7 +8537,7 @@
     },
     {
       "id": "a2z-311",
-      "order": 341,
+      "order": 328,
       "title": "Minimum insertions or deletions to convert string A to B",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8847,7 +8562,7 @@
     },
     {
       "id": "a2z-313",
-      "order": 342,
+      "order": 329,
       "title": "Shortest common supersequence",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8872,7 +8587,7 @@
     },
     {
       "id": "a2z-306",
-      "order": 343,
+      "order": 330,
       "title": "Distinct subsequences",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8901,7 +8616,7 @@
     },
     {
       "id": "a2z-307",
-      "order": 344,
+      "order": 331,
       "title": "Edit distance",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8930,7 +8645,7 @@
     },
     {
       "id": "a2z-314",
-      "order": 345,
+      "order": 332,
       "title": "Wildcard matching",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8955,7 +8670,7 @@
     },
     {
       "id": "a2z-327",
-      "order": 346,
+      "order": 333,
       "title": "Matrix chain multiplication",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -8984,7 +8699,7 @@
     },
     {
       "id": "a2z-326",
-      "order": 347,
+      "order": 334,
       "title": "Burst balloons",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -9009,7 +8724,7 @@
     },
     {
       "id": "a2z-329",
-      "order": 348,
+      "order": 335,
       "title": "Palindrome partitioning II",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -9034,7 +8749,7 @@
     },
     {
       "id": "a2z-810",
-      "order": 349,
+      "order": 336,
       "title": "Partition Array for Maximum Sum",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -9059,7 +8774,7 @@
     },
     {
       "id": "a2z-276",
-      "order": 350,
+      "order": 337,
       "title": "Different Ways to Evaluate a Boolean Expression",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -9084,7 +8799,7 @@
     },
     {
       "id": "a2z-1028",
-      "order": 351,
+      "order": 338,
       "title": "Trie Implementation and Operations",
       "step": 18,
       "stepTitle": "Tries",
@@ -9109,7 +8824,7 @@
     },
     {
       "id": "a2z-1027",
-      "order": 352,
+      "order": 339,
       "title": "Trie Implementation and Advanced Operations",
       "step": 18,
       "stepTitle": "Tries",
@@ -9129,7 +8844,7 @@
     },
     {
       "id": "a2z-1023",
-      "order": 353,
+      "order": 340,
       "title": "Longest Word with All Prefixes",
       "step": 18,
       "stepTitle": "Tries",
@@ -9154,7 +8869,7 @@
     },
     {
       "id": "a2z-1026",
-      "order": 354,
+      "order": 341,
       "title": "Number of distinct substrings in a string",
       "step": 18,
       "stepTitle": "Tries",
@@ -9179,7 +8894,7 @@
     },
     {
       "id": "a2z-1024",
-      "order": 355,
+      "order": 342,
       "title": "Maximum XOR of two numbers in an array",
       "step": 18,
       "stepTitle": "Tries",
@@ -9204,7 +8919,7 @@
     },
     {
       "id": "a2z-1025",
-      "order": 356,
+      "order": 343,
       "title": "Maximum Xor with an element from an array",
       "step": 18,
       "stepTitle": "Tries",
@@ -9229,7 +8944,7 @@
     },
     {
       "id": "a2z-984",
-      "order": 357,
+      "order": 344,
       "title": "Reverse every word in a string",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9254,7 +8969,7 @@
     },
     {
       "id": "a2z-983",
-      "order": 358,
+      "order": 345,
       "title": "Minimum number of bracket reversals to make an expression balanced",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9279,7 +8994,7 @@
     },
     {
       "id": "a2z-982",
-      "order": 359,
+      "order": 346,
       "title": "Count and say",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9304,7 +9019,7 @@
     },
     {
       "id": "a2z-979",
-      "order": 360,
+      "order": 347,
       "title": "Rabin Karp Algorithm",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9329,7 +9044,7 @@
     },
     {
       "id": "a2z-981",
-      "order": 361,
+      "order": 348,
       "title": "Z function",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9349,7 +9064,7 @@
     },
     {
       "id": "a2z-977",
-      "order": 362,
+      "order": 349,
       "title": "KMP Algorithm or LPS array",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9374,7 +9089,7 @@
     },
     {
       "id": "a2z-980",
-      "order": 363,
+      "order": 350,
       "title": "Shortest Palindrome",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9399,7 +9114,7 @@
     },
     {
       "id": "a2z-978",
-      "order": 364,
+      "order": 351,
       "title": "Longest happy prefix",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9424,7 +9139,7 @@
     },
     {
       "id": "a2z-653",
-      "order": 365,
+      "order": 352,
       "title": "Print all primes till N",
       "step": 20,
       "stepTitle": "Maths",
@@ -9444,7 +9159,7 @@
     },
     {
       "id": "a2z-652",
-      "order": 366,
+      "order": 353,
       "title": "Prime factorisation of a Number",
       "step": 20,
       "stepTitle": "Maths",
@@ -9464,7 +9179,7 @@
     },
     {
       "id": "a2z-651",
-      "order": 367,
+      "order": 354,
       "title": "Count primes in range L to R",
       "step": 20,
       "stepTitle": "Maths",
@@ -9488,48 +9203,8 @@
       "lcSlug": "count-primes"
     },
     {
-      "id": "gfg-450-0023",
-      "order": 368,
-      "title": "Word Wrap Problem .",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/word-wrap/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/word-wrap/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "word-wrap-problem",
-      "lcSlug": ""
-    },
-    {
-      "id": "gfg-450-0031",
-      "order": 369,
-      "title": "Search a Word in a 2D Grid of characters.",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/find-the-string-in-grid/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/find-the-string-in-grid/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "search-a-word-in-a-2d-grid-of-characters",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0032",
-      "order": 370,
+      "order": 355,
       "title": "Boyer Moore Algorithm for Pattern Searching.",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9549,7 +9224,7 @@
     },
     {
       "id": "gfg-450-0037",
-      "order": 371,
+      "order": 356,
       "title": "Program to generate all possible valid IP addresses from given  string.",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9569,7 +9244,7 @@
     },
     {
       "id": "gfg-450-0038",
-      "order": 372,
+      "order": 357,
       "title": "Write a program tofind the smallest window that contains all characters of string itself.",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9589,7 +9264,7 @@
     },
     {
       "id": "gfg-450-0040",
-      "order": 373,
+      "order": 358,
       "title": "Minimum characters to be added at front to make string palindrome",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -9608,48 +9283,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0042",
-      "order": 374,
-      "title": "Find the smallest window in a string containing all characters of another string",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "find-the-smallest-window-in-a-string-containing-all-characters-of-another-string",
-      "lcSlug": ""
-    },
-    {
-      "id": "gfg-450-0044",
-      "order": 375,
-      "title": "String matching where one string contains wildcard characters",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/wildcard-string-matching/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/wildcard-string-matching/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "string-matching-where-one-string-contains-wildcard-characters",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0058",
-      "order": 376,
+      "order": 359,
       "title": "Job Scheduling Algo",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -9669,7 +9304,7 @@
     },
     {
       "id": "gfg-450-0072",
-      "order": 377,
+      "order": 360,
       "title": "Merge Sort For Linked lists.",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -9689,7 +9324,7 @@
     },
     {
       "id": "gfg-450-0073",
-      "order": 378,
+      "order": 361,
       "title": "Quicksort for Linked Lists.",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -9709,7 +9344,7 @@
     },
     {
       "id": "gfg-450-0075",
-      "order": 379,
+      "order": 362,
       "title": "Split a Circular linked list into two halves.",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -9729,7 +9364,7 @@
     },
     {
       "id": "gfg-450-0080",
-      "order": 380,
+      "order": 363,
       "title": "Sort a “k”sorted Doubly Linked list.",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -9748,28 +9383,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0081",
-      "order": 381,
-      "title": "Rotate DoublyLinked list by N nodes.",
-      "step": 8,
-      "stepTitle": "Linked-List",
-      "topic": "GFG 450 - LinkedList",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/rotate-doubly-linked-list-n-nodes/",
-      "altUrls": [],
-      "article": "https://www.geeksforgeeks.org/rotate-doubly-linked-list-n-nodes/",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "rotate-doublylinked-list-by-n-nodes",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0082",
-      "order": 382,
+      "order": 364,
       "title": "Rotate a Doubly Linked list in group of Given Size.",
       "step": 8,
       "stepTitle": "Linked-List",
@@ -9788,28 +9403,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0085",
-      "order": 383,
-      "title": "Clone a linked list with next and random pointer",
-      "step": 8,
-      "stepTitle": "Linked-List",
-      "topic": "GFG 450 - LinkedList",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "clone-a-linked-list-with-next-and-random-pointer",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0097",
-      "order": 384,
+      "order": 365,
       "title": "Diagnol Traversal of a Binary tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9829,7 +9424,7 @@
     },
     {
       "id": "gfg-450-0104",
-      "order": 385,
+      "order": 366,
       "title": "Check if Binary tree is Sum tree or not",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9849,7 +9444,7 @@
     },
     {
       "id": "gfg-450-0105",
-      "order": 386,
+      "order": 367,
       "title": "Check if all leaf nodes are at same level or not",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9869,7 +9464,7 @@
     },
     {
       "id": "gfg-450-0108",
-      "order": 387,
+      "order": 368,
       "title": "Sum of Nodes on the Longest path from root to leaf node",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9889,7 +9484,7 @@
     },
     {
       "id": "gfg-450-0111",
-      "order": 388,
+      "order": 369,
       "title": "Maximum Sum of nodes in Binary tree such that no two are adjacent",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9909,7 +9504,7 @@
     },
     {
       "id": "gfg-450-0112",
-      "order": 389,
+      "order": 370,
       "title": "Print all \"K\" Sum paths in a Binary tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9929,7 +9524,7 @@
     },
     {
       "id": "gfg-450-0114",
-      "order": 390,
+      "order": 371,
       "title": "Find distance between 2 nodes in a Binary tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9949,7 +9544,7 @@
     },
     {
       "id": "gfg-450-0115",
-      "order": 391,
+      "order": 372,
       "title": "Kth Ancestor of node in a Binary tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9969,7 +9564,7 @@
     },
     {
       "id": "gfg-450-0116",
-      "order": 392,
+      "order": 373,
       "title": "Find all Duplicate subtrees in a Binary tree",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -9989,7 +9584,7 @@
     },
     {
       "id": "gfg-450-0117",
-      "order": 393,
+      "order": 374,
       "title": "Tree Isomorphism Problem",
       "step": 13,
       "stepTitle": "Binary Trees",
@@ -10009,7 +9604,7 @@
     },
     {
       "id": "gfg-450-0121",
-      "order": 394,
+      "order": 375,
       "title": "Populate Inorder successor of all nodes",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -10029,7 +9624,7 @@
     },
     {
       "id": "gfg-450-0131",
-      "order": 395,
+      "order": 376,
       "title": "Count BST ndoes that lie in a given range",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -10049,7 +9644,7 @@
     },
     {
       "id": "gfg-450-0132",
-      "order": 396,
+      "order": 377,
       "title": "Replace every element with the least greater element on its right",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -10069,7 +9664,7 @@
     },
     {
       "id": "gfg-450-0134",
-      "order": 397,
+      "order": 378,
       "title": "Check preorder is valid or not",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -10089,7 +9684,7 @@
     },
     {
       "id": "gfg-450-0137",
-      "order": 398,
+      "order": 379,
       "title": "Flatten BST to sorted list",
       "step": 14,
       "stepTitle": "Binary Search Trees",
@@ -10109,7 +9704,7 @@
     },
     {
       "id": "gfg-450-0143",
-      "order": 399,
+      "order": 380,
       "title": "Minimum Cost to cut a board into squares",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -10129,7 +9724,7 @@
     },
     {
       "id": "gfg-450-0155",
-      "order": 400,
+      "order": 381,
       "title": "Chocolate Distribution Problem",
       "step": 10,
       "stepTitle": "Greedy Algorithms",
@@ -10149,7 +9744,7 @@
     },
     {
       "id": "gfg-450-0169",
-      "order": 401,
+      "order": 382,
       "title": "Remove Invalid Parentheses",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10169,7 +9764,7 @@
     },
     {
       "id": "gfg-450-0170",
-      "order": 402,
+      "order": 383,
       "title": "Print all palindromic partitions of a string",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10189,7 +9784,7 @@
     },
     {
       "id": "gfg-450-0171",
-      "order": 403,
+      "order": 384,
       "title": "The Knight’s tour problem",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10209,7 +9804,7 @@
     },
     {
       "id": "gfg-450-0172",
-      "order": 404,
+      "order": 385,
       "title": "Tug of War",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10229,7 +9824,7 @@
     },
     {
       "id": "gfg-450-0174",
-      "order": 405,
+      "order": 386,
       "title": "Find Maximum number possible by doing at-most K swaps",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10249,7 +9844,7 @@
     },
     {
       "id": "gfg-450-0175",
-      "order": 406,
+      "order": 387,
       "title": "Print all permutations of a string",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10269,7 +9864,7 @@
     },
     {
       "id": "gfg-450-0176",
-      "order": 407,
+      "order": 388,
       "title": "Longest Possible Route in a Matrix with Hurdles",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10289,7 +9884,7 @@
     },
     {
       "id": "gfg-450-0178",
-      "order": 408,
+      "order": 389,
       "title": "Partition of a set intoK subsets with equal sum",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10309,7 +9904,7 @@
     },
     {
       "id": "gfg-450-0179",
-      "order": 409,
+      "order": 390,
       "title": "Find the K-th Permutation Sequence of first N natural numbers",
       "step": 7,
       "stepTitle": "Recursion",
@@ -10329,7 +9924,7 @@
     },
     {
       "id": "gfg-450-0186",
-      "order": 410,
+      "order": 391,
       "title": "Reverse a stack using recursion",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -10349,7 +9944,7 @@
     },
     {
       "id": "gfg-450-0187",
-      "order": 411,
+      "order": 392,
       "title": "Sort a Stack using recursion",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -10369,7 +9964,7 @@
     },
     {
       "id": "gfg-450-0189",
-      "order": 412,
+      "order": 393,
       "title": "Length of the Longest Valid Substring",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -10389,7 +9984,7 @@
     },
     {
       "id": "gfg-450-0197",
-      "order": 413,
+      "order": 394,
       "title": "Interleave the first half of the queue with second half",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -10408,28 +10003,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0200",
-      "order": 414,
-      "title": "Distance of nearest cell having 1 in a binary matrix",
-      "step": 12,
-      "stepTitle": "Stack / Queues",
-      "topic": "GFG 450 - Stacks & Queues",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "distance-of-nearest-cell-having-1-in-a-binary-matrix",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0202",
-      "order": 415,
+      "order": 395,
       "title": "Sum of minimum and maximum elements of all subarrays of size “k”.",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -10449,7 +10024,7 @@
     },
     {
       "id": "gfg-450-0205",
-      "order": 416,
+      "order": 396,
       "title": "Next Smaller Element",
       "step": 12,
       "stepTitle": "Stack / Queues",
@@ -10469,7 +10044,7 @@
     },
     {
       "id": "gfg-450-0212",
-      "order": 417,
+      "order": 397,
       "title": "Leetcode- reorganize strings",
       "step": 15,
       "stepTitle": "Heaps",
@@ -10489,7 +10064,7 @@
     },
     {
       "id": "gfg-450-0214",
-      "order": 418,
+      "order": 398,
       "title": "Smallest range in “K” Lists",
       "step": 15,
       "stepTitle": "Heaps",
@@ -10509,7 +10084,7 @@
     },
     {
       "id": "gfg-450-0220",
-      "order": 419,
+      "order": 399,
       "title": "Minimum sum of two numbers formed from digits of an array",
       "step": 15,
       "stepTitle": "Heaps",
@@ -10529,7 +10104,7 @@
     },
     {
       "id": "gfg-450-0225",
-      "order": 420,
+      "order": 400,
       "title": "Minimum Step by Knight",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10549,7 +10124,7 @@
     },
     {
       "id": "gfg-450-0227",
-      "order": 421,
+      "order": 401,
       "title": "Minimum time taken by each job to be completed given by a Directed Acyclic Graph",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10569,7 +10144,7 @@
     },
     {
       "id": "gfg-450-0228",
-      "order": 422,
+      "order": 402,
       "title": "Find whether it is possible to finish all tasks or not from given dependencies",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10589,7 +10164,7 @@
     },
     {
       "id": "gfg-450-0233",
-      "order": 423,
+      "order": 403,
       "title": "Travelling Salesman Problem",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10609,7 +10184,7 @@
     },
     {
       "id": "gfg-450-0238",
-      "order": 424,
+      "order": 404,
       "title": "Longest path in a Directed Acyclic Graph",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10629,7 +10204,7 @@
     },
     {
       "id": "gfg-450-0239",
-      "order": 425,
+      "order": 405,
       "title": "Journey to the Moon",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10649,7 +10224,7 @@
     },
     {
       "id": "gfg-450-0240",
-      "order": 426,
+      "order": 406,
       "title": "Oliver and the Game",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10669,27 +10244,7 @@
     },
     {
       "id": "gfg-450-0241",
-      "order": 427,
-      "title": "Water Jug problem using BFS",
-      "step": 16,
-      "stepTitle": "Graphs",
-      "topic": "GFG 450 - Graph",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/water-jug-problem-using-bfs/",
-      "altUrls": [],
-      "article": "https://www.geeksforgeeks.org/water-jug-problem-using-bfs/",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "water-jug-problem-using-bfs",
-      "lcSlug": ""
-    },
-    {
-      "id": "gfg-450-0242",
-      "order": 428,
+      "order": 407,
       "title": "Water Jug problem using BFS",
       "step": 16,
       "stepTitle": "Graphs",
@@ -10709,7 +10264,7 @@
     },
     {
       "id": "gfg-450-0259",
-      "order": 429,
+      "order": 408,
       "title": "Gold Mine Problem",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -10729,7 +10284,7 @@
     },
     {
       "id": "gfg-450-0274",
-      "order": 430,
+      "order": 409,
       "title": "Count Derangements (Permutation such that no element appears in its original position)",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -10749,7 +10304,7 @@
     },
     {
       "id": "gfg-450-0275",
-      "order": 431,
+      "order": 410,
       "title": "Maximum profit by buying and selling a share at most twice",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -10769,7 +10324,7 @@
     },
     {
       "id": "gfg-450-0276",
-      "order": 432,
+      "order": 411,
       "title": "Optimal Strategy for a Game",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -10789,7 +10344,7 @@
     },
     {
       "id": "gfg-450-0277",
-      "order": 433,
+      "order": 412,
       "title": "Optimal Binary Search Tree",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -10809,7 +10364,7 @@
     },
     {
       "id": "gfg-450-0279",
-      "order": 434,
+      "order": 413,
       "title": "Word Wrap Problem",
       "step": 17,
       "stepTitle": "Dynamic Programming",
@@ -10828,28 +10383,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0281",
-      "order": 435,
-      "title": "Boolean Parenthesization Problem",
-      "step": 17,
-      "stepTitle": "Dynamic Programming",
-      "topic": "GFG 450 - Dynamic Programming",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/boolean-parenthesization/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "boolean-parenthesization-problem",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0017",
-      "order": 436,
+      "order": 414,
       "title": "Write a Program to check whether a string is a valid shuffle of two strings or not",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -10869,7 +10404,7 @@
     },
     {
       "id": "gfg-450-0018",
-      "order": 437,
+      "order": 415,
       "title": "Write a program to find the longest Palindrome in a string.",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -10889,7 +10424,7 @@
     },
     {
       "id": "gfg-450-0019",
-      "order": 438,
+      "order": 416,
       "title": "Find Longest Recurring Subsequence in String",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -10908,48 +10443,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0020",
-      "order": 439,
-      "title": "Print all Subsequences of a string.",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/print-subsequences-string/",
-      "altUrls": [],
-      "article": "https://www.geeksforgeeks.org/print-subsequences-string/",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "print-all-subsequences-of-a-string",
-      "lcSlug": ""
-    },
-    {
-      "id": "gfg-450-0021",
-      "order": 440,
-      "title": "Print all the permutations of the given string",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "print-all-the-permutations-of-the-given-string",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0022",
-      "order": 441,
+      "order": 417,
       "title": "Split the Binary string into two substring with equal 0’s and 1’s",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -10969,7 +10464,7 @@
     },
     {
       "id": "gfg-450-0024",
-      "order": 442,
+      "order": 418,
       "title": "Word break Problem",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -10988,28 +10483,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0027",
-      "order": 443,
-      "title": "Convert a Sentence into its equivalent mobile numeric keypad sequence.",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/",
-      "altUrls": [],
-      "article": "https://www.geeksforgeeks.org/convert-sentence-equivalent-mobile-numeric-keypad-sequence/",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "convert-a-sentence-into-its-equivalent-mobile-numeric-keypad-sequence",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0029",
-      "order": 444,
+      "order": 419,
       "title": "Count All Palindromic Subsequence in a given String.",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11029,7 +10504,7 @@
     },
     {
       "id": "gfg-450-0030",
-      "order": 445,
+      "order": 420,
       "title": "Count of number of given string in 2D character array",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11048,48 +10523,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0033",
-      "order": 446,
-      "title": "Converting Roman Numerals to Decimal",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/roman-number-to-integer/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/roman-number-to-integer/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "converting-roman-numerals-to-decimal",
-      "lcSlug": ""
-    },
-    {
-      "id": "gfg-450-0034",
-      "order": 447,
-      "title": "Number of flips to make binary string alternate",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/min-number-of-flips/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/min-number-of-flips/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "number-of-flips-to-make-binary-string-alternate",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0035",
-      "order": 448,
+      "order": 421,
       "title": "Find the first repeated word in string.",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11109,7 +10544,7 @@
     },
     {
       "id": "gfg-450-0036",
-      "order": 449,
+      "order": 422,
       "title": "Minimum number of swaps for bracket balancing.",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11128,48 +10563,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0039",
-      "order": 450,
-      "title": "Rearrange characters in a string such that no two adjacent are same",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/rearrange-characters/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/rearrange-characters/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "rearrange-characters-in-a-string-such-that-no-two-adjacent-are-same",
-      "lcSlug": ""
-    },
-    {
-      "id": "gfg-450-0041",
-      "order": 451,
-      "title": "Given a sequence of words, print all anagrams together",
-      "step": 19,
-      "stepTitle": "Strings (Advanced Algo)",
-      "topic": "GFG 450 - String",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/k-anagrams-1/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "given-a-sequence-of-words-print-all-anagrams-together",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0043",
-      "order": 452,
+      "order": 423,
       "title": "Recursively remove all adjacent duplicates",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11189,7 +10584,7 @@
     },
     {
       "id": "gfg-450-0045",
-      "order": 453,
+      "order": 424,
       "title": "Function to find Number of customers who could not get a computer",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11209,7 +10604,7 @@
     },
     {
       "id": "gfg-450-0046",
-      "order": 454,
+      "order": 425,
       "title": "Transform One String to Another using Minimum Number of Given Operation",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11229,7 +10624,7 @@
     },
     {
       "id": "gfg-450-0047",
-      "order": 455,
+      "order": 426,
       "title": "Recursively print all sentences that can be formed from list of word lists",
       "step": 19,
       "stepTitle": "Strings (Advanced Algo)",
@@ -11248,48 +10643,8 @@
       "lcSlug": ""
     },
     {
-      "id": "gfg-450-0048",
-      "order": 456,
-      "title": "Find first and last positions of an element in a sorted array",
-      "step": 6,
-      "stepTitle": "Binary Search",
-      "topic": "GFG 450 - Searching & Sorting",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x/0",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x/0",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "find-first-and-last-positions-of-an-element-in-a-sorted-array",
-      "lcSlug": ""
-    },
-    {
-      "id": "gfg-450-0049",
-      "order": 457,
-      "title": "Find a Fixed Point (Value equal to index) in a given array",
-      "step": 6,
-      "stepTitle": "Binary Search",
-      "topic": "GFG 450 - Searching & Sorting",
-      "tier": "basic",
-      "difficulty": "Medium",
-      "difficultySource": "gfg",
-      "platform": "gfg",
-      "url": "https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1",
-      "altUrls": [],
-      "article": "https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1",
-      "video": null,
-      "premium": false,
-      "duration": "15 min",
-      "slug": "find-a-fixed-point-value-equal-to-index-in-a-given-array",
-      "lcSlug": ""
-    },
-    {
       "id": "gfg-450-0051",
-      "order": 458,
+      "order": 427,
       "title": "Product array Puzzle",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11309,7 +10664,7 @@
     },
     {
       "id": "gfg-450-0052",
-      "order": 459,
+      "order": 428,
       "title": "minimum no. of swaps required to sort the array",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11329,7 +10684,7 @@
     },
     {
       "id": "gfg-450-0053",
-      "order": 460,
+      "order": 429,
       "title": "Bishu and Soldiers",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11349,7 +10704,7 @@
     },
     {
       "id": "gfg-450-0054",
-      "order": 461,
+      "order": 430,
       "title": "Rasta and Kheshtak",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11369,7 +10724,7 @@
     },
     {
       "id": "gfg-450-0055",
-      "order": 462,
+      "order": 431,
       "title": "Kth smallest number again",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11389,7 +10744,7 @@
     },
     {
       "id": "gfg-450-0056",
-      "order": 463,
+      "order": 432,
       "title": "Find pivot element in a sorted array",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11409,7 +10764,7 @@
     },
     {
       "id": "gfg-450-0057",
-      "order": 464,
+      "order": 433,
       "title": "EKOSPOJ:",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11429,7 +10784,7 @@
     },
     {
       "id": "gfg-450-0059",
-      "order": 465,
+      "order": 434,
       "title": "Missing Number in AP",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11449,7 +10804,7 @@
     },
     {
       "id": "gfg-450-0060",
-      "order": 466,
+      "order": 435,
       "title": "Smallest number with atleastn trailing zeroes infactorial",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11469,7 +10824,7 @@
     },
     {
       "id": "gfg-450-0061",
-      "order": 467,
+      "order": 436,
       "title": "Implement Merge-sort in-place",
       "step": 6,
       "stepTitle": "Binary Search",
@@ -11489,7 +10844,7 @@
     },
     {
       "id": "gfg-450-0062",
-      "order": 468,
+      "order": 437,
       "title": "Partitioning and Sorting Arrays with Many Repeated Entries",
       "step": 6,
       "stepTitle": "Binary Search",
