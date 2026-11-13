@@ -833,7 +833,7 @@
   var bound = false;
 
   function start() {
-    var title = "Master's A2Z DSA Sheet";
+    var title = "Master's DSA Sheet";
     document.title = title + ': progress tracker';
     var titleEl = el('sheetTitle'), subEl = el('sheetSub');
     if (titleEl) titleEl.textContent = title;
