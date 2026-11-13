@@ -1,30 +1,26 @@
-# Striver's A2Z DSA Sheet tracker
+# Master's DSA Sheet Tracker
 
-A fast, dependency-free tracker for [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/):
-every problem in the sheet, with a direct **LeetCode** link when the sheet has one, a verified
-**GeeksforGeeks** link when it doesn't, and the sheet's own takeuforward page as the last resort.
+A fast, dependency-free interactive tracker for Master's DSA Sheet:
+every problem in the sheet, with a direct **LeetCode** link when available, a verified
+**GeeksforGeeks** link, and takeuforward practice links as backup.
 Progress lives in your browser's `localStorage`. No account, no backend, no tracking.
 
-**Live:** https://geckguy.github.io/striver-a2z-sheet/
+**Live:** https://premnarayn13.github.io/DSA_StudyMaterial/
 
 ![The tracker](docs/screenshot.png)
 
 ## What it does
 
-- **All 402 practice problems** from the sheet, in the sheet's own order and module grouping
-  (19 modules, from *Beginner Problems* to *Maths*).
+- **486 curated problems** across 20 modules (from *Beginner Problems* to *Maths*).
 - **One click to a real problem page.** Primary link is LeetCode, else a verified GeeksforGeeks
   page, else takeuforward's own practice page. Every other working link for that problem is kept
   as an alternate, so you can pick the platform you prefer.
 - **Progress that survives a reload.** Solved and starred sets in `localStorage`, with export /
   import / reset. Nothing leaves your machine.
-- **Filter and search** by module, difficulty (Easy/Medium/Hard), platform, Striver's tier
+- **Filter and search** by module, difficulty (Easy/Medium/Hard), platform, tier
   (Basic/Core/Pro) and solved/starred state, plus instant search across title, topic and module.
-- **Striver's own tier** (`Basic` / `Core` / `Pro`) sits beside the platform difficulty: 77 of the
-  402 problems have no published Easy/Medium/Hard label (the sheet only links a LeetCode page for
-  232 of them), so the tier fills that slot instead of pretending to be a difficulty.
 - **Keyboard-first**: `/` search, `j`/`k` move, `s` toggle solved, `Esc` close.
-- Light and dark themes, a mobile layout, and no build step or framework: three static files, two
+- Light and dark themes, a mobile layout, and no build step or framework: static files,
   self-hosted font files and one JSON payload.
 
 ## Dataset
