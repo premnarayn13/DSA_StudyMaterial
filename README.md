@@ -2,87 +2,102 @@
 
 # Master's DSA Sheet & Study Ecosystem
 
-**A production-grade curriculum, interactive tracker, and comprehensive theoretical handbook for technical interviews.**
-
 [![Deploy to GitHub Pages](https://github.com/premnarayn13/DSA_StudyMaterial/actions/workflows/deploy.yml/badge.svg)](https://github.com/premnarayn13/DSA_StudyMaterial/actions/workflows/deploy.yml)
-[![Live Web Application](https://img.shields.io/badge/Live%20App-GitHub%20Pages-00c853?style=flat&logo=github)](https://premnarayn13.github.io/DSA_StudyMaterial/)
-[![Curated Problems](https://img.shields.io/badge/Curated%20Problems-486%20Problems-007acc?style=flat&logo=leetcode)](https://premnarayn13.github.io/DSA_StudyMaterial/)
-[![Curriculum Modules](https://img.shields.io/badge/Curriculum-20%20Modules-7952b3?style=flat)](https://premnarayn13.github.io/DSA_StudyMaterial/)
-[![Theoretical Handbook](https://img.shields.io/badge/Handbook-30%20Chapters-ff6f00?style=flat&logo=gitbook)](./handbook/)
-[![Offline Workbook](https://img.shields.io/badge/Workbook-GFG%20450%20Excel-2e7d32?style=flat&logo=microsoftexcel)](./MY_GFG-450.xlsx)
+[![Live Web Application](https://img.shields.io/badge/Live%20App-GitHub%20Pages-00c853?style=for-the-badge&logo=github)](https://premnarayn13.github.io/DSA_StudyMaterial/)
+[![Curated Problems](https://img.shields.io/badge/Curated%20Problems-486%20Problems-007acc?style=for-the-badge&logo=leetcode)](https://premnarayn13.github.io/DSA_StudyMaterial/)
+[![Curriculum Modules](https://img.shields.io/badge/Curriculum-20%20Modules-7952b3?style=for-the-badge)](https://premnarayn13.github.io/DSA_StudyMaterial/)
+[![Theoretical Handbook](https://img.shields.io/badge/Handbook-30%20Chapters-ff6f00?style=for-the-badge&logo=gitbook)](./handbook/)
+[![Offline Workbook](https://img.shields.io/badge/Workbook-GFG%20450%20Excel-2e7d32?style=for-the-badge&logo=microsoftexcel)](./MY_GFG-450.xlsx)
 
-[**Launch Live Tracker**](https://premnarayn13.github.io/DSA_StudyMaterial/) &nbsp;•&nbsp; [**Handbook Documentation**](./handbook/) &nbsp;•&nbsp; [**Offline Workbook**](./MY_GFG-450.xlsx) &nbsp;•&nbsp; [**Report an Issue**](https://github.com/premnarayn13/DSA_StudyMaterial/issues)
+<br/>
+
+</div>
+
+> ### 🚀 [**Launch Live Tracker: https://premnarayn13.github.io/DSA_StudyMaterial/**](https://premnarayn13.github.io/DSA_StudyMaterial/)
+> **Instant interactive progress tracker with verified LeetCode & GFG links, one-click checkboxes, instant search, and zero backend tracking.**
+
+<div align="center">
+
+| 🎯 Curated Problems | 🗂️ Curriculum Modules | 📖 Handbook Chapters | 💻 LeetCode Direct | 🟢 GeeksforGeeks | 💾 Data Privacy |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **486 Problems** | **20 Modules** | **30 Chapters** | **255 Verified** | **198 Verified** | **100% LocalStorage** |
 
 </div>
 
 ---
 
-## Ecosystem Overview
+## Direct Navigation Links
 
-This repository provides a unified, end-to-end preparation platform designed for software engineers preparing for competitive programming and technical interviews. The material combines three distinct pillars:
+Access the primary components of this ecosystem immediately:
 
-1. **Interactive Web Tracker:** A zero-dependency, client-side web application hosting **486 vetted problems** across **20 modules** with real-time multi-filtering, local progress persistence, and sub-millisecond search.
-2. **Theoretical Handbook:** A **30-chapter deep dive** covering asymptotic analysis, low-level memory representation, pointer mechanics, and advanced algorithmic design patterns.
-3. **Offline Milestone Workbook:** An integrated Excel workbook ([`MY_GFG-450.xlsx`](./MY_GFG-450.xlsx)) equipped with milestone formulas, revision tags, and attempt metrics for offline study.
+* 🚀 **[Live Web Application](https://premnarayn13.github.io/DSA_StudyMaterial/):** Interactive tracker with checkboxes, search, filters, and keyboard navigation.
+* 📚 **[Theory Handbook Directory](./handbook/):** 30 deep-dive chapters with mathematical proofs, memory diagrams, and code.
+* 📊 **[Offline Revision Workbook](./MY_GFG-450.xlsx):** Excel spreadsheet for offline milestone and revision tracking.
+* 🛠️ **[Automated Deploy Workflow](./.github/workflows/deploy.yml):** GitHub Actions CI/CD pipeline for GitHub Pages deployment.
 
-| Metric | Specification | Engineering Details |
-|:---|:---|:---|
-| **Total Curated Problems** | **486 Problems** | Strict deduplication, standard interview variations only |
-| **Curriculum Coverage** | **20 Structured Modules** | From foundational math and bit manipulation to advanced DP and graphs |
-| **Handbook Scope** | **30 Deep Chapters** | Formal proofs, complexity bounds, and multi-language implementations |
-| **Primary Platform Routing** | **255 LeetCode Links** | Direct access to official LeetCode problems |
-| **Secondary Platform Routing** | **198 GeeksforGeeks Links** | Verified practice problem mirrors |
-| **Data Privacy & Storage** | **100% Client-Side** | Zero remote tracking, powered by browser `localStorage` |
+---
+
+## Ecosystem Architecture
+
+This repository unites three foundational tools into one cohesive preparation platform:
+
+1. **Interactive Web Tracker:** A lightweight client-side application hosting **486 curated problems** across **20 modules** with instant search, multi-criteria filtering, and local persistence.
+2. **Theoretical Handbook:** A **30-chapter guide** delivering asymptotic complexity derivations, low-level memory representation diagrams, and interview pattern blueprints.
+3. **Offline Milestone Workbook:** An integrated spreadsheet ([`MY_GFG-450.xlsx`](./MY_GFG-450.xlsx)) equipped with revision flags, attempt logs, and progress formulas.
 
 ---
 
 ## Interactive Tracker Features
 
-The web tracker is engineered with vanilla HTML5, CSS3, and ES6 JavaScript, eliminating build steps, framework bloat, and runtime overhead.
+Built with pure vanilla HTML5, CSS3, and ES6 JavaScript, the web tracker runs instantly in any browser with zero installation:
 
-* **Deterministic Link Precedence:** Every problem directs to **LeetCode** as primary. If unavailable, it resolves to a verified **GeeksforGeeks** problem page, followed by **TakeUForward** practice mirrors.
-* **Persistent Local State:** Marked checkmarks, starred bookmarks, and custom notes reside exclusively within browser `localStorage` (`a2z.solved`, `a2z.starred`, `a2z.theme`). Your data stays on your machine.
-* **Instant Search Engine:** Sub-millisecond substring queries across problem titles, topic categories, and module names without DOM rebuilds.
-* **Granular Multi-Filtering:** Intersect filters by difficulty level, problem tier, platform source, and solved status simultaneously.
-* **Responsive Theming:** Native Light and Dark themes with automated system preference detection.
-* **Data Portability:** Single-click JSON export and import for seamless progress backup or migration across devices.
+* 🔗 **Deterministic Link Precedence:** Direct links route to **LeetCode** as primary. If unavailable, they resolve to verified **GeeksforGeeks** problem pages or **TakeUForward** mirrors.
+* 💾 **100% Client-Side Privacy:** Checkboxes, starred bookmarks, notes, and theme preferences reside solely in browser `localStorage`. No accounts, no credentials, and no external tracking.
+* ⚡ **Instant Search Engine:** Sub-millisecond substring queries across problem titles, topic tags, and module names without page reloads.
+* 🎯 **Multi-Criteria Filtering:** Filter concurrently by difficulty (*Easy*, *Medium*, *Hard*), problem tier (*Basic*, *Core*, *Pro*), platform source, and solved status.
+* 🌗 **Theme Engine:** Built-in Light and Dark themes with automated system preference detection.
+* 📦 **Data Backup & Portability:** Single-click JSON export and import to backup progress or transfer seamlessly between machines.
 
-### Filter Specifications
+### Difficulty & Tier Classification
 
-| Filter Type | Options | Purpose |
-|:---|:---|:---|
-| **Difficulty** | **All**, **Easy**, **Medium**, **Hard** | Target problems matching your current preparation phase |
-| **Problem Tier** | **Basic**, **Core**, **Pro** | Differentiate fundamental concepts from advanced interview challenges |
-| **Platform** | **LeetCode**, **GeeksforGeeks**, **TakeUForward** | Focus practice on your preferred coding environment |
-| **Status** | **All**, **Solved**, **Unsolved**, **Starred** | Manage backlogs, revision targets, and bookmarked problems |
+Problems are classified across two complementary dimensions to guide your preparation trajectory:
+
+| Classification | Dimension | Description & Target Audience | Target Standard |
+|:---|:---:|:---|:---|
+| **Easy** | Difficulty | Direct fundamental questions testing baseline syntax and data structure awareness | Solve in < 15 mins |
+| **Medium** | Difficulty | Core interview standard questions combining multiple techniques (majority of FAANG rounds) | Solve in < 25 mins |
+| **Hard** | Difficulty | Advanced algorithmic puzzles requiring optimal space-time tradeoffs and rigorous invariants | Solve in < 45 mins |
+| **Basic** | Progression Tier | Foundation builder: elementary traversal, basic hashing, and brute-force implementations | 100% mastery |
+| **Core** | Progression Tier | Standard interview benchmarks: optimal two-pointer, dynamic programming, and graph BFS/DFS | Essential focus |
+| **Pro** | Progression Tier | Competitive-tier challenges: segment trees, complex DP on trees, and advanced string hashing | Differentiation |
 
 ### Keyboard Shortcuts
 
 | Key | Operation | Action Description |
 |:---:|:---|:---|
-| <kbd>/</kbd> | **Focus Search** | Highlights global search bar from anywhere on the page |
-| <kbd>j</kbd> | **Navigate Down** | Moves the cursor highlight down to the next problem row |
-| <kbd>k</kbd> | **Navigate Up** | Moves the cursor highlight up to the previous problem row |
-| <kbd>s</kbd> | **Toggle Solved** | Inverts the completion checkbox of the highlighted problem |
-| <kbd>Esc</kbd> | **Clear / Close** | Resets active search filter or closes the active details drawer |
+| <kbd>/</kbd> | **Focus Search** | Highlights global search bar instantly from anywhere on the page |
+| <kbd>j</kbd> | **Next Problem** | Moves cursor highlight downward to the next problem row |
+| <kbd>k</kbd> | **Previous Problem** | Moves cursor highlight upward to the previous problem row |
+| <kbd>s</kbd> | **Toggle Solved** | Toggles completion checkbox of the highlighted problem |
+| <kbd>Esc</kbd> | **Clear / Close** | Clears active search filter or closes the active details drawer |
 
 ### Client-Side State Management
 
 The application operates without backend servers or user authentication. All progress is isolated to your browser via Web Storage APIs:
 
-| Key Name | Storage Type | Content Stored |
+| Storage Key | Data Format | Content Stored |
 |:---|:---|:---|
-| `a2z.solved` | `localStorage` JSON String | Set of unique problem IDs marked as completed by the user |
-| `a2z.starred` | `localStorage` JSON String | Set of unique problem IDs flagged for revision or follow-up |
+| `a2z.solved` | `localStorage` JSON Array | List of unique problem IDs marked as completed |
+| `a2z.starred` | `localStorage` JSON Array | List of unique problem IDs flagged for revision or follow-up |
 | `a2z.theme` | `localStorage` String | Active UI theme setting (`light` or `dark`) |
 
 ---
 
 ## Curriculum Syllabus
 
-The curriculum organizes **486 problems** across **20 modules**, ensuring comprehensive coverage from fundamental data manipulation to advanced graph and dynamic programming theorems.
+The curriculum organizes **486 problems** across **20 modules** covering all high-frequency interview patterns:
 
-| # | Module | Problems | Key Algorithms & Landmark Problems |
+| # | Module | Problems | Core Patterns & Landmark Problems |
 |:---:|:---|:---:|:---|
 | **01** | **Beginner Problems** | `16` | Armstrong check, prime testing, Euclidean GCD, divisor enumeration |
 | **02** | **Sorting Algorithms** | `5` | Bubble, Selection, Insertion, Merge Sort, Quick Sort divide & conquer |
@@ -104,69 +119,78 @@ The curriculum organizes **486 problems** across **20 modules**, ensuring compre
 | **18** | **Tries** | `6` | Prefix trees, longest word with all prefixes, maximum XOR queries |
 | **19** | **Strings (Advanced Algo)** | `36` | KMP pattern matcher, Rabin-Karp rolling hash, Z-algorithm, Word Wrap |
 | **20** | **Maths & Number Theory** | `3` | Sieve of Eratosthenes, Prime factorisation, Prime range counting |
-| **—** | **Complete Curriculum** | **486** | **Standard Technical Interview Standard** |
-
-### Problem Tier Stratification
-
-To help engineers prioritize study time efficiently, every problem is classified into one of three distinct tiers:
-
-* **Basic Tier:** Foundational syntax, boundary checks, and standard implementation patterns required for baseline technical literacy.
-* **Core Tier:** Landmark interview questions and recurring canonical patterns asked in 80%+ of top-tier software engineering assessments.
-* **Pro Tier:** High-complexity challenges requiring multi-paradigm combinations, optimal state reductions, and advanced tree/graph theorems.
+| **—** | **Total Master's Curriculum** | **486** | **Production-Grade Technical Interview Benchmark** |
 
 ---
 
-## Theoretical Handbook Structure
+## Technical Interview Pattern Matrix
 
-The [`handbook/`](./handbook/) contains 30 dedicated chapters organized into 6 progressive study phases. Each chapter provides mathematical proofs, memory layout representations, and code implementations:
+Mastering DSA requires recognizing underlying algorithmic paradigms across problem statements:
 
-| Phase | Focus Domain | Chapters | Core Topics & Algorithmic Principles |
-|:---|:---|:---:|:---|
-| **Phase 1** | **Foundations & Complexity** | `01–02, 23–24` | Big-O/Big-Ω/Big-Θ proofs, Master Theorem, number theory, Java memory model |
-| **Phase 2** | **Linear Structures** | `03–04, 10, 13–15` | Memory alignment, sliding window templates, two pointers, monotonic queues |
-| **Phase 3** | **Tree Hierarchies** | `16–18, 25–26` | Tree traversals, LCA, Morris traversal, BST properties, AVL & Red-Black trees |
-| **Phase 4** | **Graph Networks** | `19, 28` | BFS/DFS, topological sort, Dijkstra, Bellman-Ford, Floyd-Warshall, DSU |
-| **Phase 5** | **Algorithmic Paradigms** | `05–09, 11–12` | Divide & conquer, state-space recursion, pruning, greedy choice property |
-| **Phase 6** | **Dynamic Programming & Advanced** | `20–22, 27, 29–30` | 1D/2D DP, MCM, KMP string matching, Segment Trees, Fenwick Trees, Branch & Bound |
-
-### Core Handbook Tenets
-
-* **Mathematical Rigor:** Derivations of worst-case, average-case, and amortized complexity bounds.
-* **Low-Level Memory Architecture:** Contrast between contiguous cache-friendly arrays and pointer-linked node structures.
-* **Edge-Case Checklists:** Explicit coverage of off-by-one errors, recursion depth limits, integer overflow, and empty collections.
-* **Implementation Blueprints:** Idiomatic implementations in **C++** and **Java** accompanied by step-by-step trace tables.
+| Algorithmic Pattern | Core Mechanism | High-Yield Application Areas |
+|:---|:---|:---|
+| **Two Pointers & Sliding Window** | Left/Right pointers, expanding & shrinking window | Substring problems, 3-Sum, Container With Most Water, Trapping Rainwater |
+| **Monotonic Stack / Deque** | Stack maintaining strictly ascending or descending order | Next Greater Element, Largest Rectangle in Histogram, Sliding Window Maximum |
+| **Binary Search on Answer Space** | Monotonic predicate testing range $[L, R]$ | Koko Eating Bananas, Capacity to Ship Packages, Book Allocation Problem |
+| **Fast & Slow Pointers** | Floyd's cycle finding algorithm with differing velocities | Linked list loop detection, middle of linked list, duplicate number in array |
+| **State-Space Backtracking** | Depth-first search with pruning and backtracking | N-Queens, Sudoku Solver, Palindrome Partitioning, Word Search in Grid |
+| **Multi-Source BFS** | Queue initialized with multiple starting coordinates | Rotting Oranges, Distance of nearest cell having 1, Walls and Gates |
+| **Topological Ordering** | In-degree queue reduction (Kahn's algorithm) | Course Schedule I & II, Alien Dictionary, Build Order resolution |
+| **Shortest Paths & Disjoint Sets** | Greedy edge relaxation & Union-Find with path compression | Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal's MST, Accounts Merge |
+| **Dynamic Programming State Reductions**| Optimal substructure and overlapping subproblems | 0/1 Knapsack, Coin Change, Longest Increasing Subsequence, Edit Distance |
 
 ---
 
-## Structured Preparation Blueprint
+## 12-Week Master Study Plan
 
-A phased study trajectory designed to optimize problem retention and interview readiness over a 12-to-16 week preparation window:
+A structured, week-by-week preparation roadmap tailored for technical interviews:
 
-| Preparation Stage | Target Modules | Primary Objectives | Recommended Target |
-|:---|:---|:---|:---:|
-| **Stage 1: Core Fundamentals** | Modules 01 – 05 | Asymptotic bounds, array operations, prefix hashing, string manipulation | **4 – 5 problems / day** |
-| **Stage 2: Linear & Hierarchical** | Modules 06 – 14 | Binary search spaces, recursion trees, linked lists, stacks, and tree views | **3 – 4 problems / day** |
-| **Stage 3: Advanced Optimization** | Modules 15 – 16 | Priority queue construction, graph traversals, shortest path algorithms | **3 – 4 problems / day** |
-| **Stage 4: Dynamic Programming** | Modules 17 – 20 | Subsequence DP, grid optimization, MCM partitioning, Trie lookups | **2 – 3 problems / day** |
+| Week | Focus Topic & Modules | Primary Learning Objectives | Weekly Target |
+|:---:|:---|:---|:---:|
+| **Week 01** | **Beginner Math & Sorting** (Mod 01–02) | Euclidean GCD, prime tests, divisor logic, Merge Sort & Quick Sort | **21 problems** |
+| **Week 02** | **Arrays & 2D Matrices** (Mod 03) | Kadane's algorithm, Dutch National Flag, Next Permutation, Spiral Matrix | **25 problems** |
+| **Week 03** | **Strings & Hashing** (Mod 04–05) | Palindrome expansion, Roman conversions, Prefix-Sum Hashing, XOR subarrays | **25 problems** |
+| **Week 04** | **Binary Search Mastery** (Mod 06) | Lower/Upper bound, search on answers (Koko Bananas), Median of 2 arrays | **30 problems** |
+| **Week 05** | **Recursion & Backtracking** (Mod 07) | State-space trees, Subsets, Combination Sum, N-Queens, Sudoku Solver | **25 problems** |
+| **Week 06** | **Linked Lists & Bit Manipulation** (Mod 08–09) | Fast-slow pointers, Reverse in K-groups, Clone LL, Bitmask power sets | **25 problems** |
+| **Week 07** | **Greedy & Sliding Window** (Mod 10–11) | Interval scheduling, Candy, Minimum Window Substring & Subsequence | **28 problems** |
+| **Week 08** | **Stacks, Queues & Monotonicity** (Mod 12) | Next Greater Element, Trapping Rainwater, Histogram Area, LRU/LFU Cache | **31 problems** |
+| **Week 09** | **Binary Trees & BSTs** (Mod 13–14) | Morris traversal, LCA, diameter, tree serialisation, BST validation | **35 problems** |
+| **Week 10** | **Heaps & Priority Queues** (Mod 15) | Min/Max Heaps, Task Scheduler, Design Twitter, Median in Data Stream | **22 problems** |
+| **Week 11** | **Graph Theory & Traversals** (Mod 16) | BFS/DFS cycles, Kahn's topological sort, Dijkstra, Bellman-Ford, Kosaraju | **35 problems** |
+| **Week 12** | **Dynamic Programming & Tries** (Mod 17–20) | 0/1 Knapsack, LCS/LIS variants, MCM partitioning, Trie prefixes, KMP | **40 problems** |
 
 ---
 
-## Offline Practice Workbook
+## Theoretical Handbook Highlights
+
+The [`handbook/`](./handbook/) directory contains 30 dedicated chapters organized into 6 core technical domains:
+
+| Domain | Chapter Scope | Key Algorithmic Principles & Theorems |
+|:---|:---:|:---|
+| **Mathematical Foundations** | Ch 01–02, 23–24 | Asymptotic derivations, Master Theorem, number theory, Java memory model |
+| **Linear Data Structures** | Ch 03–04, 10, 13–15 | Memory alignment, sliding window templates, two pointers, monotonic queues |
+| **Hierarchical Structures** | Ch 16–18, 25–26 | Tree traversals, LCA, Morris traversal, BST properties, AVL & Red-Black trees |
+| **Graph Networks** | Ch 19, 28 | BFS/DFS, topological order, Dijkstra, Bellman-Ford, Floyd-Warshall, DSU |
+| **Algorithmic Paradigms** | Ch 05–09, 11–12 | Divide & conquer, recursion stack, state-space pruning, greedy choice |
+| **Advanced DP & Strings** | Ch 20–22, 27, 29–30 | 1D/2D DP, MCM, KMP string matching, Segment Trees, Fenwick Trees, Branch & Bound |
+
+---
+
+## Offline Practice Tracking Workbook
 
 For engineers who track progress via spreadsheets or offline workbooks, the repository includes [`MY_GFG-450.xlsx`](./MY_GFG-450.xlsx):
 
-* **Pre-Populated Problem Inventory:** Categorized by topic, algorithmic pattern, and technical difficulty.
-* **Attempt & Timing Logs:** Columns dedicated to recording problem-solving time and repeat attempt counts.
-* **Review Status Flags:** Tag problems as **Needs Review**, **Tricky Edge-Case**, or **Mastered**.
-* **Formula-Driven Progress:** Automated completion percentages and daily milestone velocity trackers.
+* 📋 **Pre-Populated Problem Inventory:** Categorized by topic, algorithmic pattern, and technical difficulty.
+* ⏱️ **Attempt & Timing Logs:** Dedicated columns to record problem-solving duration and repeat attempts.
+* 🏷️ **Review Status Flags:** Tag problems as **Needs Review**, **Tricky Edge-Case**, or **Mastered**.
+* 📈 **Formula-Driven Progress:** Automated completion percentages and daily milestone velocity trackers.
 
 ---
 
 ## Local Development & Setup
 
-The web application is pure static web technology. It requires no Node.js runtime, npm dependencies, or compilation steps.
-
-### Setup Instructions
+The web application is pure static web technology. It requires no complex build tools or runtime compilers:
 
 ```bash
 # 1. Clone the repository
@@ -175,54 +199,20 @@ git clone https://github.com/premnarayn13/DSA_StudyMaterial.git
 # 2. Navigate to the project root
 cd DSA_StudyMaterial
 
-# 3. Start a local HTTP server
+# 3. Start a local HTTP server using Python or Node.js
+# Option A: Python 3
 python -m http.server 8000
+
+# Option B: Node.js (via npx serve)
+npx serve Problems_List/site -l 8000
 ```
 
 Open your browser and navigate to:
-
 ```text
 http://localhost:8000/Problems_List/site/
 ```
 
-> **Important:** Running through an HTTP server (rather than double-clicking `index.html`) avoids browser CORS restrictions when fetching `data.json` over the `file://` protocol.
-
-### Alternative Static Servers
-
-```bash
-# Using Node.js npx
-npx serve Problems_List/site
-
-# Using PHP built-in server
-php -S localhost:8000 -t Problems_List/site
-```
-
----
-
-## Repository Architecture
-
-```text
-DSA_StudyMaterial/
-├── .github/workflows/
-│   └── deploy.yml              # CI/CD validation, asset versioning & GitHub Pages release
-├── handbook/                   # 30 Theoretical chapters with proofs, layouts & code
-│   ├── chapter-01-introduction-to-dsa/
-│   ├── chapter-03-arrays/
-│   ├── chapter-19-graphs/
-│   ├── chapter-20-dynamic-programming/
-│   └── ...
-├── Problems_List/
-│   ├── scripts/                # Data integrity validation and statistics checking tools
-│   │   ├── verify_site_data.py # Validates problem counts, sequence, and URLs
-│   │   └── check_readme.py     # Ensures README metrics match data.json exactly
-│   └── site/                   # Web application frontend
-│       ├── index.html          # Semantic HTML5 layout
-│       ├── styles.css          # Design tokens and theme definitions
-│       ├── app.js              # State management, filter engine & keyboard handlers
-│       └── data.json           # 486 Curated problem entries and metadata
-├── MY_GFG-450.xlsx             # Offline revision tracking workbook
-└── README.md                   # Repository documentation
-```
+> **Note:** Running through an HTTP server (rather than double-clicking `index.html`) avoids browser CORS restrictions when fetching `data.json` over the `file://` protocol.
 
 ---
 
@@ -246,12 +236,24 @@ All updates committed to the `master` branch trigger the GitHub Actions workflow
 [ Step 4: Publish to gh-pages ] ──► Deploys production bundle to premnarayn13.github.io
 ```
 
-| Pipeline Stage | Executed Command | Quality Assurance Gate |
-|:---|:---|:---|
-| **Data Integrity Verification** | `python Problems_List/scripts/verify_site_data.py` | Confirms all 486 problems have valid URLs, sequential IDs, and valid platforms |
-| **Metric Consistency Guard** | `python Problems_List/scripts/check_readme.py` | Recomputes 12 metadata statistics and halts build if numbers disagree |
-| **Asset Cache Stamping** | `python Problems_List/scripts/stamp_assets.py` | Injects SHA hashes into `styles.css` and `app.js` to eliminate stale browser caches |
-| **Production Publication** | `actions/deploy-pages` | Publishes static bundle directly to the `gh-pages` deployment branch |
+---
+
+## Interactive Preparation Checklist
+
+Test your readiness across standard interview competencies:
+
+- [ ] **Arrays & Matrices:** Implemented Kadane's algorithm, Next Permutation & Spiral Matrix
+- [ ] **Two Pointers & Sliding Window:** Solved Minimum Window Substring & 3-Sum in $O(N^2)$
+- [ ] **Monotonic Stack:** Solved Next Greater Element, Trapping Rainwater & Largest Histogram
+- [ ] **Binary Search:** Implemented Search in Rotated Array & Median of Two Sorted Arrays
+- [ ] **Recursion & Backtracking:** Implemented N-Queens, Sudoku Solver & Palindrome Partitioning
+- [ ] **Linked Lists:** Reversed in K-Groups, detected cycles with Floyd's algorithm & cloned random lists
+- [ ] **Trees & BST:** Traversed trees using Morris Inorder & verified BST properties
+- [ ] **Heaps & Priority Queues:** Constructed Two-Heaps for Median Stream & solved Task Scheduler
+- [ ] **Graphs:** Implemented Dijkstra's shortest path, Kahn's Topological Sort & Kosaraju SCC
+- [ ] **Dynamic Programming:** Solved 0/1 Knapsack, Longest Increasing Subsequence & Matrix Chain Multiplication
+- [ ] **Tries & Advanced Strings:** Constructed prefix trees & implemented KMP / Rabin-Karp pattern search
+- [ ] **System Design Data Structures:** Designed LRU Cache & LFU Cache with $O(1)$ operations
 
 ---
 
@@ -287,16 +289,24 @@ The curriculum underwent strict deduplication. Elementary syntax tutorials (such
 Yes. Once cloned locally, running <code>python -m http.server 8000</code> gives you complete access to the problem directory, search engine, filter matrix, and progress tracking with zero internet connectivity required.
 </details>
 
-<details>
-<summary><b>6. What distinguishes this tracker from static PDF or markdown sheets?</b></summary>
-<br/>
-Static sheets rot quickly when links break or problems are re-categorized. This ecosystem enforces automated CI/CD link validation, multi-platform mirrors, instant sub-millisecond filtering by tier and difficulty, and local progress tracking without requiring account logins.
-</details>
-
 ---
 
 <div align="center">
 
-**Master's DSA Sheet & Study Ecosystem** • Maintained for Engineers Preparing for High-Bar Technical Interviews.
+> *"Simplicity is prerequisite for reliability."*  
+> — **Edsger W. Dijkstra**
+
+> *"Premature optimization is the root of all evil in programming."*  
+> — **Donald E. Knuth**
+
+> *"Talk is cheap. Show me the code."*  
+> — **Linus Torvalds**
+
+<br/>
+
+**Master's DSA Sheet & Study Ecosystem**  
+*Built for Engineers Mastering Problem-Solving and Technical Interviews.*
+
+⭐ **Found this helpful? Consider starring the repository to support the project!** ⭐
 
 </div>
