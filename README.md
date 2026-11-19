@@ -21,7 +21,7 @@
 
 | 🎯 Curated Problems | 🗂️ Curriculum Modules | 📖 Handbook Chapters | 💻 LeetCode Direct | 🟢 GeeksforGeeks | 💾 Data Privacy |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **500 Problems** | **20 Modules** | **30 Chapters** | **273 Verified** | **194 Verified** | **100% LocalStorage** |
+| **500 Problems** | **20 Modules** | **30 Chapters** | **274 Verified** | **193 Verified** | **100% LocalStorage** |
 
 </div>
 
@@ -70,22 +70,22 @@ The curriculum organizes **500 problems** across **20 modules** covering all hig
 
 | # | Module | Problems | Core Patterns & Landmark Problems |
 |:---:|:---|:---:|:---|
-| **01** | **Beginner Problems** | `16` | Armstrong check, prime testing, Euclidean GCD, divisor enumeration |
+| **01** | **Beginner Problems** | `15` | Armstrong check, prime testing, Euclidean GCD, divisor enumeration |
 | **02** | **Sorting Algorithms** | `5` | Bubble, Selection, Insertion, Merge Sort, Quick Sort divide & conquer |
-| **03** | **Arrays** | `49` | Kadane's algorithm, Dutch National Flag, Next Permutation, Spiral Matrix |
-| **04** | **Strings** | `22` | Palindromic substrings, Roman conversions, bracket balancing, expand center |
-| **05** | **Hashing** | `9` | Prefix sum hash maps, longest consecutive sequence, XOR subarray counting |
+| **03** | **Arrays** | `50` | Kadane's algorithm, Dutch National Flag, Next Permutation, Spiral Matrix |
+| **04** | **Strings** | `25` | Palindromic substrings, Roman conversions, bracket balancing, expand center |
+| **05** | **Hashing** | `8` | Prefix sum hash maps, longest consecutive sequence, XOR subarray counting |
 | **06** | **Binary Search** | `45` | Lower/Upper bound, Rotated search, Koko Bananas, Median of sorted arrays |
 | **07** | **Recursion & Backtracking** | `29` | Subsets, Combination Sum, N-Queens, Sudoku Solver, Expression Add Operators |
 | **08** | **Linked-List** | `30` | Tortoise & Hare cycle detection, reverse in K-groups, copy random list |
-| **09** | **Bit Manipulation** | `11` | Single number variations, bitmask subsets, range XOR properties |
-| **10** | **Greedy Algorithms** | `21` | N-Meetings, Job sequencing, Jump Game I & II, Fractional Knapsack, Candy |
-| **11** | **Sliding Window / 2 Pointer** | `14` | Longest substring with K distinct, Min Window Substring & Subsequence |
-| **12** | **Stack / Queues** | `33` | Monotonic Stack, Next Greater Element, Trapping Rainwater, LRU/LFU Cache |
+| **09** | **Bit Manipulation** | `9` | Single number variations, bitmask subsets, range XOR properties |
+| **10** | **Greedy Algorithms** | `19` | N-Meetings, Job sequencing, Jump Game I & II, Fractional Knapsack, Candy |
+| **11** | **Sliding Window / 2 Pointer** | `17` | Longest substring with K distinct, Min Window Substring & Subsequence |
+| **12** | **Stack / Queues** | `34` | Monotonic Stack, Next Greater Element, Trapping Rainwater, LRU/LFU Cache |
 | **13** | **Binary Trees** | `42` | Vertical/Spiral order, Diameter, LCA, Morris Traversal, Tree Serialisation |
 | **14** | **Binary Search Trees** | `18` | BST validation, Inorder predecessor/successor, Two Sum in BST, Largest BST |
 | **15** | **Heaps & Priority Queues** | `24` | Kth Largest, Task Scheduler, Design Twitter, Merge K Lists, Median Stream |
-| **16** | **Graphs** | `43` | Multi-source BFS, Kahn's Algo, Dijkstra, Bellman-Ford, Floyd-Warshall, Kosaraju |
+| **16** | **Graphs** | `41` | Multi-source BFS, Kahn's Algo, Dijkstra, Bellman-Ford, Floyd-Warshall, Kosaraju |
 | **17** | **Dynamic Programming** | `44` | Grid paths, 0/1 & Unbounded Knapsack, LCS, LIS variants, MCM partitioning |
 | **18** | **Tries** | `6` | Prefix trees, longest word with all prefixes, maximum XOR queries |
 | **19** | **Strings (Advanced Algo)** | `36` | KMP pattern matcher, Rabin-Karp rolling hash, Z-algorithm, Word Wrap |
@@ -120,17 +120,17 @@ A structured, week-by-week preparation roadmap tailored for technical interviews
 
 | Week | Focus Topic & Modules | Primary Learning Objectives | Key Landmark Benchmarks | Target |
 |:---:|:---|:---|:---|:---:|
-| **Week 01** | **Beginner Math & Sorting** (Mod 01–02) | Euclidean GCD, prime tests, divisor logic, Merge & Quick Sort | Prime Sieve, Dutch National Flag | **21 problems** |
-| **Week 02** | **Arrays & 2D Matrices** (Mod 03) | Kadane's algorithm, Next Permutation, Spiral Matrix traversal | Maximum Subarray, Rotate Matrix 90° | **49 problems** |
-| **Week 03** | **Strings & Hashing** (Mod 04–05) | Palindrome expansion, Roman conversions, Prefix-Sum Hashing | Longest Palindromic Substring, Subarray Sum K | **31 problems** |
+| **Week 01** | **Beginner Math & Sorting** (Mod 01–02) | Euclidean GCD, prime tests, divisor logic, Merge & Quick Sort | Prime Sieve, Dutch National Flag | **20 problems** |
+| **Week 02** | **Arrays & 2D Matrices** (Mod 03) | Kadane's algorithm, Next Permutation, Spiral Matrix traversal | Maximum Subarray, Rotate Matrix 90° | **50 problems** |
+| **Week 03** | **Strings & Hashing** (Mod 04–05) | Palindrome expansion, Roman conversions, Prefix-Sum Hashing | Longest Palindromic Substring, Subarray Sum K | **33 problems** |
 | **Week 04** | **Binary Search Mastery** (Mod 06) | Lower/Upper bound, search on answers, Median of 2 arrays | Koko Eating Bananas, Median of Sorted Arrays | **45 problems** |
 | **Week 05** | **Recursion & Backtracking** (Mod 07) | State-space trees, Subsets, Combination Sum, Grid search | N-Queens Problem, Sudoku Solver | **29 problems** |
-| **Week 06** | **Linked Lists & Bit Manipulation** (Mod 08–09) | Fast-slow pointers, Reverse in K-groups, Bitmask power sets | Reverse Nodes in k-Group, Copy List Random | **41 problems** |
-| **Week 07** | **Greedy & Sliding Window** (Mod 10–11) | Interval scheduling, Candy, Minimum Window Substring | Minimum Window Substring, Jump Game II | **35 problems** |
-| **Week 08** | **Stacks, Queues & Monotonicity** (Mod 12) | Next Greater Element, Trapping Rainwater, Histogram Area | Largest Rectangle in Histogram, LRU Cache | **33 problems** |
+| **Week 06** | **Linked Lists & Bit Manipulation** (Mod 08–09) | Fast-slow pointers, Reverse in K-groups, Bitmask power sets | Reverse Nodes in k-Group, Copy List Random | **39 problems** |
+| **Week 07** | **Greedy & Sliding Window** (Mod 10–11) | Interval scheduling, Candy, Minimum Window Substring | Minimum Window Substring, Jump Game II | **36 problems** |
+| **Week 08** | **Stacks, Queues & Monotonicity** (Mod 12) | Next Greater Element, Trapping Rainwater, Histogram Area | Largest Rectangle in Histogram, LRU Cache | **34 problems** |
 | **Week 09** | **Binary Trees & BSTs** (Mod 13–14) | Morris traversal, LCA, diameter, tree serialization | Lowest Common Ancestor, Validate BST | **60 problems** |
 | **Week 10** | **Heaps & Priority Queues** (Mod 15) | Min/Max Heaps, Task Scheduler, Median in Data Stream | Find Median from Data Stream, Merge K Lists | **24 problems** |
-| **Week 11** | **Graph Theory & Traversals** (Mod 16) | BFS/DFS cycles, Kahn's topological sort, Dijkstra, Kosaraju | Course Schedule II, Alien Dictionary | **43 problems** |
+| **Week 11** | **Graph Theory & Traversals** (Mod 16) | BFS/DFS cycles, Kahn's topological sort, Dijkstra, Kosaraju | Course Schedule II, Alien Dictionary | **41 problems** |
 | **Week 12** | **Dynamic Programming & Tries** (Mod 17–20) | 0/1 Knapsack, LCS/LIS variants, MCM partitioning, KMP | Longest Increasing Subsequence, Word Wrap | **89 problems** |
 
 ---
