@@ -11,7 +11,7 @@ Progress lives in your browser's `localStorage`. No account, no backend, no trac
 
 ## What it does
 
-- **490 curated problems** across 20 modules (from *Beginner Problems* to *Maths*).
+- **500 curated problems** across 20 modules (from *Beginner Problems* to *Maths*).
 - **One click to a real problem page.** Primary link is LeetCode, else a verified GeeksforGeeks
   page, else takeuforward's own practice page. Every other working link for that problem is kept
   as an alternate, so you can pick the platform you prefer.
@@ -28,18 +28,18 @@ Progress lives in your browser's `localStorage`. No account, no backend, no trac
 <!-- stats:start -->
 | metric | value |
 | --- | --- |
-| problems | 490 |
+| problems | 500 |
 | modules | 20 |
-| leetcode_links | 262 |
-| gfg_links | 195 |
+| leetcode_links | 273 |
+| gfg_links | 194 |
 | takeuforward_links | 33 |
-| gfg_alt_links | 150 |
-| leetcode_alt_links | 6 |
-| with_difficulty | 466 |
+| gfg_alt_links | 156 |
+| leetcode_alt_links | 5 |
+| with_difficulty | 476 |
 | paid_leetcodes | 9 |
 | with_video | 280 |
 | with_article | 257 |
-| with_alt_link | 332 |
+| with_alt_link | 337 |
 <!-- stats:end -->
 
 `scripts/check_readme.py` re-derives every number above from `site/data.json` and fails if any of

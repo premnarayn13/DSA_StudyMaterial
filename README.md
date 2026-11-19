@@ -3,7 +3,7 @@
 # Master's DSA Sheet & Study Ecosystem
 
 [![Live Web Application](https://img.shields.io/badge/Live%20App-GitHub%20Pages-00c853?style=for-the-badge&logo=github)](https://premnarayn13.github.io/DSA_StudyMaterial/)
-[![Curated Problems](https://img.shields.io/badge/Curated%20Problems-490%20Problems-007acc?style=for-the-badge&logo=leetcode)](https://premnarayn13.github.io/DSA_StudyMaterial/)
+[![Curated Problems](https://img.shields.io/badge/Curated%20Problems-500%20Problems-007acc?style=for-the-badge&logo=leetcode)](https://premnarayn13.github.io/DSA_StudyMaterial/)
 [![Platform Coverage](https://img.shields.io/badge/Platforms-LeetCode%20%7C%20GFG-1890ff?style=for-the-badge&logo=codeforces)](https://premnarayn13.github.io/DSA_StudyMaterial/)
 <br/>
 [![Curriculum Modules](https://img.shields.io/badge/Curriculum-20%20Modules-7952b3?style=for-the-badge)](https://premnarayn13.github.io/DSA_StudyMaterial/)
@@ -21,7 +21,7 @@
 
 | 🎯 Curated Problems | 🗂️ Curriculum Modules | 📖 Handbook Chapters | 💻 LeetCode Direct | 🟢 GeeksforGeeks | 💾 Data Privacy |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **490 Problems** | **20 Modules** | **30 Chapters** | **262 Verified** | **195 Verified** | **100% LocalStorage** |
+| **500 Problems** | **20 Modules** | **30 Chapters** | **273 Verified** | **194 Verified** | **100% LocalStorage** |
 
 </div>
 
@@ -42,7 +42,7 @@ Access the primary components of this ecosystem immediately:
 
 This repository unites foundational tools into one cohesive preparation ecosystem:
 
-1. **Interactive Web Tracker:** A lightweight client-side application hosting **490 curated problems** across **20 modules** with instant search, multi-criteria filtering, and local persistence.
+1. **Interactive Web Tracker:** A lightweight client-side application hosting **500 curated problems** across **20 modules** with instant search, multi-criteria filtering, and local persistence.
 2. **Theoretical Handbook:** A **30-chapter guide** delivering asymptotic complexity derivations, low-level memory representation diagrams, and interview pattern blueprints.
 3. **Offline Milestone Workbook:** An integrated spreadsheet ([`MY_GFG-450.xlsx`](./MY_GFG-450.xlsx)) equipped with revision flags, attempt logs, and progress formulas.
 4. **Automated Verification Pipeline:** Built-in Python validation scripts enforcing zero broken links, sequential problem numbering, and continuous documentation sync.
@@ -66,31 +66,31 @@ The curriculum classifies problems across two complementary dimensions to struct
 
 ## Curriculum Syllabus
 
-The curriculum organizes **490 problems** across **20 modules** covering all high-frequency interview patterns:
+The curriculum organizes **500 problems** across **20 modules** covering all high-frequency interview patterns:
 
 | # | Module | Problems | Core Patterns & Landmark Problems |
 |:---:|:---|:---:|:---|
-| **01** | **Beginner Problems** | `18` | Armstrong check, prime testing, Euclidean GCD, divisor enumeration |
+| **01** | **Beginner Problems** | `16` | Armstrong check, prime testing, Euclidean GCD, divisor enumeration |
 | **02** | **Sorting Algorithms** | `5` | Bubble, Selection, Insertion, Merge Sort, Quick Sort divide & conquer |
-| **03** | **Arrays** | `46` | Kadane's algorithm, Dutch National Flag, Next Permutation, Spiral Matrix |
+| **03** | **Arrays** | `49` | Kadane's algorithm, Dutch National Flag, Next Permutation, Spiral Matrix |
 | **04** | **Strings** | `22` | Palindromic substrings, Roman conversions, bracket balancing, expand center |
-| **05** | **Hashing** | `8` | Prefix sum hash maps, longest consecutive sequence, XOR subarray counting |
+| **05** | **Hashing** | `9` | Prefix sum hash maps, longest consecutive sequence, XOR subarray counting |
 | **06** | **Binary Search** | `45` | Lower/Upper bound, Rotated search, Koko Bananas, Median of sorted arrays |
 | **07** | **Recursion & Backtracking** | `29` | Subsets, Combination Sum, N-Queens, Sudoku Solver, Expression Add Operators |
 | **08** | **Linked-List** | `30` | Tortoise & Hare cycle detection, reverse in K-groups, copy random list |
-| **09** | **Bit Manipulation** | `9` | Single number variations, bitmask subsets, range XOR properties |
-| **10** | **Greedy Algorithms** | `19` | N-Meetings, Job sequencing, Jump Game I & II, Fractional Knapsack, Candy |
+| **09** | **Bit Manipulation** | `11` | Single number variations, bitmask subsets, range XOR properties |
+| **10** | **Greedy Algorithms** | `21` | N-Meetings, Job sequencing, Jump Game I & II, Fractional Knapsack, Candy |
 | **11** | **Sliding Window / 2 Pointer** | `14` | Longest substring with K distinct, Min Window Substring & Subsequence |
-| **12** | **Stack / Queues** | `31` | Monotonic Stack, Next Greater Element, Trapping Rainwater, LRU/LFU Cache |
+| **12** | **Stack / Queues** | `33` | Monotonic Stack, Next Greater Element, Trapping Rainwater, LRU/LFU Cache |
 | **13** | **Binary Trees** | `42` | Vertical/Spiral order, Diameter, LCA, Morris Traversal, Tree Serialisation |
 | **14** | **Binary Search Trees** | `18` | BST validation, Inorder predecessor/successor, Two Sum in BST, Largest BST |
 | **15** | **Heaps & Priority Queues** | `24` | Kth Largest, Task Scheduler, Design Twitter, Merge K Lists, Median Stream |
-| **16** | **Graphs** | `41` | Multi-source BFS, Kahn's Algo, Dijkstra, Bellman-Ford, Floyd-Warshall, Kosaraju |
+| **16** | **Graphs** | `43` | Multi-source BFS, Kahn's Algo, Dijkstra, Bellman-Ford, Floyd-Warshall, Kosaraju |
 | **17** | **Dynamic Programming** | `44` | Grid paths, 0/1 & Unbounded Knapsack, LCS, LIS variants, MCM partitioning |
 | **18** | **Tries** | `6` | Prefix trees, longest word with all prefixes, maximum XOR queries |
 | **19** | **Strings (Advanced Algo)** | `36` | KMP pattern matcher, Rabin-Karp rolling hash, Z-algorithm, Word Wrap |
 | **20** | **Maths & Number Theory** | `3` | Sieve of Eratosthenes, Prime factorisation, Prime range counting |
-| **—** | **Total Master's Curriculum** | **490** | **Production-Grade Technical Interview Benchmark** |
+| **—** | **Total Master's Curriculum** | **500** | **Production-Grade Technical Interview Benchmark** |
 
 ---
 
@@ -121,17 +121,17 @@ A structured, week-by-week preparation roadmap tailored for technical interviews
 | Week | Focus Topic & Modules | Primary Learning Objectives | Key Landmark Benchmarks | Target |
 |:---:|:---|:---|:---|:---:|
 | **Week 01** | **Beginner Math & Sorting** (Mod 01–02) | Euclidean GCD, prime tests, divisor logic, Merge & Quick Sort | Prime Sieve, Dutch National Flag | **21 problems** |
-| **Week 02** | **Arrays & 2D Matrices** (Mod 03) | Kadane's algorithm, Next Permutation, Spiral Matrix traversal | Maximum Subarray, Rotate Matrix 90° | **25 problems** |
-| **Week 03** | **Strings & Hashing** (Mod 04–05) | Palindrome expansion, Roman conversions, Prefix-Sum Hashing | Longest Palindromic Substring, Subarray Sum K | **25 problems** |
-| **Week 04** | **Binary Search Mastery** (Mod 06) | Lower/Upper bound, search on answers, Median of 2 arrays | Koko Eating Bananas, Median of Sorted Arrays | **30 problems** |
-| **Week 05** | **Recursion & Backtracking** (Mod 07) | State-space trees, Subsets, Combination Sum, Grid search | N-Queens Problem, Sudoku Solver | **25 problems** |
-| **Week 06** | **Linked Lists & Bit Manipulation** (Mod 08–09) | Fast-slow pointers, Reverse in K-groups, Bitmask power sets | Reverse Nodes in k-Group, Copy List Random | **25 problems** |
-| **Week 07** | **Greedy & Sliding Window** (Mod 10–11) | Interval scheduling, Candy, Minimum Window Substring | Minimum Window Substring, Jump Game II | **28 problems** |
-| **Week 08** | **Stacks, Queues & Monotonicity** (Mod 12) | Next Greater Element, Trapping Rainwater, Histogram Area | Largest Rectangle in Histogram, LRU Cache | **31 problems** |
-| **Week 09** | **Binary Trees & BSTs** (Mod 13–14) | Morris traversal, LCA, diameter, tree serialization | Lowest Common Ancestor, Validate BST | **35 problems** |
-| **Week 10** | **Heaps & Priority Queues** (Mod 15) | Min/Max Heaps, Task Scheduler, Median in Data Stream | Find Median from Data Stream, Merge K Lists | **22 problems** |
-| **Week 11** | **Graph Theory & Traversals** (Mod 16) | BFS/DFS cycles, Kahn's topological sort, Dijkstra, Kosaraju | Course Schedule II, Alien Dictionary | **30 problems** |
-| **Week 12** | **Dynamic Programming & Tries** (Mod 17–20) | 0/1 Knapsack, LCS/LIS variants, MCM partitioning, KMP | Longest Increasing Subsequence, Word Wrap | **30 problems** |
+| **Week 02** | **Arrays & 2D Matrices** (Mod 03) | Kadane's algorithm, Next Permutation, Spiral Matrix traversal | Maximum Subarray, Rotate Matrix 90° | **49 problems** |
+| **Week 03** | **Strings & Hashing** (Mod 04–05) | Palindrome expansion, Roman conversions, Prefix-Sum Hashing | Longest Palindromic Substring, Subarray Sum K | **31 problems** |
+| **Week 04** | **Binary Search Mastery** (Mod 06) | Lower/Upper bound, search on answers, Median of 2 arrays | Koko Eating Bananas, Median of Sorted Arrays | **45 problems** |
+| **Week 05** | **Recursion & Backtracking** (Mod 07) | State-space trees, Subsets, Combination Sum, Grid search | N-Queens Problem, Sudoku Solver | **29 problems** |
+| **Week 06** | **Linked Lists & Bit Manipulation** (Mod 08–09) | Fast-slow pointers, Reverse in K-groups, Bitmask power sets | Reverse Nodes in k-Group, Copy List Random | **41 problems** |
+| **Week 07** | **Greedy & Sliding Window** (Mod 10–11) | Interval scheduling, Candy, Minimum Window Substring | Minimum Window Substring, Jump Game II | **35 problems** |
+| **Week 08** | **Stacks, Queues & Monotonicity** (Mod 12) | Next Greater Element, Trapping Rainwater, Histogram Area | Largest Rectangle in Histogram, LRU Cache | **33 problems** |
+| **Week 09** | **Binary Trees & BSTs** (Mod 13–14) | Morris traversal, LCA, diameter, tree serialization | Lowest Common Ancestor, Validate BST | **60 problems** |
+| **Week 10** | **Heaps & Priority Queues** (Mod 15) | Min/Max Heaps, Task Scheduler, Median in Data Stream | Find Median from Data Stream, Merge K Lists | **24 problems** |
+| **Week 11** | **Graph Theory & Traversals** (Mod 16) | BFS/DFS cycles, Kahn's topological sort, Dijkstra, Kosaraju | Course Schedule II, Alien Dictionary | **43 problems** |
+| **Week 12** | **Dynamic Programming & Tries** (Mod 17–20) | 0/1 Knapsack, LCS/LIS variants, MCM partitioning, KMP | Longest Increasing Subsequence, Word Wrap | **89 problems** |
 
 ---
 
@@ -197,7 +197,7 @@ All updates committed to the `master` branch trigger the GitHub Actions workflow
 [ Push to master branch ]
             │
             ▼
-[ Step 1: verify_site_data.py ] ──► Validates 490 problems, IDs, sequential order & URLs
+[ Step 1: verify_site_data.py ] ──► Validates 500 problems, IDs, sequential order & URLs
             │
             ▼
 [ Step 2: check_readme.py ]     ──► Validates that documentation metrics match data.json
@@ -211,7 +211,7 @@ All updates committed to the `master` branch trigger the GitHub Actions workflow
 
 | Pipeline Stage | Validation Script | Operational Mandate |
 |:---|:---|:---|
-| **Dataset Integrity** | `verify_site_data.py` | Strict verification of 490 problem IDs, sequential ordering, and practice link targets |
+| **Dataset Integrity** | `verify_site_data.py` | Strict verification of 500 problem IDs, sequential ordering, and practice link targets |
 | **Documentation Guard** | `check_readme.py` | Enforces that curriculum statistics in documentation never drift from dataset |
 | **Cache Busting** | `stamp_assets.py` | Injects SHA-256 asset content hashes into script and stylesheet tags |
 | **Edge Deployment** | GitHub Pages CDN | Publishes updated bundle immediately to `premnarayn13.github.io/DSA_StudyMaterial/` |
@@ -274,7 +274,7 @@ Yes. Once cloned locally, running <code>python -m http.server 8000</code> gives 
 <details>
 <summary><b>6. Do I need paid LeetCode Premium or GeeksforGeeks subscriptions?</b></summary>
 <br/>
-No. All 490 problems route to accessible, publicly verifiable problem links. For problems with paid LeetCode counterparts, working GeeksforGeeks mirrors and verified alternatives are automatically mapped and accessible.
+No. All 500 problems route to accessible, publicly verifiable problem links. For problems with paid LeetCode counterparts, working GeeksforGeeks mirrors and verified alternatives are automatically mapped and accessible.
 </details>
 
 ---
