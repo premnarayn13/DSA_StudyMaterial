@@ -21,7 +21,7 @@
 
 | 🎯 Curated Problems | 🗂️ Curriculum Modules | 📖 Handbook Chapters | 💻 LeetCode Direct | 🟢 GeeksforGeeks | 💾 Data Privacy |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **500 Problems** | **20 Modules** | **30 Chapters** | **274 Verified** | **193 Verified** | **100% LocalStorage** |
+| **500 Problems** | **20 Modules** | **30 Chapters** | **274 Direct (279 Total)** | **193 Direct (351 Total)** | **100% LocalStorage** |
 
 </div>
 
