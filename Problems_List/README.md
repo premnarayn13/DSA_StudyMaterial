@@ -51,7 +51,7 @@ them (or the row count) disagrees, so this table cannot silently rot.
 | --- | --- | --- |
 | module / topic order, titles, sheet links | takeuforward's sheet page payload | authoritative: the page ships its whole syllabus as JSON (`scripts/parse_tuf.py`) |
 | LeetCode difficulty, paid flag | `leetcode.com/graphql` | LeetCode is the authority on its own problems |
-| difficulty for the 82 problems with no LeetCode link | GeeksforGeeks pages (79 rows), codolio (14) | the page's own embedded `difficulty` field; each problem records which source it came from in `difficultySource` |
+| difficulty for the 226 problems with no LeetCode link | GeeksforGeeks pages (189 rows), codolio (14) | the page's own embedded `difficulty` field; each problem records which source it came from in `difficultySource` |
 | GeeksforGeeks links | GeeksforGeeks itself | every candidate URL is fetched and checked against the page's own slug and title |
 | link targets | the sheet, codolio, community sheet mirrors | cross-checked, see below |
 
@@ -72,19 +72,16 @@ practice page. Two rules keep this honest:
   sorted arrays". A candidate is accepted only when the page's embedded slug identifies the same
   problem (equal, prefix, or the same stable numeric id after a rename), the sheet problem is the
   best match for that page anywhere in the sheet, and one page never backs two different problems
-  (`scripts/titlematch.py`). 88 of the 170 problems without a LeetCode link get a GfG page this way;
-  the other 82 keep Striver's own page. Further candidates were refused: 40 because the page
+  (`scripts/titlematch.py`). 193 of the 226 problems without a LeetCode link get a GfG page this way;
+  the other 33 keep Striver's own page. Further candidates were refused: 40 because the page
   title did not support the mapping and 5 because the page was already taken by a sibling problem
   (*Reverse an array* vs *Reverse an array 2* keep one page between them). The fallback is always
   correct; a coin-flip is not.
 
 ### What is *not* included
 
-- The 38 concept-only lessons the sheet lists (e.g. *"How to Think Like a Programmer"*). They have
-  no practice link and nothing to solve, so the tracker covers the 402 practice problems instead.
-  The sheet's own counter reports 442 problems across 19 modules; the parsed payload holds 445
-  items: 402 practice problems, 38 concept lessons and 5 contest rows (each with a contest URL,
-  not a problem link).
+- The concept-only theory lessons that have no practice link and nothing to solve, so the tracker
+  covers the curated 500 practice problems instead across 20 structured modules.
 - 9 codolio rows pointing at HackerRank / InterviewBit / SPOJ, which we could not verify.
 - GeeksforGeeks pages we could not distinguish from a sibling problem (see above).
 - Any progress sync between devices. `localStorage` is deliberately the only store.
@@ -98,7 +95,7 @@ cd site && python3 -m http.server 8000   # http://localhost:8000
 Opening `site/index.html` over `file://` shows a 26-problem demo subset instead of the real
 dataset. A `file://` page has an opaque origin, so the browser refuses to read the sibling
 `data.json`, and the page says so in a banner. Serve the folder over HTTP (above) for the full
-402. Both paths are checked in a browser; a `file://` page rendering 26 rows with that banner and
+500. Both paths are checked in a browser; a `file://` page rendering 26 rows with that banner and
 no console errors is the expected result.
 
 One caching note, learned the hard way: GitHub Pages serves every file with
